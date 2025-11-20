@@ -1,0 +1,272 @@
+[
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "JWT_Project_Core.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "JWT_Project_Core.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "GetHoaDon",
+    "RelativePath": "api/HoaDon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "CreateHoaDon",
+    "RelativePath": "api/HoaDon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JWT_Project_Core.DTO.HoaDonDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "GetHoaDonById",
+    "RelativePath": "api/HoaDon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "UpdateHoaDon",
+    "RelativePath": "api/HoaDon/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "JWT_Project_Core.DTO.HoaDonDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "DeleteHoaDon",
+    "RelativePath": "api/HoaDon/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.SachController",
+    "Method": "GetSachs",
+    "RelativePath": "api/Sach",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.SachController",
+    "Method": "AddSach",
+    "RelativePath": "api/Sach",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaSach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenSach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TheLoai",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GiaNhap",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "GiaBan",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenTacGia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NoiDungSach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.SachController",
+    "Method": "GetSachByMaSach",
+    "RelativePath": "api/Sach/{MaSach}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaSach",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.SachController",
+    "Method": "UpdateSach",
+    "RelativePath": "api/Sach/{MaSach}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaSach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenSach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TheLoai",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GiaNhap",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "GiaBan",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenTacGia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NoiDungSach",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaSach",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.SachController",
+    "Method": "DeleteSach",
+    "RelativePath": "api/Sach/{MaSach}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MaSach",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

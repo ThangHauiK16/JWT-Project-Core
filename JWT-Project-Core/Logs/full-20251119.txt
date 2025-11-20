@@ -1,0 +1,750 @@
+2025-11-19 09:17:14.585 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Unable to resolve service for type 'JWT_Project_Core.Interface.IHoaDonService' while attempting to activate 'JWT_Project_Core.Controllers.HoaDonController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 114
+2025-11-19 09:18:12.042 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTE4NjkyLCJleHAiOjE3NjM1MjU4OTIsImlhdCI6MTc2MzUxODY5MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.qjz4BvnRv3M1z1uE-QN60H0R7Nn3_e9JhxE-u8Iuscs
+2025-11-19 09:18:47.315 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 09:19:58.977 +07:00 [INF] Them sach thanh cong !
+2025-11-19 09:21:06.204 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Unable to resolve service for type 'JWT_Project_Core.Interface.IHoaDonService' while attempting to activate 'JWT_Project_Core.Controllers.HoaDonController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 114
+2025-11-19 09:21:11.342 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Unable to resolve service for type 'JWT_Project_Core.Interface.IHoaDonService' while attempting to activate 'JWT_Project_Core.Controllers.HoaDonController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 114
+2025-11-19 09:22:50.294 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTE4OTcwLCJleHAiOjE3NjM1MjYxNzAsImlhdCI6MTc2MzUxODk3MCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.zyFrBDBXDOrPGShwgOEnBZ7nrxXN0L8OmQcp-Xpq8AU
+2025-11-19 09:23:14.440 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 09:23:35.167 +07:00 [ERR] Failed executing DbCommand (12ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 450), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [HoaDons] ([MaHoaDon], [NgayTao])
+VALUES (@p0, @p1);
+INSERT INTO [HoaDon_Saches] ([MaHoaDon], [MaSach], [SoLuong])
+VALUES (@p2, @p3, @p4);
+2025-11-19 09:23:35.196 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'JWT_Project_Core.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'HoaDon_Saches'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81bea8bd-1c22-4d46-8fea-6234c61e9400
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'HoaDon_Saches'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81bea8bd-1c22-4d46-8fea-6234c61e9400
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-11-19 09:23:35.237 +07:00 [ERR] AddAsync: Unexpected error while adding HoaDon
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'HoaDon_Saches'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81bea8bd-1c22-4d46-8fea-6234c61e9400
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 84
+2025-11-19 09:23:35.343 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'HoaDon_Saches'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81bea8bd-1c22-4d46-8fea-6234c61e9400
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 84
+   at JWT_Project_Core.Controllers.HoaDonController.CreateHoaDon(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 114
+2025-11-19 09:34:28.258 +07:00 [ERR] Failed executing DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [HoaDon_Sach] DROP CONSTRAINT [FK_HoaDon_Sach_HoaDons_MaHoaDon];
+2025-11-19 09:35:53.468 +07:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [HoaDon_Sach] DROP CONSTRAINT [FK_HoaDon_Sach_HoaDons_MaHoaDon];
+2025-11-19 09:39:32.194 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTE5OTcyLCJleHAiOjE3NjM1MjcxNzIsImlhdCI6MTc2MzUxOTk3MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.v1uliroYXEK-f9E_iKNpKG-77SFwu1w18iz9JVOdBdw
+2025-11-19 09:40:54.854 +07:00 [INF] Them sach thanh cong !
+2025-11-19 09:41:01.405 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 09:41:17.196 +07:00 [INF] Thêm hóa đơn "3fa85f64-5717-4562-b3fc-2c963f66afa6" thành công!
+2025-11-19 09:41:27.861 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 09:41:38.588 +07:00 [WRN] AddAsync: Sach 03 không tồn tại
+2025-11-19 09:41:38.619 +07:00 [ERR] AddAsync: Unexpected error while adding HoaDon
+System.InvalidOperationException: Sach 03 không tồn tại
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 78
+2025-11-19 09:41:38.735 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Sach 03 không tồn tại
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 78
+   at JWT_Project_Core.Controllers.HoaDonController.CreateHoaDon(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 114
+2025-11-19 11:07:10.512 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 11:07:21.225 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 11:07:30.657 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 11:07:43.628 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 11:08:03.551 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTI1MjgzLCJleHAiOjE3NjM1MzI0ODMsImlhdCI6MTc2MzUyNTI4MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9._Y7YUhmbhvS_toScALrO_I9QwOZ3bFTgvkwsm1IyPtI
+2025-11-19 11:38:36.389 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTI3MTE2LCJleHAiOjE3NjM1MzQzMTYsImlhdCI6MTc2MzUyNzExNiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.FVtSeHD3mFXha6SvGUgr593eZEETyBVSnOBWJxjHpXU
+2025-11-19 11:42:46.200 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTI3MzY2LCJleHAiOjE3NjM1MzQ1NjYsImlhdCI6MTc2MzUyNzM2NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.gvfZUBu7TZZe2Uy61k1oj86DLlvcOp6Md__NK-S1Dng
+2025-11-19 11:44:07.007 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:44:30.260 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:46:35.642 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:46:36.561 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:46:38.070 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:05.627 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:05.638 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:09.162 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:51:10.433 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:51:11.254 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:11.866 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:51:13.169 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:14.007 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:51:14.746 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:15.389 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:51:18.469 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:18.903 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:51:19.293 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:51:20.503 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:51:30.401 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:52:27.805 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:52:27.811 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:52:30.538 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:52:31.893 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:52:31.901 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:52:32.947 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:53:05.970 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:53:09.901 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:54:58.780 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:34.497 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:34.559 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:35.452 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:40.814 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:42.326 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:42.971 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:43.419 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:44.043 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:44.445 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:44.810 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:45.131 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:47.783 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:48.696 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:50.880 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:51.546 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:52.175 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:52.860 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:53.792 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:54.142 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:54.483 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:55.018 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:55.841 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:56.258 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:56.606 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:57.025 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:56:57.625 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:56:57.987 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 11:57:21.412 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:57:21.420 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 11:57:40.942 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:13:42.930 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:13:43.013 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:13:50.483 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTMyODMwLCJleHAiOjE3NjM1NDAwMzAsImlhdCI6MTc2MzUzMjgzMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.HoXjPnGljfYlFUYYRkRTlAC8DAVrc3M_o3h4Zhr2jlQ
+2025-11-19 13:13:52.567 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:13:52.579 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:13:56.126 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:13:56.569 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:13:57.447 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:13:58.996 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:13:59.553 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:13:59.858 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:00.162 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:00.489 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:01.585 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:01.909 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:02.295 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:02.610 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:03.227 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:03.689 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:04.107 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:04.447 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:05.403 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:07.132 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:11.371 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:13.211 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:16.065 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:16.667 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:17.042 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:17.370 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:14:53.799 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:14:53.807 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:15:13.990 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:15:14.017 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:17:03.315 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:17:03.523 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:17:03.929 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:17:04.286 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:17:11.107 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:17:11.928 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:17:12.474 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:17:12.988 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:17:13.448 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:17:13.929 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:17:14.321 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:18:26.069 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:18:26.077 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:18:46.375 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:18:48.425 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:18:48.947 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:18:50.086 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:18:50.609 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:18:51.026 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:18:51.692 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:34:36.331 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTM0MDc2LCJleHAiOjE3NjM1NDEyNzYsImlhdCI6MTc2MzUzNDA3NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Dx5QGTpH6wDOd5cIzIb_wFT3mEkrvOO9xy7zGpoW75I
+2025-11-19 13:34:41.842 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:34:43.408 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:34:44.104 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:35:23.005 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:35:24.490 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:35:24.649 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:36:51.153 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:36:53.123 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:36:53.683 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:36:53.845 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:36:54.661 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:36:55.129 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:37:08.322 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:37:13.621 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 13:37:14.484 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:39:12.265 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:39:12.273 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:39:32.679 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:39:32.695 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:14.097 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:16.758 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:16.769 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:19.807 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:19.821 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:32.403 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:32.417 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:58.293 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 13:53:58.310 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:00:35.776 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:00:35.788 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:01:47.154 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:01:47.162 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:03:42.649 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:03:42.658 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:16:50.490 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:16:50.498 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:29:07.398 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:29:07.410 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:29:35.132 +07:00 [INF] Them sach thanh cong !
+2025-11-19 14:29:35.146 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:29:40.921 +07:00 [WRN] Khong tim thay sach co ma 2 nay !
+2025-11-19 14:29:43.303 +07:00 [WRN] Khong tim thay sach co ma 2 nay !
+2025-11-19 14:29:58.442 +07:00 [WRN] Khong tim thay sach co ma 1 nay !
+2025-11-19 14:30:00.967 +07:00 [WRN] Khong tim thay sach co ma 1 nay !
+2025-11-19 14:30:50.330 +07:00 [WRN] Khong tim thay sach co ma 1 nay !
+2025-11-19 14:30:56.765 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:31:11.122 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:32:13.606 +07:00 [WRN] Khong tim thay sach co ma 1 nay !
+2025-11-19 14:33:26.894 +07:00 [WRN] Khong tim thay sach co ma 1 nay !
+2025-11-19 14:35:16.131 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:35:16.152 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:35:21.603 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:35:25.386 +07:00 [INF] Lay sach dascvad theo ma  02 thanh cong !
+2025-11-19 14:37:14.635 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTM3ODM0LCJleHAiOjE3NjM1NDUwMzQsImlhdCI6MTc2MzUzNzgzNCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.09RRi-tiW9fcwgjcabsxQOVOyIHMTjTlHQI8ZlXf8kU
+2025-11-19 14:37:16.740 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:37:16.749 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:37:18.114 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:37:22.208 +07:00 [INF] Lay sach dascvad theo ma  02 thanh cong !
+2025-11-19 14:38:23.254 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:38:23.269 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:38:26.169 +07:00 [INF] Lay sach dascvad theo ma  02 thanh cong !
+2025-11-19 14:38:30.760 +07:00 [INF] UpdateAsync: Updated student with ma 02
+2025-11-19 14:38:30.773 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:38:33.216 +07:00 [INF] Lay sach Ok theo ma  02 thanh cong !
+2025-11-19 14:38:38.963 +07:00 [INF] UpdateAsync: Updated student with ma 02
+2025-11-19 14:38:38.975 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:38:40.336 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:38:42.839 +07:00 [INF] Lay sach Ok theo ma  02 thanh cong !
+2025-11-19 14:38:51.104 +07:00 [INF] Lay sach Ok theo ma  02 thanh cong !
+2025-11-19 14:39:38.111 +07:00 [INF] UpdateAsync: Updated student with ma 02
+2025-11-19 14:39:38.123 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:40:09.638 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:42:43.791 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:42:48.072 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 14:42:48.082 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:42:50.534 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:43:29.138 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:43:29.207 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:43:32.279 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:43:34.518 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 14:43:34.538 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:44:32.724 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:44:36.611 +07:00 [WRN] Upadate book failed: [{"Exception":null,"ErrorMessage":"Tên sách là bắt buộc!","$type":"ModelError"}]
+2025-11-19 14:44:40.710 +07:00 [WRN] Upadate book failed: [{"Exception":null,"ErrorMessage":"Tên sách là bắt buộc!","$type":"ModelError"}]
+2025-11-19 14:44:41.935 +07:00 [WRN] Upadate book failed: [{"Exception":null,"ErrorMessage":"Tên sách là bắt buộc!","$type":"ModelError"}]
+2025-11-19 14:44:59.578 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 14:44:59.593 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:51:18.642 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:51:18.649 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:51:26.844 +07:00 [INF] Lay sach Nhung Ke Mong Mo theo ma  01 thanh cong !
+2025-11-19 14:51:28.644 +07:00 [INF] DeleteAsync: Deleted student with Id 01
+2025-11-19 14:51:31.561 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:51:31.569 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:51:50.584 +07:00 [INF] Them sach thanh cong !
+2025-11-19 14:51:50.595 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:51:58.876 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 14:51:59.956 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 14:51:59.969 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:52:32.183 +07:00 [INF] DeleteAsync: Deleted student with Id 01
+2025-11-19 14:53:30.917 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:53:30.923 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:53:37.546 +07:00 [INF] Them sach thanh cong !
+2025-11-19 14:53:37.561 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:53:39.884 +07:00 [INF] DeleteAsync: Deleted student with Id 01
+2025-11-19 14:53:44.136 +07:00 [WRN] Add book failed: [{"Exception":null,"ErrorMessage":"The data field is required.","$type":"ModelError"},{"Exception":null,"ErrorMessage":"The JSON value could not be converted to System.Double. Path: $.GiaNhap | LineNumber: 0 | BytePositionInLine: 51.","$type":"ModelError"}]
+2025-11-19 14:53:48.050 +07:00 [INF] Them sach thanh cong !
+2025-11-19 14:53:48.061 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:53:49.893 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:53:49.904 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:54:16.325 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:54:16.333 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:56:51.631 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:56:51.638 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:57:13.569 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 14:57:16.888 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 14:57:47.072 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 14:59:58.000 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 14:59:58.007 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:01.304 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTM5MjAxLCJleHAiOjE3NjM1NDY0MDEsImlhdCI6MTc2MzUzOTIwMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.3sZeeUSUhl11p3Y3tXdXPSCIrBX3Ymw7-w2BZY3DvsM
+2025-11-19 15:00:03.384 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:03.393 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:08.122 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 15:00:14.035 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:14.046 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:35.894 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:35.900 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:50.922 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:50.930 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:00:58.193 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 15:01:07.274 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:01:07.282 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:01:09.468 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTM5MjY5LCJleHAiOjE3NjM1NDY0NjksImlhdCI6MTc2MzUzOTI2OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.dkNfAo7ZN4X-LXLC6eM5WQW9wJ0gLHsk2wWClc9NyMw
+2025-11-19 15:01:11.516 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:01:11.524 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:01:54.527 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:01:54.535 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:01:59.298 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 15:02:13.018 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:02:13.029 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:04:12.829 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:04:12.836 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:05:42.707 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:05:42.715 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:05:50.376 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:05:50.383 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:05:53.075 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTM5NTUzLCJleHAiOjE3NjM1NDY3NTMsImlhdCI6MTc2MzUzOTU1MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.MisPUEPRxQrdh-Rb8Y-6oDLmxitVN-44OqPAcZPCRFI
+2025-11-19 15:05:55.140 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:05:55.147 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:05:58.854 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 15:06:03.270 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 15:06:05.536 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 15:06:34.945 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:06:34.952 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:06:37.698 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:06:37.704 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:06:40.867 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-19 15:06:48.502 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTM5NjA4LCJleHAiOjE3NjM1NDY4MDgsImlhdCI6MTc2MzUzOTYwOCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.TYE-6ncfH0u0t9KtNTzQtCdu9OT_g5tALU7mgdNIJHE
+2025-11-19 15:06:50.565 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:06:50.570 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:07:11.944 +07:00 [WRN] Add book failed: [{"Exception":null,"ErrorMessage":"The data field is required.","$type":"ModelError"},{"Exception":null,"ErrorMessage":"The JSON value could not be converted to System.Double. Path: $.GiaNhap | LineNumber: 0 | BytePositionInLine: 51.","$type":"ModelError"}]
+2025-11-19 15:07:28.472 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:07:28.479 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:07:43.083 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:15:09.684 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:15:09.689 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:25:03.127 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:25:03.132 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:30:41.938 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:34:01.935 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 15:34:09.359 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 15:34:09.372 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:34:11.282 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 15:34:13.302 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 15:34:17.801 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 15:34:19.865 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 15:34:22.479 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 15:34:24.551 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 15:36:43.006 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:37:29.161 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 15:37:42.770 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 15:37:42.782 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:37:56.352 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:47:05.349 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:47:12.440 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:49:29.421 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:49:30.967 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:49:34.954 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:51:39.254 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:51:39.267 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:52:45.217 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:52:46.199 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:52:47.393 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:52:49.611 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:52:50.250 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:53:33.459 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:53:36.758 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:53:37.225 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:53:37.615 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:53:38.063 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:53:38.920 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 15:53:42.826 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:54:03.384 +07:00 [INF] Thêm hóa đơn "148f5ca9-7763-4c01-b171-19581237a870" thành công!
+2025-11-19 15:54:03.431 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 15:54:52.035 +07:00 [INF] Thêm hóa đơn "a2d3af55-6610-4b45-8416-ef7e828c5f67" thành công!
+2025-11-19 15:54:52.047 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:00:46.718 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:00:50.252 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:00:51.137 +07:00 [WRN] Không tìm thấy hóa đơn "00000000-0000-0000-0000-000000000000"
+2025-11-19 16:00:55.064 +07:00 [WRN] Không tìm thấy hóa đơn "00000000-0000-0000-0000-000000000000"
+2025-11-19 16:02:19.165 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:03:16.069 +07:00 [INF] Cập nhật hóa đơn "a2d3af55-6610-4b45-8416-ef7e828c5f67" thành công
+2025-11-19 16:05:01.034 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:05:10.742 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:05:12.808 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:05:14.222 +07:00 [WRN] Không tìm thấy hóa đơn "00000000-0000-0000-0000-000000000000"
+2025-11-19 16:08:01.535 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:08:02.785 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:08:34.045 +07:00 [INF] Xóa hóa đơn "3fa85f64-5717-4562-b3fc-2c963f66afa6" thành công
+2025-11-19 16:08:34.062 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:15:59.392 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:16:11.955 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTQzNzcxLCJleHAiOjE3NjM1NTA5NzEsImlhdCI6MTc2MzU0Mzc3MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.R9amDZgyArJW8jD7loX-yGLDfZ8Xzz9fs1iPkFwuajI
+2025-11-19 16:16:14.019 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:16:16.443 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:16:17.504 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:16:37.672 +07:00 [ERR] UpdateAsync: Unexpected error while updating HoaDon "148f5ca9-7763-4c01-b171-19581237a870"
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.UpdateAsync(HoaDonDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 118
+2025-11-19 16:16:37.773 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.UpdateAsync(HoaDonDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 118
+   at JWT_Project_Core.Controllers.HoaDonController.UpdateHoaDon(Guid id, HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 114
+2025-11-19 16:16:42.197 +07:00 [INF] Cập nhật hóa đơn "148f5ca9-7763-4c01-b171-19581237a870" thành công
+2025-11-19 16:16:42.207 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:16:47.574 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:16:48.878 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:16:51.071 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:16:53.793 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:16:56.032 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:16:59.064 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:17:01.685 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:17:06.735 +07:00 [ERR] UpdateAsync: Unexpected error while updating HoaDon "a2d3af55-6610-4b45-8416-ef7e828c5f67"
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.UpdateAsync(HoaDonDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 118
+2025-11-19 16:17:06.805 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.UpdateAsync(HoaDonDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 118
+   at JWT_Project_Core.Controllers.HoaDonController.UpdateHoaDon(Guid id, HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 114
+2025-11-19 16:23:00.651 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTQ0MTgwLCJleHAiOjE3NjM1NTEzODAsImlhdCI6MTc2MzU0NDE4MCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.J_eGsGMoUaHt_sWeUpFzW6BXxnJm5S2v0ELez_PzUo8
+2025-11-19 16:23:02.685 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTQ0MTgyLCJleHAiOjE3NjM1NTEzODIsImlhdCI6MTc2MzU0NDE4MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.BFmh__dyaSWKwaY2FekuI1BY_OiEhDC46OErZm-5vy4
+2025-11-19 16:23:04.562 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNTQ0MTg0LCJleHAiOjE3NjM1NTEzODQsImlhdCI6MTc2MzU0NDE4NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.3pJj7mc97MtgHhvWhRJaaTBkzUsRHfOUsSBwKyOWHJE
+2025-11-19 16:23:06.685 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:23:09.428 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:23:10.067 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:23:11.276 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:24:40.393 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:24:59.843 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:25:04.319 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:25:04.326 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:25:16.339 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:25:17.605 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 16:25:27.427 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 16:25:31.418 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 16:25:34.806 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 16:25:39.468 +07:00 [INF] UpdateAsync: Updated student with ma 02
+2025-11-19 16:25:39.484 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:25:41.720 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 16:27:24.939 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:27:27.407 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 16:27:31.146 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 16:27:37.318 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:27:37.327 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:29.814 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:37.923 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:58:37.934 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:39.228 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:40.170 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:40.508 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:58:40.514 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:46.177 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:51.802 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:56.409 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:58:57.495 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 16:59:00.580 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 16:59:06.078 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 16:59:06.086 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 16:59:07.208 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:03:17.704 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:03:18.541 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 17:03:18.546 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:03:19.258 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 17:03:19.264 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:03:20.536 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:03:23.416 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-19 17:03:23.423 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:03:24.526 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:08:39.385 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:26:30.439 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:26:49.741 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:26:54.804 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:27:25.045 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:27:27.007 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:32:40.806 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:32:42.621 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:32:46.749 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 17:32:46.765 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:32:48.528 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:33:08.970 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:33:16.020 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 17:33:24.477 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:33:44.901 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:33:48.369 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:33:49.317 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 17:33:49.327 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:34:08.391 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:34:09.779 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:34:11.974 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-19 17:35:37.323 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:35:39.078 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:35:43.049 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-19 17:35:43.063 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:35:44.586 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:35:47.264 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-19 17:35:48.149 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-19 17:35:58.357 +07:00 [INF] Lay danh sach san pham thang cong!

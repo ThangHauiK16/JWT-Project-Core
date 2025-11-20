@@ -1,0 +1,636 @@
+2025-11-20 09:06:21.374 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:06:23.722 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 09:06:23.791 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:06:28.159 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:06:46.276 +07:00 [ERR] AddAsync: Unexpected error while adding HoaDon
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 83
+2025-11-20 09:06:46.384 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 83
+   at JWT_Project_Core.Controllers.HoaDonController.CreateHoaDon(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 115
+2025-11-20 09:06:54.468 +07:00 [INF] Thêm hóa đơn "af1052e0-0792-4e3d-96e6-cc0336383b9c" thành công!
+2025-11-20 09:06:54.499 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 09:06:54.507 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:07:04.093 +07:00 [INF] Xóa hóa đơn "a2d3af55-6610-4b45-8416-ef7e828c5f67" thành công
+2025-11-20 09:07:04.104 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 09:07:04.116 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:07:11.295 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:07:14.164 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:07:18.033 +07:00 [INF] Cập nhật hóa đơn "af1052e0-0792-4e3d-96e6-cc0336383b9c" thành công
+2025-11-20 09:07:18.050 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 09:07:18.059 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:07:18.888 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:11:28.337 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:11:30.612 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:11:58.332 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjA0NzE4LCJleHAiOjE3NjM2MTE5MTgsImlhdCI6MTc2MzYwNDcxOCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.BnGtscDyx7m1Wiv8K0ue6L5ZI548QUlAQXwzFtultL4
+2025-11-20 09:12:00.433 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:12:01.996 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:12:07.154 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:12:07.167 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:12:09.042 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:12:12.413 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:12:26.629 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:13:35.794 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:13:41.165 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:13:45.435 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:13:59.378 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:23:06.042 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:23:17.185 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:23:47.108 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:23:47.130 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:23:56.594 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:23:59.523 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:24:00.554 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:24:14.970 +07:00 [INF] Them sach thanh cong !
+2025-11-20 09:24:14.982 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:24:20.779 +07:00 [INF] Lay sach sdvsvwsdf theo ma  03 thanh cong !
+2025-11-20 09:24:23.759 +07:00 [INF] Lay sach sdvsvwsdf theo ma  03 thanh cong !
+2025-11-20 09:24:27.234 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:24:28.515 +07:00 [INF] Lay sach sdvsvwsdf theo ma  03 thanh cong !
+2025-11-20 09:24:33.382 +07:00 [INF] DeleteAsync: Deleted student with Id 03
+2025-11-20 09:24:33.390 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:25:31.610 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:25:50.881 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:26:03.225 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:26:03.238 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:26:42.956 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:26:48.091 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:26:49.250 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:26:49.265 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:26:53.756 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 09:26:53.777 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:26:54.696 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:26:57.259 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:27:02.765 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 09:43:36.514 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:43:38.012 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:43:46.631 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:43:48.199 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:43:53.568 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:43:53.584 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:44:48.571 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:44:59.092 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:44:59.103 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:46:22.868 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:46:28.632 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 09:46:28.654 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:51:29.182 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:52:18.769 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:52:23.539 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:52:25.891 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:52:32.563 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:58:14.977 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:58:19.200 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:58:21.578 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:58:24.966 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:58:34.903 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:59:18.732 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 09:59:19.834 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:59:22.569 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 09:59:24.605 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:00:43.825 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:00:47.476 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:01:06.054 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:01:07.866 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:02:53.608 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:03:06.801 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:03:10.835 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:03:14.152 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:03:22.426 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:03:42.559 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:04:49.768 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:08:06.919 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:13:56.305 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:14:31.243 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:14:37.734 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:14:43.201 +07:00 [ERR] UpdateAsync: Unexpected error while updating book 01
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2, String path3)
+   at JWT_Project_Core.Service.FileService.SaveImageAsync(IFormFile file) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\FileService.cs:line 19
+   at JWT_Project_Core.Service.SachService.UpdateAsync(SachDTO dto, String MaSach) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\SachService.cs:line 99
+2025-11-20 10:14:43.334 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2, String path3)
+   at JWT_Project_Core.Service.FileService.SaveImageAsync(IFormFile file) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\FileService.cs:line 19
+   at JWT_Project_Core.Service.SachService.UpdateAsync(SachDTO dto, String MaSach) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\SachService.cs:line 99
+   at JWT_Project_Core.Controllers.SachController.UpdateSach(SachDTO data, String MaSach) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\SachController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 115
+2025-11-20 10:18:28.488 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:18:31.850 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:18:37.725 +07:00 [ERR] UpdateAsync: Unexpected error while updating book 01
+System.InvalidOperationException: WebRootPath is null. Cannot save image.
+   at JWT_Project_Core.Service.FileService.SaveImageAsync(IFormFile file) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\FileService.cs:line 20
+   at JWT_Project_Core.Service.SachService.UpdateAsync(SachDTO dto, String MaSach) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\SachService.cs:line 99
+2025-11-20 10:18:37.821 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: WebRootPath is null. Cannot save image.
+   at JWT_Project_Core.Service.FileService.SaveImageAsync(IFormFile file) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\FileService.cs:line 20
+   at JWT_Project_Core.Service.SachService.UpdateAsync(SachDTO dto, String MaSach) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\SachService.cs:line 99
+   at JWT_Project_Core.Controllers.SachController.UpdateSach(SachDTO data, String MaSach) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\SachController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 115
+2025-11-20 10:21:20.579 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:21:22.229 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:21:27.585 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 10:21:27.603 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:21:31.740 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:21:34.460 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:21:39.108 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:21:41.700 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:21:49.794 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:22:38.291 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:23:28.891 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:23:35.196 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 10:23:35.218 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:23:36.050 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:23:39.812 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:23:43.995 +07:00 [INF] UpdateAsync: Updated student with ma 02
+2025-11-20 10:23:44.006 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:23:46.598 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:23:49.621 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:23:51.009 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:23:53.266 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:23:57.034 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:24:11.695 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:25:37.800 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:25:42.835 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:34:12.077 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:34:13.689 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:34:16.918 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:37:28.213 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:37:33.006 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:37:37.101 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:37:46.611 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:37:52.332 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:39:49.446 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:39:52.592 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:39:53.030 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:39:53.233 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:39:53.393 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:39:53.580 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:40:11.027 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:40:26.078 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:40:30.833 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 10:40:30.852 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:40:35.537 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:40:39.642 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:40:50.708 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:40:52.651 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 10:40:52.659 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:44:33.903 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:44:37.352 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:44:44.552 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:46:34.145 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:46:38.361 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 10:46:38.367 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:48:07.689 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:48:11.322 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 10:48:11.328 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:48:31.576 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:48:33.530 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:49:08.270 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:49:10.626 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:56:12.827 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:56:14.875 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:56:16.546 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:56:20.176 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:56:23.761 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:56:26.658 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:56:27.673 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:56:30.337 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:57:34.620 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:57:36.754 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:57:40.697 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 10:58:15.105 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 10:58:16.594 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 10:58:19.760 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 11:01:20.271 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:01:24.234 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 11:01:27.416 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 11:01:29.797 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 11:01:29.804 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:01:40.232 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:01:45.267 +07:00 [ERR] UpdateAsync: Unexpected error while updating HoaDon "af1052e0-0792-4e3d-96e6-cc0336383b9c"
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.UpdateAsync(HoaDonDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 118
+2025-11-20 11:01:45.363 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.HoaDonService.UpdateAsync(HoaDonDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 118
+   at JWT_Project_Core.Controllers.HoaDonController.UpdateHoaDon(Guid id, HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 115
+2025-11-20 11:02:03.461 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:02:03.622 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:02:05.145 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 11:02:07.833 +07:00 [INF] Lay sach Nhung Dua Tre theo ma  02 thanh cong !
+2025-11-20 11:02:11.960 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 11:02:15.661 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-11-20 11:02:15.672 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:07:00.857 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:07:45.174 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:07:56.010 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 11:07:56.034 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:07:57.321 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 11:07:58.665 +07:00 [INF] Lay sach sdvsvwsdf theo ma  01 thanh cong !
+2025-11-20 11:16:34.689 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:30:38.528 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:31:00.973 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:34:59.003 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:36:07.824 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:37:25.096 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:37:49.406 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:43:36.245 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:45:45.730 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 13:47:35.045 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:51:47.672 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:52:27.177 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:56:41.285 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:57:16.701 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 13:57:42.646 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:00:11.705 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:00:18.057 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:00:22.996 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:00:27.325 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:00:34.866 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:01:28.769 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:01:47.509 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:02:03.956 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:02:09.206 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:15.351 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjIyNzk1LCJleHAiOjE3NjM2Mjk5OTUsImlhdCI6MTc2MzYyMjc5NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.B8QjkisDyb2yjgCPtDZi2buTCkcm3-nIJBGdJjQ9YkY
+2025-11-20 14:13:17.482 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:22.820 +07:00 [INF] DeleteAsync: Deleted student with Id 01
+2025-11-20 14:13:22.835 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:24.928 +07:00 [INF] DeleteAsync: Deleted student with Id 02
+2025-11-20 14:13:24.934 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:25.861 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 14:13:25.867 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:28.292 +07:00 [INF] Xóa hóa đơn "148f5ca9-7763-4c01-b171-19581237a870" thành công
+2025-11-20 14:13:28.301 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 14:13:28.308 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:30.290 +07:00 [INF] Xóa hóa đơn "af1052e0-0792-4e3d-96e6-cc0336383b9c" thành công
+2025-11-20 14:13:30.300 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 14:13:30.305 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:31.490 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 14:13:31.498 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:13:32.120 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:14:50.252 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:14:50.262 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:16:24.414 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:16:24.423 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:18:04.773 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:18:04.794 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:19:09.000 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:19:09.008 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:21:27.072 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:21:27.085 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:22:23.103 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:22:23.114 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:23:10.972 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:23:10.983 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:23:47.436 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:23:47.448 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:23:58.424 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:26:27.282 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:26:27.314 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:28:36.070 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:28:36.098 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:28:44.835 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:28:44.868 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:28:53.552 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:28:53.569 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:29:17.267 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:29:17.288 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:29:44.509 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:29:44.545 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:30:18.995 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:30:19.008 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:30:25.028 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:30:25.061 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:30:31.849 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:30:31.859 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:33:51.514 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:33:51.554 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:35:05.485 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:35:05.527 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:35:22.034 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:35:22.074 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:35:47.499 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:35:47.523 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:38:25.113 +07:00 [INF] Them sach thanh cong !
+2025-11-20 14:38:25.125 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:39:01.321 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:41:40.184 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:41:40.219 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:44:43.265 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:44:43.306 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:52:12.678 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:52:12.687 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:53:17.792 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:53:17.798 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:54:01.608 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:54:01.651 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:54:46.350 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:54:46.384 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:54:58.689 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:54:59.823 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:01.071 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:02.215 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:03.015 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:03.904 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:05.487 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:06.777 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:08.644 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 14:55:08.649 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:55:09.651 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:58:29.505 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 14:58:29.517 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:58:30.304 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:58:47.114 +07:00 [INF] Thêm hóa đơn "a34ebcef-0d14-43bf-a509-1211df6b62a2" thành công!
+2025-11-20 14:58:47.140 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 14:58:47.151 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:58:56.680 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 14:59:02.243 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:14.963 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:14.974 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:31.548 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:31.588 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:39.173 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:39.208 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:52.669 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:00:52.700 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:05.385 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:06.464 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:07.399 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:08.265 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:10.577 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:12.280 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:14.719 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:15.884 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:18.717 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:01:18.722 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:20.338 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:22.625 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:01:22.632 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:22.886 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:01:22.891 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:01:23.553 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:00.733 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:24:00.742 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:01.421 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:13.314 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:24:13.326 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:13.648 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:13.848 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:15.303 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:16.409 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:17.183 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:18.184 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:23.113 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:24.416 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:26.008 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:31.011 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:24:31.017 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:33.951 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:36.498 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:51.389 +07:00 [INF] Cập nhật hóa đơn "a34ebcef-0d14-43bf-a509-1211df6b62a2" thành công
+2025-11-20 15:24:51.401 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:24:51.407 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:24:53.915 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:28:22.108 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:28:58.028 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:28:58.071 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:29:02.046 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:29:02.052 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:29:08.194 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:29:10.750 +07:00 [INF] Cập nhật hóa đơn "a34ebcef-0d14-43bf-a509-1211df6b62a2" thành công
+2025-11-20 15:29:10.762 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:29:10.771 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:35:56.871 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:35:56.880 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:36:00.825 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:36:00.858 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:37:11.509 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:37:11.549 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:37:15.442 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:37:15.450 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:37:53.367 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:37:53.397 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:37:55.667 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 15:37:55.672 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 15:49:53.754 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:17:33.954 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:17:39.324 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:17:40.897 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:17:43.072 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:17:49.653 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:17:55.071 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:21:50.477 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:21:50.520 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:23:51.972 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:23:51.981 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:25:42.523 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:25:42.544 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:27:36.095 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:27:36.110 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:04.017 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:04.026 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:04.618 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:06.306 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:06.315 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:06.802 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:07.302 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:07.311 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:20.700 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:23.256 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:25.492 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:25.500 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:25.665 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:25.671 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:26.377 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:26.552 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:28.114 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:28.121 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:28.896 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:28.909 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:29.545 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:29.986 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 16:45:29.994 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:30.512 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:31.715 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-20 16:45:38.603 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-20 16:45:49.168 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:50.168 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:52.081 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:45:52.920 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:47:29.430 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:47:29.450 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:48:39.336 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 16:48:39.343 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:01:25.280 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:04:11.244 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:04:15.426 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:04:15.435 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:04:17.111 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:04:18.471 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:04:18.480 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:04:24.317 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:08:14.274 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:08:15.668 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:08:15.726 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:08:16.335 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:14:26.790 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:15:54.179 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:16:43.954 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:16:43.968 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:16:44.698 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:17:22.526 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjMzODQyLCJleHAiOjE3NjM2NDEwNDIsImlhdCI6MTc2MzYzMzg0MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.egs4XNxQ_LSjs-NyVoQPAImA25XWUkA498BlMuxT66k
+2025-11-20 17:17:24.614 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:17:25.817 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:17:25.824 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:17:27.113 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:18:15.357 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:18:15.367 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:18:17.593 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:18:17.602 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:18:18.330 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:18:24.240 +07:00 [INF] Thêm hóa đơn "3c495f7e-a403-48dc-96a5-dd488a2ef8cf" thành công!
+2025-11-20 17:18:24.268 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:18:24.276 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:18:40.968 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:18:52.487 +07:00 [INF] Xóa hóa đơn "a34ebcef-0d14-43bf-a509-1211df6b62a2" thành công
+2025-11-20 17:18:52.500 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:18:52.508 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:24:12.818 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:24:14.845 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:24:14.905 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:26:45.917 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:26:50.679 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:26:50.689 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:27:18.557 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:27:20.145 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:27:20.156 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:28:40.608 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:28:41.383 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:28:41.444 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:29:21.218 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:29:22.426 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:29:22.438 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:29:37.300 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-20 17:29:49.823 +07:00 [INF] Thêm hóa đơn "a004f20e-b8fb-4532-bb26-97c5231d20af" thành công!
+2025-11-20 17:29:49.854 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-20 17:29:49.863 +07:00 [INF] Lay danh sach san pham thang cong!
