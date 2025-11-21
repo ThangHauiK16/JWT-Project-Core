@@ -9,10 +9,14 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Events;
 using System.Text;
+using System.Text.Json.Serialization;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// logger
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
     .MinimumLevel.Override("System", LogEventLevel.Warning)
@@ -22,7 +26,9 @@ Log.Logger = new LoggerConfiguration()
                   restrictedToMinimumLevel: LogEventLevel.Debug)
     .CreateLogger();
 builder.Host.UseSerilog();
+//wwwroot
 builder.WebHost.UseWebRoot("wwwroot");
+//Mapper
 builder.Services.AddAutoMapper(typeof(Program));
 //DI 
 builder.Services.AddScoped<IAuthService, AuthService>();
@@ -44,13 +50,21 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
-
+//SQL Server setting
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Setting nhận enum tu FE
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+// JWT vs SwaggerGen
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student API", Version = "v1" });

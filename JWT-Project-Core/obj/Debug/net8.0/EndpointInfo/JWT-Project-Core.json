@@ -453,11 +453,10 @@
     "schemas": {
       "EnumRole": {
         "enum": [
-          0,
-          1
+          "Admin",
+          "Customer"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "HoaDonDTO": {
         "required": [

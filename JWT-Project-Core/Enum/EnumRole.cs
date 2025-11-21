@@ -3,6 +3,6 @@
     public enum EnumRole
     {
         Admin = 0,
-        KhachHang = 1,
+        Customer = 1,
     }
 }

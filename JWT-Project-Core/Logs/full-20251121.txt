@@ -1,0 +1,187 @@
+2025-11-21 09:04:34.722 +07:00 [WRN] Register student failed: [{"Exception":null,"ErrorMessage":"The newUser field is required.","$type":"ModelError"},{"Exception":null,"ErrorMessage":"The JSON value could not be converted to JWT_Project_Core.Enum.EnumRole. Path: $.role | LineNumber: 0 | BytePositionInLine: 64.","$type":"ModelError"}]
+2025-11-21 09:11:23.662 +07:00 [INF] User created successfully!
+2025-11-21 09:11:23.669 +07:00 [ERR] Failed executing DbCommand (11ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Password], [Role])
+VALUES (@p0, @p1, @p2);
+2025-11-21 09:11:23.734 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'JWT_Project_Core.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (HoangThang).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:88aad415-2d00-4a79-85dd-c564d405186e
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (HoangThang).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:88aad415-2d00-4a79-85dd-c564d405186e
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-11-21 09:11:23.867 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (HoangThang).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:88aad415-2d00-4a79-85dd-c564d405186e
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.AuthService.RegisterAsync(RegisterDTO newUser) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\AuthService.cs:line 76
+   at JWT_Project_Core.Controllers.AuthController.Register(RegisterDTO newUser) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\AuthController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 115
+2025-11-21 09:14:09.710 +07:00 [WRN] Username already exists
+2025-11-21 09:18:04.692 +07:00 [WRN] Username already exists
+2025-11-21 09:18:46.740 +07:00 [WRN] Username already exists
+2025-11-21 09:20:03.816 +07:00 [INF] User created successfully!
+2025-11-21 09:24:53.741 +07:00 [WRN] Username already exists
+2025-11-21 09:25:08.407 +07:00 [WRN] Username already exists
+2025-11-21 09:27:20.797 +07:00 [WRN] Username already exists
+2025-11-21 09:27:42.580 +07:00 [INF] User created successfully!
+2025-11-21 09:29:34.970 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjkyMTc0LCJleHAiOjE3NjM2OTkzNzQsImlhdCI6MTc2MzY5MjE3NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.T0cjZbqbBcnDZTyMGFgXoP4UdurXUas5IGtBJsKBvrY
+2025-11-21 09:29:35.143 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjkyMTc1LCJleHAiOjE3NjM2OTkzNzUsImlhdCI6MTc2MzY5MjE3NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.PNu2J8KbfNbCkwrus7WmW1lGxWiy7NXQDFeQlLGe_ys
+2025-11-21 09:29:35.391 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjkyMTc1LCJleHAiOjE3NjM2OTkzNzUsImlhdCI6MTc2MzY5MjE3NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.PNu2J8KbfNbCkwrus7WmW1lGxWiy7NXQDFeQlLGe_ys
+2025-11-21 09:29:35.495 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjkyMTc1LCJleHAiOjE3NjM2OTkzNzUsImlhdCI6MTc2MzY5MjE3NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.PNu2J8KbfNbCkwrus7WmW1lGxWiy7NXQDFeQlLGe_ys
+2025-11-21 09:29:37.630 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:29:49.732 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzNjkyMTg5LCJleHAiOjE3NjM2OTkzODksImlhdCI6MTc2MzY5MjE4OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.BnqLaC4uHD9CGWKrrY1BwD5ZCCZ7jA5-_rOaLpUt_G8
+2025-11-21 09:29:51.802 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:30:05.732 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:30:09.269 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjkyMjA5LCJleHAiOjE3NjM2OTk0MDksImlhdCI6MTc2MzY5MjIwOSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.KuhnM5bp2nk5muMIW_Ep7jAU_0QIVQIpjl8A5FjWocs
+2025-11-21 09:30:11.343 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:30:27.048 +07:00 [INF] User created successfully!
+2025-11-21 09:30:43.149 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzNjkyMjQzLCJleHAiOjE3NjM2OTk0NDMsImlhdCI6MTc2MzY5MjI0MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.hP9NXlz7_C7zVMwNhNTZ9SNvUDqDuN40tiO1onteWPQ
+2025-11-21 09:30:45.197 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:32:52.764 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:32:52.772 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:32:55.688 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:32:55.697 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:34:20.412 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:34:20.422 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:34:28.247 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:34:28.256 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:34:35.227 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:34:35.239 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:35:03.534 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:35:03.544 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:35:32.453 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:35:32.467 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:35:53.849 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:35:53.870 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:36:09.263 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:36:09.273 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:36:34.307 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:36:34.316 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:36:48.898 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:36:48.915 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:37:21.061 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:37:21.069 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:37:56.046 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 09:37:56.067 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:09:35.030 +07:00 [INF] Login success , HoangThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjM2OTQ1NzUsImV4cCI6MTc2MzcwMTc3NSwiaWF0IjoxNzYzNjk0NTc1LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.tKXsB0qjM0IJYT4XCVorQlCTT0Bw0_LTgtdFb0GHvQ8
+2025-11-21 10:09:37.115 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:09:53.808 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:22:43.785 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:23:35.006 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:24:22.540 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjk1NDYyLCJleHAiOjE3NjM3MDI2NjIsImlhdCI6MTc2MzY5NTQ2MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ILVwNZAeszdZoytM3z3P-aLXao5C7fGrMGq_FvryOwM
+2025-11-21 10:24:24.698 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:24:48.943 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzNjk1NDg4LCJleHAiOjE3NjM3MDI2ODgsImlhdCI6MTc2MzY5NTQ4OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.qQ2fL9Dz0Z4yUsDm3zqKiuHwZvJHkSgLnARtRDKPgNM
+2025-11-21 10:24:51.047 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:27:15.890 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:27:24.123 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzNjk1NjQ0LCJleHAiOjE3NjM3MDI4NDQsImlhdCI6MTc2MzY5NTY0NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.dhtieO8Z7CFnKJJuss6mKQQV1_TPT9xmBhS9IoGZ2mI
+2025-11-21 10:27:26.227 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:28:10.516 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:28:37.249 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzNjk1NzE3LCJleHAiOjE3NjM3MDI5MTcsImlhdCI6MTc2MzY5NTcxNywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.WqPfonIREGYnmhM5FcORtL3xesmHp0jTHJQ0nctUL4k
+2025-11-21 10:28:39.334 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:29:06.188 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:29:17.307 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzNjk1NzU3LCJleHAiOjE3NjM3MDI5NTcsImlhdCI6MTc2MzY5NTc1NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.R_CV98SdKsTK0pqxiPpWPbTrSKCpHBzR97E2NnE3PWI
+2025-11-21 10:29:19.369 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:29:26.195 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzNjk1NzY2LCJleHAiOjE3NjM3MDI5NjYsImlhdCI6MTc2MzY5NTc2NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Kl-2H_7MXcPFfMoPIoC5d0HXQ9KtuPwdO8F8a5SBRGM
+2025-11-21 10:29:28.258 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:30:11.593 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzNjk1ODExLCJleHAiOjE3NjM3MDMwMTEsImlhdCI6MTc2MzY5NTgxMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.b5kcVNSsg2vnMAyVyKBBcpz4g5nUjr1xbo9nHtfaBag
+2025-11-21 10:30:13.651 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:30:34.052 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-21 10:30:34.073 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:30:50.318 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:30:54.761 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:27.127 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:31.008 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:32.959 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:34.049 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:38.665 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-21 10:32:38.678 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:41.537 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:42.281 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-21 10:32:42.288 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:42.968 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:43.401 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-21 10:32:43.410 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-21 10:32:45.050 +07:00 [INF] Lay danh sach san pham thang cong!
