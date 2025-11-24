@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Demo_prj\\JWT-Project-Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\sachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\sachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\hoadonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\hoadonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\sachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\sachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\model\\human\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\model\\human\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "HoaDonController.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\HoaDonController.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\HoaDonController.cs",
@@ -118,25 +118,23 @@
               "RelativeToolTip": "JWT-Project-Core\\Controllers\\HoaDonController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T10:38:41.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T10:38:41.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\FileService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\FileService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\FileService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\FileService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T01:57:35.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T01:57:35.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\AuthService.cs",
@@ -148,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Model\\Human\\User.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Model\\Human\\User.cs",
@@ -172,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EnumRole.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Enum\\EnumRole.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Enum\\EnumRole.cs",
@@ -180,8 +178,7 @@
               "RelativeToolTip": "JWT-Project-Core\\Enum\\EnumRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T08:45:18.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T08:45:18.354Z"
             },
             {
               "$type": "Document",
@@ -197,20 +194,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SachService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\SachService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\SachService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\SachService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\SachService.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAuwIwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwBUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T08:37:14.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\RegisterDTO.cs",
@@ -218,38 +215,36 @@
               "RelativeToolTip": "JWT-Project-Core\\DTO\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T08:44:03.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T08:44:03.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SachController.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\SachController.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\SachController.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\SachController.cs",
               "RelativeToolTip": "JWT-Project-Core\\Controllers\\SachController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAcwDQAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwDQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T09:54:14.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T09:54:14.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HoaDonService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\HoaDonService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\HoaDonService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\HoaDonService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\HoaDonService.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAuwKEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwIEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T10:32:08.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Program.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Program.cs",
@@ -257,8 +252,7 @@
               "RelativeToolTip": "JWT-Project-Core\\Program.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAJMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T03:29:54.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T03:29:54.047Z"
             },
             {
               "$type": "Document",
@@ -286,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\appsettings.Development.json",
               "RelativeDocumentMoniker": "JWT-Project-Core\\appsettings.Development.json",
@@ -294,8 +288,7 @@
               "RelativeToolTip": "JWT-Project-Core\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-14T08:05:59.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T08:05:59.185Z"
             },
             {
               "$type": "Document",
