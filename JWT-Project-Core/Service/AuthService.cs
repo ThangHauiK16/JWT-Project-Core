@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using JWT_Project_Core.Data;
 using JWT_Project_Core.DTO;
+using JWT_Project_Core.Enum;
 using JWT_Project_Core.Interface;
 using JWT_Project_Core.Model.Human;
 using Microsoft.EntityFrameworkCore;
@@ -71,6 +72,7 @@ namespace JWT_Project_Core.Service
 
 
             var user = _mapper.Map<User>(newUser);
+            user.Role = EnumRole.Customer;
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();

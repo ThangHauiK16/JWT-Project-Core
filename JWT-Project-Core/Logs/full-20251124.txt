@@ -176,3 +176,133 @@
 2025-11-24 15:02:55.805 +07:00 [INF] Lay danh sach san pham thang cong!
 2025-11-24 15:02:56.948 +07:00 [INF] Lay danh sach san pham thang cong!
 2025-11-24 15:02:58.069 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:22:47.087 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzOTc2MTY3LCJleHAiOjE3NjM5ODMzNjcsImlhdCI6MTc2Mzk3NjE2NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.IL2jPJ6reCYmprPSn1u29Nv_IHJRTZrKoqaDGEAm_6E
+2025-11-24 16:22:48.268 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:23:30.907 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzOTc2MjEwLCJleHAiOjE3NjM5ODM0MTAsImlhdCI6MTc2Mzk3NjIxMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.HeoVbteGvR5ddOJNbUzSzmO9t6qCgb4_Efo9t7u5QHQ
+2025-11-24 16:23:32.027 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:23:32.047 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:23:32.192 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-24 16:23:32.216 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:23:43.074 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:23:44.500 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:23:45.842 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-24 16:23:45.854 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:23:57.610 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:24:04.948 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:24:32.982 +07:00 [ERR] AddAsync: Unexpected error while adding HoaDon
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 85
+2025-11-24 16:24:33.121 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: The instance of entity type 'HoaDon_Sach' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at JWT_Project_Core.Service.HoaDonService.AddAsync(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 85
+   at JWT_Project_Core.Controllers.HoaDonController.CreateHoaDon(HoaDonDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 129
+2025-11-24 16:24:36.633 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:24:58.777 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-24 16:24:58.786 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:02.922 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzYzOTc3MzgyLCJleHAiOjE3NjM5ODQ1ODIsImlhdCI6MTc2Mzk3NzM4MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.LfmMsy4BqOydgZFWuUe4tZY3ap8KuB_2PqAkRb6a1Tg
+2025-11-24 16:43:03.990 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:04.003 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:04.013 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-24 16:43:04.020 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:05.888 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:07.626 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:08.955 +07:00 [INF] Lấy danh sách hóa đơn thành công!
+2025-11-24 16:43:08.961 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:15.329 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 16:43:18.097 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-24 17:17:03.611 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Unable to resolve service for type 'JWT_Project_Core.Interface.ICartService' while attempting to activate 'JWT_Project_Core.Controllers.CartController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 129
+2025-11-24 17:17:37.191 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzYzOTc5NDU3LCJleHAiOjE3NjM5ODY2NTcsImlhdCI6MTc2Mzk3OTQ1NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Z3RoNM6nxkzahiclE2_nHs1ZdqbFsCAZAsJCS16P4bE
+2025-11-24 17:18:08.284 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Unable to resolve service for type 'JWT_Project_Core.Interface.ICartService' while attempting to activate 'JWT_Project_Core.Controllers.CartController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 129
+2025-11-24 17:19:10.813 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Cart -> CartDTO
+JWT_Project_Core.Model.Cart -> JWT_Project_Core.DTO.CartDTO
+   at lambda_method85(Closure, Object, CartDTO, ResolutionContext)
+   at JWT_Project_Core.Service.CartService.GetCartAsync(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 36
+   at JWT_Project_Core.Controllers.CartController.GetCart(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\CartController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 130

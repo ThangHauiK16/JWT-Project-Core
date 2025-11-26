@@ -12,6 +12,8 @@ namespace JWT_Project_Core.Data
         public DbSet<HoaDon> HoaDons { get; set; }
         public DbSet<HoaDon_Sach> HoaDon_Saches { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -34,6 +36,29 @@ namespace JWT_Project_Core.Data
                   .WithMany(u => u.HoaDons)       
                   .HasForeignKey(h => h.Username) 
                   .OnDelete(DeleteBehavior.SetNull);
+
+            modelBuilder.Entity<Cart>()
+                  .HasOne(c => c.User)
+                  .WithMany() 
+                  .HasForeignKey(c => c.Username)
+                  .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Cart>()
+                   .HasIndex(c => c.Username)
+                   .IsUnique();
+
+            modelBuilder.Entity<CartItem>()
+                .HasOne(ci => ci.Cart)
+                .WithMany(c => c.CartItems)
+                .HasForeignKey(ci => ci.CartId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+           
+            modelBuilder.Entity<CartItem>()
+                .HasOne(ci => ci.Sach)
+                .WithMany()
+                .HasForeignKey(ci => ci.MaSach)
+                .OnDelete(DeleteBehavior.Restrict);
         }
 
 

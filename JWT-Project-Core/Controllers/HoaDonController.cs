@@ -15,12 +15,17 @@ namespace JWT_Project_Core.Controllers
         {
             this.hoaDonService = hoaDonService;
         }
-        [HttpGet]
-        public async Task<IActionResult> GetHoaDon()
+        [HttpGet("paged")]
+        public async Task<IActionResult> GetPaged(
+             int page = 1,
+             int pageSize = 10,
+             string? search = null
+             )
         {
-            var data = await hoaDonService.GetAllAsync();
+            var data = await hoaDonService.GetPagedAsync(page, pageSize, search);
             return Ok(data);
         }
+
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetHoaDonById(Guid id)
         {

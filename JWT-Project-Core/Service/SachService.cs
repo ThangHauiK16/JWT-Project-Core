@@ -33,6 +33,50 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
+        public async Task<PagedResult<SachDTO>> GetPageAsync(
+      int page,
+      int pageSize,
+      string? search
+  )
+        {
+            try
+            {
+                var query = context.Saches.AsQueryable();
+
+                if (!string.IsNullOrWhiteSpace(search))
+                {
+                    search = search.ToLower();
+
+                    query = query.Where(s =>
+                        s.TenSach!.ToLower().Contains(search) ||
+                        s.MaSach!.ToLower().Contains(search) ||
+                        s.TheLoai!.ToLower().Contains(search)
+                    );
+                }
+
+                var totalItems = await query.CountAsync();
+
+                var items = await query
+                    .OrderBy(s => s.MaSach)
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToListAsync();
+
+                return new PagedResult<SachDTO>(
+                    mapper.Map<IEnumerable<SachDTO>>(items),
+                    totalItems,
+                    page,
+                    pageSize
+                );
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "GetPageAsync: Error when paging Sach");
+                throw;
+            }
+        }
+
+
         public async Task<SachDTO> GetByMaSach(string MaSach)
         {
             try

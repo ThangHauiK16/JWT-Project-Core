@@ -33,14 +33,22 @@ namespace JWT_Project_Core.Controllers
         {
             if (!ModelState.IsValid)
             {
-                Log.Warning("Register student failed: {@Errors}", ModelState.Values.SelectMany(v => v.Errors));
-                return BadRequest(ModelState);
+                var errors = ModelState
+                    .Where(x => x.Value!.Errors.Any())
+                    .ToDictionary(
+                        k => k.Key,
+                        v => v.Value!.Errors.Select(e => e.ErrorMessage).ToArray()
+                    );
+
+                return BadRequest(errors);
             }
+
             var result = await _authService.RegisterAsync(newUser);
             if (result == "Username already exists")
                 return BadRequest(result);
 
             return Ok(result);
         }
+
     }
 }

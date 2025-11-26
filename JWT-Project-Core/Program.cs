@@ -35,6 +35,8 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ISachService, SachService>();
 builder.Services.AddScoped<IHoaDonService , HoaDonService>();
 builder.Services.AddScoped<IFileService , FileService>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -67,7 +69,7 @@ builder.Services.AddEndpointsApiExplorer();
 // JWT vs SwaggerGen
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Student API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Product (Books) API", Version = "v1" });
 
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

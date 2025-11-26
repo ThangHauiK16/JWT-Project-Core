@@ -19,25 +19,61 @@ namespace JWT_Project_Core.Service
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<HoaDonDTO>> GetAllAsync()
+        public async Task<PagedResult<HoaDonDTO>> GetPagedAsync(
+                 int page,
+                 int pageSize,
+                 string? search
+             )
         {
             try
             {
-                var list = await _context.HoaDons
-                    .Include(h => h.HoaDon_Saches)
-                    .ThenInclude(hs => hs.Sach)
+                var query = _context.HoaDons
+                    .Include(h => h.HoaDon_Saches).ThenInclude(hs => hs.Sach)
                     .Include(h => h.User)
+                    .AsQueryable();
+
+                if (!string.IsNullOrWhiteSpace(search))
+                {
+                   
+                    if (Guid.TryParse(search, out Guid guidSearch))
+                    {
+                        query = query.Where(x => x.MaHoaDon == guidSearch);
+                    }
+                   
+                    else if (DateTime.TryParse(search, out DateTime dateSearch))
+                    {
+                        query = query.Where(x => x.NgayTao.Date == dateSearch.Date);
+                    }
+                   
+                    else
+                    {
+                        query = query.Where(x => x.Username!.Contains(search));
+                    }
+                }
+
+                var totalItems = await query.CountAsync();
+
+                var items = await query
+                    .OrderByDescending(x => x.NgayTao)
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
                     .ToListAsync();
 
-                Log.Information("Lấy danh sách hóa đơn thành công!");
-                return _mapper.Map<IEnumerable<HoaDonDTO>>(list);
+                return new PagedResult<HoaDonDTO>(
+                    _mapper.Map<IEnumerable<HoaDonDTO>>(items),
+                    totalItems,
+                    page,
+                    pageSize
+                );
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "GetAllAsync: Unexpected error while retrieving HoaDon");
+                Log.Error(ex, "GetPagedAsync: unexpected error");
                 throw;
             }
         }
+
+
 
         public async Task<HoaDonDTO> GetByIdAsync(Guid id)
         {

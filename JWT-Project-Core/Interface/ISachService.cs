@@ -9,5 +9,10 @@ namespace JWT_Project_Core.Interface
         Task<SachDTO> AddAsync(SachDTO dto);
         Task<SachDTO> UpdateAsync(SachDTO dto, string MaSach);
         Task<bool> DeleteAsync(string MaSach);
+        Task<PagedResult<SachDTO>> GetPageAsync(
+              int page,
+              int pageSize,
+              string? search
+          );
     }
 }

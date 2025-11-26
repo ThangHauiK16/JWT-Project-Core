@@ -22,6 +22,17 @@ namespace JWT_Project_Core.Controllers
             var data = await sachService.GetAllAsync();
             return Ok(data);
         }
+        [HttpGet("page")]
+        public async Task<IActionResult> GetPage(
+            int page = 1,
+            int pageSize = 10,
+            string? search = null
+            )
+        {
+            var result = await sachService.GetPageAsync(page, pageSize, search);
+            return Ok(result);
+        }
+
         [HttpGet("{MaSach}")]
         public async Task<IActionResult> GetSachByMaSach(string MaSach)
         {
