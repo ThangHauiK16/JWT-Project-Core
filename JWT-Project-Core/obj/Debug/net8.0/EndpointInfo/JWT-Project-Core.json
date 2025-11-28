@@ -511,6 +511,18 @@
         }
       }
     },
+    "/api/Sach/categories": {
+      "get": {
+        "tags": [
+          "Sach"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Sach/{MaSach}": {
       "get": {
         "tags": [

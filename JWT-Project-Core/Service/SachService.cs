@@ -33,11 +33,8 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
-        public async Task<PagedResult<SachDTO>> GetPageAsync(
-      int page,
-      int pageSize,
-      string? search
-  )
+        public async Task<PagedResult<SachDTO>> GetPageAsync(    int page, int pageSize,string? search  )
+                                
         {
             try
             {
@@ -76,7 +73,24 @@ namespace JWT_Project_Core.Service
             }
         }
 
+        public async Task<IEnumerable<string>> GetAllCategoriesAsync()
+        {
+            try
+            {
+                var categories = await context.Saches
+                    .Select(s => s.TheLoai)
+                    .Distinct()
+                    .ToListAsync();
 
+                return categories;
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "GetAllCategoriesAsync: unexpected error occurred");
+                throw;
+            }
+        }
+    
         public async Task<SachDTO> GetByMaSach(string MaSach)
         {
             try

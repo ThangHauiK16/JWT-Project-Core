@@ -14,5 +14,6 @@ namespace JWT_Project_Core.Interface
               int pageSize,
               string? search
           );
+        Task<IEnumerable<string>> GetAllCategoriesAsync();
     }
 }

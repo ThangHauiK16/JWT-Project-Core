@@ -392,6 +392,16 @@
   },
   {
     "ContainingType": "JWT_Project_Core.Controllers.SachController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Sach/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.SachController",
     "Method": "GetPage",
     "RelativePath": "api/Sach/page",
     "HttpMethod": "GET",

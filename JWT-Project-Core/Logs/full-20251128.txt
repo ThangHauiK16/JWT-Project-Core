@@ -165,3 +165,233 @@ Error Number:547,State:0,Class:16
 2025-11-28 11:31:07.047 +07:00 [INF] Lay danh sach san pham thang cong!
 2025-11-28 11:31:51.847 +07:00 [INF] Lay danh sach san pham thang cong!
 2025-11-28 11:41:06.732 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:11:38.918 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzEwMjk4LCJleHAiOjE3NjQzMTc0OTgsImlhdCI6MTc2NDMxMDI5OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.zWufirkjIZ7P4SDZS4BS3rivZIl9WRZMcDZ_nCEk76k
+2025-11-28 13:11:42.130 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-28 13:11:42.134 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-28 13:11:42.146 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:11:52.244 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:15:02.493 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:17:09.776 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:11.899 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:13.257 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:17:14.748 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:16.595 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:17:19.355 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:20.960 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:17:21.709 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:24.208 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:25.297 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:17:26.640 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:28.003 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 13:17:28.920 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 13:17:40.527 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-28 13:17:44.065 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-28 13:18:02.431 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzEwNjgyLCJleHAiOjE3NjQzMTc4ODIsImlhdCI6MTc2NDMxMDY4MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.wJWGjz4GoqGu0QI2Twppk1B78mLDxuZTA5cRdPipy_M
+2025-11-28 13:20:43.373 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzEwODQzLCJleHAiOjE3NjQzMTgwNDMsImlhdCI6MTc2NDMxMDg0MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.INGkTeVDiCgrq5Aqh5HdKIYe_6imIfYdTCvPrIuPTCE
+2025-11-28 13:27:51.819 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzExMjcxLCJleHAiOjE3NjQzMTg0NzEsImlhdCI6MTc2NDMxMTI3MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1eN8Q7d-MV4eazZuWMzmh7jhkj6QnJGoWz9FyjP0JOU
+2025-11-28 13:28:42.368 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzExMzIyLCJleHAiOjE3NjQzMTg1MjIsImlhdCI6MTc2NDMxMTMyMiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.acNd_GGy_yrRkolxklfOc9uoMt8Nc-QLk7PGGT8balg
+2025-11-28 13:34:29.239 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzExNjY5LCJleHAiOjE3NjQzMTg4NjksImlhdCI6MTc2NDMxMTY2OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.AWfh8KcyStQxcx6_uYI83MOFaaOOeXBVfrms9vLxzOg
+2025-11-28 13:57:04.936 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzEzMDI0LCJleHAiOjE3NjQzMjAyMjQsImlhdCI6MTc2NDMxMzAyNCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.BSrxdz_Fwwy9-PRbLXCdL1hAytoII2maMBpKH-HaoJM
+2025-11-28 13:59:43.325 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzEzMTgzLCJleHAiOjE3NjQzMjAzODMsImlhdCI6MTc2NDMxMzE4MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.BjoVMbuNxnzDPuMHqdyQK-jltzNuMwpvjLgIbnQH89I
+2025-11-28 14:02:17.932 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzEzMzM3LCJleHAiOjE3NjQzMjA1MzcsImlhdCI6MTc2NDMxMzMzNywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.46sfZCSOZ4GMIUgdzgaR0IHnbaMQHTC1kTpdumnLpho
+2025-11-28 14:05:15.041 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzEzNTE1LCJleHAiOjE3NjQzMjA3MTUsImlhdCI6MTc2NDMxMzUxNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.IVvQJ8qkBTnAWEXibkhBmtfNAZAdSoFNtqtXcDlXJQg
+2025-11-28 14:05:20.670 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzEzNTIwLCJleHAiOjE3NjQzMjA3MjAsImlhdCI6MTc2NDMxMzUyMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Z8fGivz6JEkvjwmhNialKyihcOuE0C5yC1OdsX2LilM
+2025-11-28 14:21:21.454 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzE0NDgxLCJleHAiOjE3NjQzMjE2ODEsImlhdCI6MTc2NDMxNDQ4MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.u8zwCMj2bdCX5LAWHviyijU1kbkqJCE_hVfrlO2mArM
+2025-11-28 14:21:34.098 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzE0NDk0LCJleHAiOjE3NjQzMjE2OTQsImlhdCI6MTc2NDMxNDQ5NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.GbGzC6_Zvb9pJEqf777fAVe2o2CWUBnAPP5SDzhwWmg
+2025-11-28 14:21:40.210 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzE0NTAwLCJleHAiOjE3NjQzMjE3MDAsImlhdCI6MTc2NDMxNDUwMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.tgZL2VYXOLTjJrqakGEPpa-u23WbZ519DSHKhTAyNYA
+2025-11-28 14:31:08.754 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 14:31:16.716 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 14:40:18.949 +07:00 [WRN] Khong tim thay sach co ma categories nay !
+2025-11-28 14:40:24.257 +07:00 [WRN] Khong tim thay sach co ma categories nay !
+2025-11-28 14:41:24.129 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzE1Njg0LCJleHAiOjE3NjQzMjI4ODQsImlhdCI6MTc2NDMxNTY4NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.LdrAsZweCyz5E-16n9e1uxobBBNDKkEY4yOBmklKVaI
+2025-11-28 14:49:54.965 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzE2MTk0LCJleHAiOjE3NjQzMjMzOTQsImlhdCI6MTc2NDMxNjE5NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.rZoAP7qnNO38vuQFc6lqsN5dxcc9G0JfodWeXWS8mVE
+2025-11-28 15:03:57.387 +07:00 [INF] Thêm hóa đơn "2b3df8ec-3e90-4826-a4d8-8a4ed3cfe11e" thành công!
+2025-11-28 15:04:33.991 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzE3MDczLCJleHAiOjE3NjQzMjQyNzMsImlhdCI6MTc2NDMxNzA3MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.u_4g0sKTvN5UqNwebYUNpWlbhxe25SrWtXf8Vj8bLzM
+2025-11-28 15:04:36.390 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 15:05:00.431 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzE3MTAwLCJleHAiOjE3NjQzMjQzMDAsImlhdCI6MTc2NDMxNzEwMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.LnwTrbjQqVm52q6Y8doxefqsGzyls32aaEq2p6Cy3kQ
+2025-11-28 15:05:05.107 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzE3MTA1LCJleHAiOjE3NjQzMjQzMDUsImlhdCI6MTc2NDMxNzEwNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.PkvfM4bY4G3HLvKAprDQWq3SNusNm06LrDoHAAUl4bo
+2025-11-28 15:05:06.456 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 15:05:14.203 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzE3MTE0LCJleHAiOjE3NjQzMjQzMTQsImlhdCI6MTc2NDMxNzExNCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.qVwZ_8cSZNqVSrdzBWrnZJ9FoOTOtEqGTU9GQz53WZo
+2025-11-28 15:08:54.377 +07:00 [INF] Thêm hóa đơn "d0a9af60-f366-43a1-a8c0-8d8580adad51" thành công!
+2025-11-28 15:09:08.230 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzE3MzQ4LCJleHAiOjE3NjQzMjQ1NDgsImlhdCI6MTc2NDMxNzM0OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.TX_ytycsTI5FMGqjhpKRTqq3-lzFBIPY0D6F9_gWrlU
+2025-11-28 15:09:09.811 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 15:09:23.205 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-28 15:09:23.208 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-28 15:09:23.214 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 15:09:24.875 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 15:09:32.914 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 15:09:47.196 +07:00 [INF] Xóa hóa đơn "d0a9af60-f366-43a1-a8c0-8d8580adad51" thành công
+2025-11-28 15:09:53.436 +07:00 [INF] Xóa hóa đơn "2b3df8ec-3e90-4826-a4d8-8a4ed3cfe11e" thành công
+2025-11-28 15:10:48.286 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzE3NDQ4LCJleHAiOjE3NjQzMjQ2NDgsImlhdCI6MTc2NDMxNzQ0OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.bwWgTOl-p0JON6voBvaf9qJO-neE6AWVq-aaslGufuc
+2025-11-28 15:12:58.592 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzE3NTc4LCJleHAiOjE3NjQzMjQ3NzgsImlhdCI6MTc2NDMxNzU3OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ghLuzlLquTJH0eC2-8TkLamK7edbsPsLHYofMGofmkw
+2025-11-28 16:03:02.215 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzIwNTgyLCJleHAiOjE3NjQzMjc3ODIsImlhdCI6MTc2NDMyMDU4MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1cqU39loDx3C-m1hnsVOZBSgn3HIEluNO1pme_mnLkQ
+2025-11-28 16:04:53.499 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzIwNjkzLCJleHAiOjE3NjQzMjc4OTMsImlhdCI6MTc2NDMyMDY5MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.rAa4RNhosGO3_AKhd7z3ZjqjscgzFwTT16J_tiqHsDo
+2025-11-28 16:08:11.401 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzIwODkxLCJleHAiOjE3NjQzMjgwOTEsImlhdCI6MTc2NDMyMDg5MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Ft4A7hIEr_AB3ZoStkrEZe0f8gMQ1nAeHrk_XlOlIv0
+2025-11-28 16:10:14.167 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzIxMDE0LCJleHAiOjE3NjQzMjgyMTQsImlhdCI6MTc2NDMyMTAxNCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.yE5o4OiaFgX9J14EaYnj9UOZdp35_Yh_BmN20f80q5Q
+2025-11-28 16:11:19.142 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzIxMDc5LCJleHAiOjE3NjQzMjgyNzksImlhdCI6MTc2NDMyMTA3OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.16wOHfmqzWhpMkjNoGA21zuYp7j_WYVHeVkVlXWZ8PM
+2025-11-28 16:11:20.958 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 16:11:25.151 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 16:11:25.812 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 16:11:26.427 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 16:11:28.079 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 16:11:28.485 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 16:11:42.935 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 16:12:01.427 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 16:12:02.618 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 16:16:44.419 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-28 16:16:45.200 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 16:22:36.664 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 16:26:03.576 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzIxOTYzLCJleHAiOjE3NjQzMjkxNjMsImlhdCI6MTc2NDMyMTk2MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.9ri9VI-zTvVsNJhJvCwjJOgOpqDVFtRRgw2z933QwEg
+2025-11-28 16:53:42.087 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HongNgoc
+2025-11-28 16:53:42.119 +07:00 [WRN] AddToCartAsync: Cart not found for HongNgoc, creating new one
+2025-11-28 16:53:42.137 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-11-28 16:53:42.178 +07:00 [INF] AddToCartAsync: Updated cart for HongNgoc
+2025-11-28 16:53:48.902 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart HongNgoc
+2025-11-28 16:53:48.912 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-11-28 16:53:48.915 +07:00 [INF] AddToCartAsync: Updated cart for HongNgoc
+2025-11-28 17:07:53.240 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:07:53.259 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:07:58.479 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:07:58.482 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:11:52.620 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:11:52.631 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:11:55.853 +07:00 [INF] AddToCartAsync: Adding 1 of 03 to cart HongNgoc
+2025-11-28 17:11:55.861 +07:00 [INF] AddToCartAsync: Item 03 not found, adding new
+2025-11-28 17:11:55.866 +07:00 [INF] AddToCartAsync: Updated cart for HongNgoc
+2025-11-28 17:11:57.477 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:11:57.480 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:15:22.180 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:15:22.197 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:16:42.333 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:16:42.344 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:17:09.925 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:17:09.931 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:17:56.957 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:17:56.969 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:17:59.506 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:17:59.512 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:18:06.549 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:18:06.554 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:18:30.143 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:18:30.147 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-11-28 17:18:31.263 +07:00 [INF] CheckoutAsync: Processing checkout for HongNgoc
+2025-11-28 17:18:31.270 +07:00 [INF] CheckoutAsync: Created invoice for HongNgoc, deleting cart items
+2025-11-28 17:18:31.293 +07:00 [INF] CheckoutAsync: Checkout completed successfully for HongNgoc
+2025-11-28 17:18:35.492 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:18:35.512 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 0 items
+2025-11-28 17:18:36.241 +07:00 [INF] CheckoutAsync: Processing checkout for HongNgoc
+2025-11-28 17:18:36.252 +07:00 [WRN] CheckoutAsync: Cart is empty for HongNgoc
+2025-11-28 17:18:36.287 +07:00 [ERR] CheckoutAsync: Unexpected error during checkout for HongNgoc
+System.InvalidOperationException: Giỏ hàng trống!
+   at JWT_Project_Core.Service.CartService.CheckoutAsync(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 207
+2025-11-28 17:18:36.388 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Giỏ hàng trống!
+   at JWT_Project_Core.Service.CartService.CheckoutAsync(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 207
+   at JWT_Project_Core.Controllers.CartController.Checkout(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\CartController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-11-28 17:18:54.997 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:18:55.017 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 0 items
+2025-11-28 17:18:59.730 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzI1MTM5LCJleHAiOjE3NjQzMzIzMzksImlhdCI6MTc2NDMyNTEzOSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ghAzaUoVa7MM_YIbUHOZ67sJCm8LbyrobHr5WB--qRA
+2025-11-28 17:19:01.139 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-28 17:21:02.111 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MzI1MjYyLCJleHAiOjE3NjQzMzI0NjIsImlhdCI6MTc2NDMyNTI2MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.yx0ATArHMcV9_Y2BHPUbiJ7Zrs5zstLkrlZ8PkeMHcQ
+2025-11-28 17:21:07.337 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MzI1MjY3LCJleHAiOjE3NjQzMzI0NjcsImlhdCI6MTc2NDMyNTI2NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.WZ5QQeCqmA-13M6AProWJrPtECJ56PgJscW6svcjcJ0
+2025-11-28 17:21:08.892 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart HongNgoc
+2025-11-28 17:21:08.902 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-11-28 17:21:08.907 +07:00 [INF] AddToCartAsync: Updated cart for HongNgoc
+2025-11-28 17:21:11.573 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:21:11.587 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 1 items
+2025-11-28 17:21:14.733 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:21:14.737 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 1 items
+2025-11-28 17:21:31.949 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:21:31.952 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 1 items
+2025-11-28 17:21:39.372 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:21:39.377 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 1 items
+2025-11-28 17:23:17.582 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:23:17.600 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 1 items
+2025-11-28 17:25:49.062 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:25:49.074 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 1 items
+2025-11-28 17:26:10.717 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:26:10.720 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 1 items
+2025-11-28 17:26:10.745 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:26:18.428 +07:00 [INF] RemoveItemAsync: Removing item 01 from cart of HongNgoc
+2025-11-28 17:26:18.442 +07:00 [INF] RemoveItemAsync: Removed item 01 successfully
+2025-11-28 17:26:20.863 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:26:20.882 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 0 items
+2025-11-28 17:26:25.836 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart HongNgoc
+2025-11-28 17:26:25.842 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-11-28 17:26:25.847 +07:00 [INF] AddToCartAsync: Updated cart for HongNgoc
+2025-11-28 17:26:26.749 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HongNgoc
+2025-11-28 17:26:26.754 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-11-28 17:26:26.756 +07:00 [INF] AddToCartAsync: Updated cart for HongNgoc
+2025-11-28 17:26:28.085 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:26:28.096 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:26:28.120 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:26:28.120 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:27:10.423 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HongNgoc
+2025-11-28 17:27:10.427 +07:00 [INF] AddToCartAsync: Item 02 exists, increasing quantity to 2
+2025-11-28 17:27:10.438 +07:00 [INF] AddToCartAsync: Updated cart for HongNgoc
+2025-11-28 17:27:11.897 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:27:11.900 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:27:11.932 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:27:11.932 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:32:30.404 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:32:30.416 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:32:30.445 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:32:30.445 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:33:02.213 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:33:02.237 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:33:02.253 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:33:02.253 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:33:33.008 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:33:33.013 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:33:33.027 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:33:33.027 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:33:36.746 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:33:36.751 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:33:36.771 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:33:36.772 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:36:46.880 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:36:46.892 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:36:46.907 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:36:46.907 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:36:49.372 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:36:49.377 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:36:49.398 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:36:49.399 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:36:51.354 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:36:51.359 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:36:51.380 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:36:51.380 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:37:59.389 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:37:59.398 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:37:59.416 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:37:59.416 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:38:02.016 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:38:02.020 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:38:02.035 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:38:02.036 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:38:04.849 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:38:04.853 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:38:04.868 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:38:04.868 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:38:08.235 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:38:08.238 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:38:08.255 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:38:08.255 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-28 17:38:23.404 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-11-28 17:38:23.438 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 2 items
+2025-11-28 17:38:23.467 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-28 17:38:23.467 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
