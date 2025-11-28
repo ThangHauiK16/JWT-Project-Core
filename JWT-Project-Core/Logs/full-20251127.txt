@@ -1,0 +1,301 @@
+2025-11-27 08:48:58.737 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-27 08:49:39.740 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjA4MTc5LCJleHAiOjE3NjQyMTUzNzksImlhdCI6MTc2NDIwODE3OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.OJf0E84ZZKD7jYyb2WoVpBAVV_siGTOCIcuemcVMgsU
+2025-11-27 08:49:48.178 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-27 08:50:00.265 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-11-27 08:50:04.159 +07:00 [INF] Login success , HoangThangg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmdnIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjA4MjA0LCJleHAiOjE3NjQyMTU0MDQsImlhdCI6MTc2NDIwODIwNCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.eUpPK3hYZYcDZ1DBrFLmY0tZ9af7rEdEDZXsxOTOxmQ
+2025-11-27 08:54:52.769 +07:00 [INF] User created successfully!
+2025-11-27 08:54:58.492 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjA4NDk4LCJleHAiOjE3NjQyMTU2OTgsImlhdCI6MTc2NDIwODQ5OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.GyaPmg6R5NV__8CUajjfpYVeSsj0tDMD2j1nCO8gpl4
+2025-11-27 08:58:13.489 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjA4NjkzLCJleHAiOjE3NjQyMTU4OTMsImlhdCI6MTc2NDIwODY5MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.EyNHte3njO0P-WPO-SCtKiRpTq4jz7-ZpuNzy3pcOws
+2025-11-27 08:58:18.587 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjA4Njk4LCJleHAiOjE3NjQyMTU4OTgsImlhdCI6MTc2NDIwODY5OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.cVQB9EkH9jY57uZ39k3HghQfEhKHVTkYM6XUZnoi8f8
+2025-11-27 08:58:33.625 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjA4NzEzLCJleHAiOjE3NjQyMTU5MTMsImlhdCI6MTc2NDIwODcxMywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.CIWFxO2ttTE2_-wSzyCfeh5fkF_vLqCfRH8U7830cFM
+2025-11-27 09:15:10.479 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjA5NzEwLCJleHAiOjE3NjQyMTY5MTAsImlhdCI6MTc2NDIwOTcxMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.njXJ3KVjZCfkzYykkCSVnYJ_GolbnjLp62WVwaIqpQc
+2025-11-27 09:47:17.998 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjExNjM3LCJleHAiOjE3NjQyMTg4MzcsImlhdCI6MTc2NDIxMTYzNywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.unviMJJw-4NZXLVzTsdIFlOIGd4I_OqT3YAbdeHHefo
+2025-11-27 09:47:24.295 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjExNjQ0LCJleHAiOjE3NjQyMTg4NDQsImlhdCI6MTc2NDIxMTY0NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.zBHASodmIWWcLVpTvoB0ue56PHtJw8nOYfaynh4y5dU
+2025-11-27 09:47:30.018 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjExNjUwLCJleHAiOjE3NjQyMTg4NTAsImlhdCI6MTc2NDIxMTY1MCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.PdfSug85mMSfjCCbv7MBK6AiwBG0PUOXsteKTohXpX4
+2025-11-27 09:50:35.046 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjExODM1LCJleHAiOjE3NjQyMTkwMzUsImlhdCI6MTc2NDIxMTgzNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.mFM66gLkx97brDVWr1oOd6M05fMVbs1iddNNSZC7PPM
+2025-11-27 09:51:39.252 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjExODk5LCJleHAiOjE3NjQyMTkwOTksImlhdCI6MTc2NDIxMTg5OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.GzLCnZdo1OYK3O0HtzSmVDrxTKjldz67NgzwvRTBBEY
+2025-11-27 10:05:20.008 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjEyNzIwLCJleHAiOjE3NjQyMTk5MjAsImlhdCI6MTc2NDIxMjcyMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.S9dnPmH4DAkN7SGq3V2UXnLnho78Qs-ZTMybccDge1w
+2025-11-27 10:05:29.304 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEyNzI5LCJleHAiOjE3NjQyMTk5MjksImlhdCI6MTc2NDIxMjcyOSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Z0dcsKO3DUu-4NFmcnYeTzuHlGjs5g8TxJ_2tO_xGmw
+2025-11-27 10:05:58.628 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEyNzU4LCJleHAiOjE3NjQyMTk5NTgsImlhdCI6MTc2NDIxMjc1OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.fC7XOXipIncgShEfNryZi_C0Z9WISrIiQF98vCBe9eM
+2025-11-27 10:06:07.900 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEyNzY3LCJleHAiOjE3NjQyMTk5NjcsImlhdCI6MTc2NDIxMjc2NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.m3A7BOeLVjYOT0zKnoWW3bhp4pNQYXMVqMqocBptw5c
+2025-11-27 10:09:47.239 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEyOTg3LCJleHAiOjE3NjQyMjAxODcsImlhdCI6MTc2NDIxMjk4NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.8FpKKdhOAGk2r6hyHMlIXzP2ty-LQQOaMxvXkuWuUfQ
+2025-11-27 10:10:44.316 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEzMDQ0LCJleHAiOjE3NjQyMjAyNDQsImlhdCI6MTc2NDIxMzA0NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.eIm2ZeO6eYOT2PzIOVkGXMdQjxMKGtmUMuKAGTQZoWY
+2025-11-27 10:12:37.862 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEzMTU3LCJleHAiOjE3NjQyMjAzNTcsImlhdCI6MTc2NDIxMzE1NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.zbt79W5GogqnrPISSrxGNObRTYdxJBc6ylejSm_OsgU
+2025-11-27 10:19:01.689 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEzNTQxLCJleHAiOjE3NjQyMjA3NDEsImlhdCI6MTc2NDIxMzU0MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.4jZUaW0qOOGTA4MrRiBkktSXgxuSRc1V_xAxj3MAIpo
+2025-11-27 10:19:08.275 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEzNTQ4LCJleHAiOjE3NjQyMjA3NDgsImlhdCI6MTc2NDIxMzU0OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.VTPUaf49kJf1JHRTrL5WoGw9qzAfaIz9tKAmCU5zL50
+2025-11-27 10:19:38.714 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEzNTc4LCJleHAiOjE3NjQyMjA3NzgsImlhdCI6MTc2NDIxMzU3OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.jpH1q6TjhePnHe6adOHf1pe9f7C_ExvAuUhHIyAjHYQ
+2025-11-27 10:20:30.512 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEzNjMwLCJleHAiOjE3NjQyMjA4MzAsImlhdCI6MTc2NDIxMzYzMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.2HH35TJkfzzZyC_XaaVD1JvrTtBqq3vABj801W3GWPQ
+2025-11-27 10:21:17.274 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjEzNjc3LCJleHAiOjE3NjQyMjA4NzcsImlhdCI6MTc2NDIxMzY3NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.UUanWnDup0szv9BfslQcoZVQJE0B10ApUxa9tqpbxCw
+2025-11-27 10:33:06.533 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0Mzg2LCJleHAiOjE3NjQyMjE1ODYsImlhdCI6MTc2NDIxNDM4NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.2d4myKtzEazj8Z-3UuFFkf_36UjcZICm0ClHi6deiFk
+2025-11-27 10:33:26.171 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0NDA2LCJleHAiOjE3NjQyMjE2MDYsImlhdCI6MTc2NDIxNDQwNiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.bY7nj7tU0Xkq8v6xITZClM8dV4puVd1qg-4j6CmewGs
+2025-11-27 10:34:38.770 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0NDc4LCJleHAiOjE3NjQyMjE2NzgsImlhdCI6MTc2NDIxNDQ3OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.tzzTtdoOvxaeU5F6Q4Qsm-DLw_Pu88U4owt1Lbd-L0g
+2025-11-27 10:34:46.524 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0NDg2LCJleHAiOjE3NjQyMjE2ODYsImlhdCI6MTc2NDIxNDQ4NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.aJU-wuTBRa_tZHTPLJBYzylFkUb9kSPY53EuryRVCwg
+2025-11-27 10:35:49.831 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0NTQ5LCJleHAiOjE3NjQyMjE3NDksImlhdCI6MTc2NDIxNDU0OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.42rXfJtLb_ujix7XB3WOT-ktDPPKXbpH41zqjPX8FpA
+2025-11-27 10:36:31.267 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjE0NTkxLCJleHAiOjE3NjQyMjE3OTEsImlhdCI6MTc2NDIxNDU5MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.UqaP4OIxNQdE2xLSQeUUPzT_NNgeuC7bylcboUBanIU
+2025-11-27 10:37:26.062 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjE0NjQ2LCJleHAiOjE3NjQyMjE4NDYsImlhdCI6MTc2NDIxNDY0NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.OEa1oZYGXo8Q6XLhC8Ywb0SxmWsmTWBTUa5jfoh9jo4
+2025-11-27 10:37:56.229 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjE0Njc2LCJleHAiOjE3NjQyMjE4NzYsImlhdCI6MTc2NDIxNDY3NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.xlceER6vVP2VVefltH2r7bgJ0Ij5v_SdKxCzdJ2ruiY
+2025-11-27 10:38:05.599 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjE0Njg1LCJleHAiOjE3NjQyMjE4ODUsImlhdCI6MTc2NDIxNDY4NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.4U704he_LJ6rHORxSel3rk5q6cQ-wFa1MPWRkJH6Qko
+2025-11-27 10:38:16.771 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0Njk2LCJleHAiOjE3NjQyMjE4OTYsImlhdCI6MTc2NDIxNDY5NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.YLJ9gpypj5UBh1lKhZAyfp64XVlOJwEg_bX1KmhfKyg
+2025-11-27 10:38:41.509 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0NzIxLCJleHAiOjE3NjQyMjE5MjEsImlhdCI6MTc2NDIxNDcyMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.SMuwVOlmk0K93S2otxev9fEZxHMpJQTSwY_VkbCtxYI
+2025-11-27 10:41:01.446 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0ODYxLCJleHAiOjE3NjQyMjIwNjEsImlhdCI6MTc2NDIxNDg2MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.v7MJfNBLhyCwxiU5PCCRQTxdwPBC7OU7KshW3Ero1oA
+2025-11-27 10:41:09.941 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjE0ODY5LCJleHAiOjE3NjQyMjIwNjksImlhdCI6MTc2NDIxNDg2OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.t9K2VyiF5je1wey3zfYyijq8rccsub-dUjhYVM2kcLY
+2025-11-27 10:41:14.900 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjE0ODc0LCJleHAiOjE3NjQyMjIwNzQsImlhdCI6MTc2NDIxNDg3NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1ioddDzRd8XsJu9gv_QcEnPkeX4izBH_1juCOPVydqc
+2025-11-27 10:41:27.623 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0ODg3LCJleHAiOjE3NjQyMjIwODcsImlhdCI6MTc2NDIxNDg4NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.QUy11jlqDdzkJ-Xu8am-8QsIiwXt6hDwqt5EY3Q6FJ0
+2025-11-27 10:42:27.607 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE0OTQ3LCJleHAiOjE3NjQyMjIxNDcsImlhdCI6MTc2NDIxNDk0NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.6KcpHw8aMJ5nFKibvGx6AMgZn3nyCytJA-P7yihW7Sg
+2025-11-27 10:46:19.371 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE1MTc5LCJleHAiOjE3NjQyMjIzNzksImlhdCI6MTc2NDIxNTE3OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.xel3SrNLsvIFEAGnYVJJC4Ti_WUyv99ynbFXR2bf9y0
+2025-11-27 10:56:34.794 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE1Nzk0LCJleHAiOjE3NjQyMjI5OTQsImlhdCI6MTc2NDIxNTc5NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.DAGNHNXQ4Yp8xnkvYyim8p_HSWQz65kDqNmrAcH2oXQ
+2025-11-27 10:56:56.325 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE1ODE2LCJleHAiOjE3NjQyMjMwMTYsImlhdCI6MTc2NDIxNTgxNiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.AN7U5ujX-PlXcftL_kjFZRCLEcpXJ4IhejjZT7ng-0A
+2025-11-27 10:58:19.644 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjE1ODk5LCJleHAiOjE3NjQyMjMwOTksImlhdCI6MTc2NDIxNTg5OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.gxs37WFgEDhDj8Ax9nIanEd_lftHluq-yDPmiEqOAlo
+2025-11-27 10:59:01.717 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE1OTQxLCJleHAiOjE3NjQyMjMxNDEsImlhdCI6MTc2NDIxNTk0MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.KmZdKuolk3PnemvQq-QwITwkNOdEojogW_zL3UCeDVM
+2025-11-27 11:20:58.858 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 11:20:58.863 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 11:20:58.883 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:21:03.809 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:22:11.501 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:22:29.106 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:22:51.182 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:23:23.139 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:24:27.922 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:38:22.106 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:38:30.677 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:40:13.978 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:40:51.890 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:40:56.149 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:41:25.379 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:44:28.243 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjE4NjY4LCJleHAiOjE3NjQyMjU4NjgsImlhdCI6MTc2NDIxODY2OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1uphOFmA684jMARZ9gn8LdmcPIyeoUPP4aTqN7lr5Ms
+2025-11-27 11:44:30.010 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:45:25.262 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:45:26.860 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:46:33.989 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:46:37.833 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:47:26.282 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:48:38.835 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:48:41.509 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:48:44.518 +07:00 [INF] Xóa user HoangThanggg thành công
+2025-11-27 11:48:49.417 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:52:42.581 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:52:43.346 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:53:12.545 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 11:53:15.277 +07:00 [INF] Lấy danh sách user (page 1, size 3) thành công!
+2025-11-27 11:53:16.707 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 11:53:16.708 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 11:53:16.714 +07:00 [INF] Lấy danh sách user (page 2, size 3) thành công!
+2025-11-27 11:53:18.276 +07:00 [INF] Lấy danh sách user (page 3, size 3) thành công!
+2025-11-27 11:53:19.439 +07:00 [INF] Lấy danh sách user (page 2, size 3) thành công!
+2025-11-27 11:53:21.327 +07:00 [INF] Lấy danh sách user (page 1, size 3) thành công!
+2025-11-27 11:53:39.835 +07:00 [INF] Lấy danh sách user (page 1, size 3) thành công!
+2025-11-27 11:53:44.258 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:53:45.767 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 11:53:46.912 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:56:23.580 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 11:56:24.499 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:56:25.413 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 11:56:26.187 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:56:37.252 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 11:56:38.333 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:56:50.630 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 11:56:51.357 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:56:53.716 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 11:56:54.445 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:56:55.157 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 11:56:55.730 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:59:03.217 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 11:59:10.838 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:10:23.842 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 13:10:25.367 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:10:28.562 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 13:10:33.022 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:10:38.457 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 13:10:40.837 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:11:47.874 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:11:52.166 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:19:13.735 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:19:45.125 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:22:18.590 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:23:47.698 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:24:49.213 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:24:54.033 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:26:17.545 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:26:20.776 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:26:43.845 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:26:46.358 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:27:02.843 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:27:08.040 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:27:13.045 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 13:27:14.389 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:27:23.377 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:30:35.239 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:31:05.589 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:31:14.030 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:31:23.517 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:33:20.473 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:34:12.856 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:36:47.261 +07:00 [INF] Cập nhật user adminadwad thành công
+2025-11-27 13:36:52.861 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:37:21.693 +07:00 [INF] Cập nhật user adminadwad thành công
+2025-11-27 13:37:26.572 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:40:37.210 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:40:40.135 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:40:48.683 +07:00 [INF] Cập nhật user HoangThangg thành công
+2025-11-27 13:40:48.701 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:40:55.371 +07:00 [INF] Cập nhật user HoangThangg thành công
+2025-11-27 13:40:55.386 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:42:06.518 +07:00 [INF] Cập nhật user HoangThangg thành công
+2025-11-27 13:42:06.535 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:43:20.220 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 13:43:22.965 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 13:51:41.329 +07:00 [INF] Cập nhật user adminadwad thành công
+2025-11-27 14:09:40.076 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 14:09:45.015 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:14:26.422 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:15:46.077 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:18:02.941 +07:00 [INF] Lấy thông tin user admin thành công
+2025-11-27 14:21:32.013 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjI4MDkyLCJleHAiOjE3NjQyMzUyOTEsImlhdCI6MTc2NDIyODA5MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.sbput5LeIAhVKliDu4u4nel-diF1YkEFu6AWYviHHow
+2025-11-27 14:21:35.863 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:21:35.867 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:21:35.878 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:22:11.075 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:28:19.157 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjI4NDk5LCJleHAiOjE3NjQyMzU2OTksImlhdCI6MTc2NDIyODQ5OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.hjTK02MZ6a3yNmJuRbQ739dKMOKFXJYQ9-vi2QlTb98
+2025-11-27 14:28:21.591 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:28:21.595 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:28:21.603 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:29:46.641 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:29:49.420 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:29:52.151 +07:00 [INF] Lấy thông tin user admin thành công
+2025-11-27 14:29:55.479 +07:00 [INF] Lấy thông tin user HoangThang thành công
+2025-11-27 14:29:59.860 +07:00 [INF] Lấy thông tin user HoangThangg thành công
+2025-11-27 14:31:17.515 +07:00 [INF] Cập nhật user admin thành công
+2025-11-27 14:31:17.533 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:31:20.633 +07:00 [INF] Cập nhật user admin thành công
+2025-11-27 14:31:20.649 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:31:25.304 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:31:25.305 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:31:25.309 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-11-27 14:31:26.506 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:32:17.568 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-11-27 14:32:20.243 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:32:25.665 +07:00 [INF] Lấy thông tin user HongNgoc thành công
+2025-11-27 14:32:29.869 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:32:31.143 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:32:32.246 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:32:34.409 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:32:35.430 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:32:55.858 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:37:59.089 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:38:15.004 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:39:34.082 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:41:23.428 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:41:28.076 +07:00 [INF] Lấy thông tin user admin thành công
+2025-11-27 14:41:31.768 +07:00 [INF] Lấy thông tin user admin thành công
+2025-11-27 14:41:34.469 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:41:38.030 +07:00 [INF] Lấy thông tin user thang thành công
+2025-11-27 14:41:40.969 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:41:45.015 +07:00 [WRN] Không tìm thấy user: Ngoc
+2025-11-27 14:41:47.740 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:42:04.133 +07:00 [WRN] Không tìm thấy user: Hoang
+2025-11-27 14:42:08.398 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:42:36.774 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:49:11.943 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:49:48.548 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjI5Nzg4LCJleHAiOjE3NjQyMzY5ODgsImlhdCI6MTc2NDIyOTc4OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.BXWHsqxUROOkA2PCjkn90Qlw0Y-eziD_KNq3oWxY8m0
+2025-11-27 14:49:50.762 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:49:50.765 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:49:50.774 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:49:53.838 +07:00 [INF] Lấy thông tin user Thang thành công
+2025-11-27 14:49:58.301 +07:00 [WRN] Không tìm thấy user: Hoang
+2025-11-27 14:50:02.340 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:52:46.529 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:53:29.783 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:54:03.186 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjMwMDQzLCJleHAiOjE3NjQyMzcyNDMsImlhdCI6MTc2NDIzMDA0MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.mYFaj7MRdtkN78vGeqS9HMkqYWa4NIThX97iCkkfkhg
+2025-11-27 14:54:06.685 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:54:06.690 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:54:06.699 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:55:52.482 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:56:11.005 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:56:17.098 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:56:22.394 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:56:22.395 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-27 14:56:22.399 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:56:30.234 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:56:40.473 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:56:47.459 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:56:49.938 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:57:01.292 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:57:08.016 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 14:57:45.264 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:03:43.701 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:03:54.225 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:03:58.560 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:04:01.629 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:04:03.914 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:04:06.227 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:04:07.799 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:16:24.413 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:16:28.029 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:31:45.479 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:33:55.687 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:33:57.144 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:34:04.678 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:34:19.307 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:38:22.876 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-27 15:38:26.593 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:38:27.147 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-27 15:39:49.280 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-27 15:40:03.110 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:40:05.408 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-11-27 15:59:10.819 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:15.644 +07:00 [INF] Lấy thông tin user admin thành công
+2025-11-27 15:59:23.660 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:33.881 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:35.188 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:36.022 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:36.883 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:37.945 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:39.525 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:50.781 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:54.417 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:57.034 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 15:59:59.598 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:00:05.196 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0MjM0MDA1LCJleHAiOjE3NjQyNDEyMDUsImlhdCI6MTc2NDIzNDAwNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ygVLLeXcrYX7pVkY4sPzanvGcFrqUQeZZoSugNmg66w
+2025-11-27 16:00:15.100 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjM0MDE1LCJleHAiOjE3NjQyNDEyMTUsImlhdCI6MTc2NDIzNDAxNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Insfw_vQfjbmLGIg-uVKdPnqrxgXhcLQNLfbCLmwiYY
+2025-11-27 16:01:17.936 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:01:19.980 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:01:21.541 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:03:56.775 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:18:35.816 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:18:43.473 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjM1MTIzLCJleHAiOjE3NjQyNDIzMjMsImlhdCI6MTc2NDIzNTEyMywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.uB7QdXFFXFPpTSWOcFMD4phVAAdO6PXonlMXPqfQ1kY
+2025-11-27 16:18:57.456 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjM1MTM3LCJleHAiOjE3NjQyNDIzMzcsImlhdCI6MTc2NDIzNTEzNywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.UxKr-bTwXL1I7i-cHV0oSZ5-tePqbVgcjrPRbuqA65s
+2025-11-27 16:19:03.608 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:19:05.021 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:19:33.179 +07:00 [INF] Lấy thông tin user admin thành công
+2025-11-27 16:19:43.736 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:47:16.257 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0MjM2ODM2LCJleHAiOjE3NjQyNDQwMzYsImlhdCI6MTc2NDIzNjgzNiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.HMNu0Bykc5NeazXXi4YOkTrFhS_T6xcLFUsJFxOyxaE
+2025-11-27 16:47:18.025 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 16:54:35.667 +07:00 [INF] DeleteAsync: Deleted student with Id 09
+2025-11-27 16:54:47.580 +07:00 [INF] DeleteAsync: Deleted student with Id 08
+2025-11-27 16:58:10.709 +07:00 [INF] DeleteAsync: Deleted student with Id 07
+2025-11-27 17:00:43.326 +07:00 [INF] Them sach thanh cong !
+2025-11-27 17:02:06.184 +07:00 [INF] Them sach thanh cong !
+2025-11-27 17:04:02.533 +07:00 [INF] Them sach thanh cong !
+2025-11-27 17:06:11.749 +07:00 [INF] Them sach thanh cong !
+2025-11-27 17:06:23.665 +07:00 [INF] DeleteAsync: Deleted student with Id 10
+2025-11-27 17:06:30.602 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:08:43.967 +07:00 [INF] UpdateAsync: Updated student with ma 09
+2025-11-27 17:08:53.256 +07:00 [INF] UpdateAsync: Updated student with ma 09
+2025-11-27 17:26:02.336 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-27 17:26:20.508 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-27 17:26:25.772 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-11-27 17:29:07.819 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-27 17:30:23.537 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-27 17:32:13.901 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:32:15.477 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:32:20.661 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:32:21.930 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:32:22.949 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:32:56.641 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:32:58.700 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:33:07.226 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:33:08.859 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:33:15.088 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-11-27 17:33:30.716 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-11-27 17:33:34.036 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-11-27 17:33:38.078 +07:00 [INF] Lay sach Bếp Không Rác theo ma  06 thanh cong !

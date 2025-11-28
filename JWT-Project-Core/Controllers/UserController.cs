@@ -17,10 +17,11 @@ namespace JWT_Project_Core.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetUsers(int page = 1, int pageSize = 10)
+        public async Task<IActionResult> GetUsers(int page = 1, int pageSize = 10, string? keyword = null)
         {
-            return Ok(await _userService.GetUsersAsync(page, pageSize));
+            return Ok(await _userService.GetUsersAsync(page, pageSize, keyword));
         }
+
 
         [HttpGet("{username}")]
         public async Task<IActionResult> GetUser(string username)

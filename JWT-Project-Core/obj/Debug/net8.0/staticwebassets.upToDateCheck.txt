@@ -10,3 +10,7 @@ wwwroot\images\books\b79c6dc3-2ddb-4af1-aafe-b2f84329d94a_KyDa.jpg
 wwwroot\images\books\41f988b2-cfa6-4c64-89e0-69d348ab7484_TomHum.jpg
 wwwroot\images\books\9320c5a6-8bcb-476f-a621-ce06960f7d3e_KyThuatKyHoa.jpg
 wwwroot\images\books\f129a410-9577-4a5d-ac59-7edb1bcd2af2_BachKhoaGiaiToaCangThang.jpg
+wwwroot\images\books\0d12695f-6079-4580-ac45-90df17b4141a_KyDa.jpg
+wwwroot\images\books\8c2580b0-891b-40ce-8823-96e13202dcb7_TomHum.jpg
+wwwroot\images\books\f943466b-dbb5-4bf9-8d43-7f3bb3684927_KyThuatKyHoa.jpg
+wwwroot\images\books\97ee7308-d963-40c6-af48-0b12e4886839_GiaiMaGiacMo.jpg

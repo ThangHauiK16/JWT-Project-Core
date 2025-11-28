@@ -3,6 +3,7 @@ using JWT_Project_Core.DTO;
 using JWT_Project_Core.Interface;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
 namespace JWT_Project_Core.Service
 {
@@ -16,11 +17,16 @@ namespace JWT_Project_Core.Service
         }
 
         // Lấy danh sách user + phân trang
-        public async Task<PagedResult<UserDTO>> GetUsersAsync(int page, int pageSize)
+        public async Task<PagedResult<UserDTO>> GetUsersAsync(int page, int pageSize, string? keyword = null)
         {
             try
             {
                 var query = _context.Users.AsQueryable();
+
+                if (!string.IsNullOrWhiteSpace(keyword))
+                {
+                    query = query.Where(u => u.Username.Contains(keyword));
+                }
 
                 var total = await query.CountAsync();
                 var users = await query
@@ -61,6 +67,7 @@ namespace JWT_Project_Core.Service
                 return new UserDTO
                 {
                     Username = user.Username,
+                    Password = user.Password,
                     Role = user.Role
                 };
             }
