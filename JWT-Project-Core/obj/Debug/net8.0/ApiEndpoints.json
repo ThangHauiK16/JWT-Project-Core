@@ -91,6 +91,48 @@
   },
   {
     "ContainingType": "JWT_Project_Core.Controllers.CartController",
+    "Method": "Decrease",
+    "RelativePath": "api/Cart/decrease",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "maSach",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.CartController",
+    "Method": "Increase",
+    "RelativePath": "api/Cart/increase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "maSach",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.CartController",
     "Method": "RemoveItem",
     "RelativePath": "api/Cart/remove",
     "HttpMethod": "DELETE",

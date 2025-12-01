@@ -189,6 +189,71 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
+        // Tăng số lượng 1 đơn vị
+        public async Task<CartDTO> IncreaseQuantityAsync(string username, string maSach)
+        {
+            try
+            {
+                var cart = await _context.Carts
+                    .Include(c => c.CartItems!)
+                    .FirstOrDefaultAsync(c => c.Username == username);
+
+                if (cart == null || cart.CartItems == null)
+                    return null!;
+
+                var item = cart.CartItems.FirstOrDefault(x => x.MaSach == maSach);
+                if (item == null)
+                    return null!;
+
+                item.SoLuong += 1;
+                await _context.SaveChangesAsync();
+
+                return _mapper.Map<CartDTO>(cart);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "IncreaseQuantityAsync: Unexpected error for user {Username}", username);
+                throw;
+            }
+        }
+
+        // Giảm số lượng 1 đơn vị
+        public async Task<CartDTO> DecreaseQuantityAsync(string username, string maSach)
+        {
+            try
+            {
+                var cart = await _context.Carts
+                    .Include(c => c.CartItems!)
+                    .FirstOrDefaultAsync(c => c.Username == username);
+
+                if (cart == null || cart.CartItems == null)
+                    return null!;
+
+                var item = cart.CartItems.FirstOrDefault(x => x.MaSach == maSach);
+                if (item == null)
+                    return null!;
+
+                if (item.SoLuong > 1)
+                {
+                    item.SoLuong -= 1;
+                }
+                else
+                {
+                    // Nếu số lượng = 1, giảm nữa => xóa sản phẩm khỏi giỏ
+                    _context.CartItems.Remove(item);
+                }
+
+                await _context.SaveChangesAsync();
+
+                return _mapper.Map<CartDTO>(cart);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "DecreaseQuantityAsync: Unexpected error for user {Username}", username);
+                throw;
+            }
+        }
+
 
         // Thanh toán
         public async Task<HoaDonDTO> CheckoutAsync(string username)

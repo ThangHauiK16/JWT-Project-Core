@@ -8,6 +8,9 @@ namespace JWT_Project_Core.Interface
         Task<CartDTO> AddToCartAsync(string username, string maSach, int soLuong);
         Task<CartDTO> UpdateQuantityAsync(string username, string maSach, int soLuong);
         Task<bool> RemoveItemAsync(string username, string maSach);
+        Task<CartDTO> IncreaseQuantityAsync(string username, string maSach);
+        Task<CartDTO> DecreaseQuantityAsync(string username, string maSach);
+
         Task<HoaDonDTO> CheckoutAsync(string username);
     }
 }

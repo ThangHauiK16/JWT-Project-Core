@@ -40,6 +40,21 @@ namespace JWT_Project_Core.Controllers
             return result ? Ok() : NotFound();
         }
 
+        [HttpPost("increase")]
+        public async Task<IActionResult> Increase(string username, string maSach)
+        {
+            var cart = await cartService.IncreaseQuantityAsync(username, maSach);
+            return cart != null ? Ok(cart) : NotFound();
+        }
+
+        [HttpPost("decrease")]
+        public async Task<IActionResult> Decrease(string username, string maSach)
+        {
+            var cart = await cartService.DecreaseQuantityAsync(username, maSach);
+            return cart != null ? Ok(cart) : NotFound();
+        }
+
+
         [HttpPost("checkout")]
         public async Task<IActionResult> Checkout(string username)
         {
