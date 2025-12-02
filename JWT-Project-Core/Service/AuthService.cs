@@ -29,14 +29,20 @@ namespace JWT_Project_Core.Service
         public async Task<string?> LoginAsync(LoginDTO login)
         {
             var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Username == login.Username && u.Password == login.Password);
+                .FirstOrDefaultAsync(u => u.Username == login.Username );
 
             if (user == null)
             {
                 Log.Warning("Sai ten dang nhap hoac mat khau !");
                 return null;
             }
+            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(login.Password, user.Password);
 
+            if (!isPasswordValid)
+            {
+                Log.Warning("Sai mat khau!");
+                return null;
+            }
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var jwtSettings = _configuration.GetSection("Jwt");
@@ -72,6 +78,8 @@ namespace JWT_Project_Core.Service
 
 
             var user = _mapper.Map<User>(newUser);
+
+            user.Password = BCrypt.Net.BCrypt.HashPassword(newUser.Password);
             user.Role = EnumRole.Customer;
 
             _context.Users.Add(user);

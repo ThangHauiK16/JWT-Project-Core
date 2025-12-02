@@ -1,22 +1,25 @@
-﻿using JWT_Project_Core.Data;
+﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using JWT_Project_Core.Data;
 using JWT_Project_Core.DTO;
 using JWT_Project_Core.Interface;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
-using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
 namespace JWT_Project_Core.Service
 {
     public class UserService : IUserService
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMapper _mapper;
 
-        public UserService(ApplicationDbContext context)
+        public UserService(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
-        // Lấy danh sách user + phân trang
+        
         public async Task<PagedResult<UserDTO>> GetUsersAsync(int page, int pageSize, string? keyword = null)
         {
             try
@@ -29,14 +32,12 @@ namespace JWT_Project_Core.Service
                 }
 
                 var total = await query.CountAsync();
+
                 var users = await query
+                    .OrderBy(u => u.Username)
                     .Skip((page - 1) * pageSize)
                     .Take(pageSize)
-                    .Select(u => new UserDTO
-                    {
-                        Username = u.Username,
-                        Role = u.Role
-                    })
+                    .ProjectTo<UserDTO>(_mapper.ConfigurationProvider) 
                     .ToListAsync();
 
                 Log.Information("Lấy danh sách user (page {Page}, size {PageSize}) thành công!", page, pageSize);
@@ -50,7 +51,7 @@ namespace JWT_Project_Core.Service
             }
         }
 
-        // Lấy chi tiết user
+      
         public async Task<UserDTO?> GetUserAsync(string username)
         {
             try
@@ -62,23 +63,16 @@ namespace JWT_Project_Core.Service
                     return null;
                 }
 
-                Log.Information("Lấy thông tin user {Username} thành công", username);
-
-                return new UserDTO
-                {
-                    Username = user.Username,
-                    Password = user.Password,
-                    Role = user.Role
-                };
+                return _mapper.Map<UserDTO>(user);
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "GetUserAsync: unexpected error with username {Username}", username);
+                Log.Error(ex, "GetUserAsync: unexpected error {Username}", username);
                 throw;
             }
         }
 
-        // Update user
+       
         public async Task<bool> UpdateUserAsync(string username, UserDTO dto)
         {
             try
@@ -90,12 +84,10 @@ namespace JWT_Project_Core.Service
                     return false;
                 }
 
-                if (!string.IsNullOrEmpty(dto.Password))
-                {
-                    user.Password = dto.Password;
-                }
+              
+                _mapper.Map(dto, user);
 
-                user.Role = dto.Role;
+
                 await _context.SaveChangesAsync();
 
                 Log.Information("Cập nhật user {Username} thành công", username);
@@ -104,12 +96,12 @@ namespace JWT_Project_Core.Service
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "UpdateUserAsync: lỗi khi cập nhật user {Username}", username);
+                Log.Error(ex, "UpdateUserAsync error {Username}", username);
                 throw;
             }
         }
 
-        // Xoá user
+      
         public async Task<bool> DeleteUserAsync(string username)
         {
             try
@@ -130,7 +122,7 @@ namespace JWT_Project_Core.Service
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "DeleteUserAsync: lỗi khi xóa user {Username}", username);
+                Log.Error(ex, "DeleteUserAsync error {Username}", username);
                 throw;
             }
         }

@@ -1,5 +1,6 @@
 ﻿using JWT_Project_Core.DTO;
 using JWT_Project_Core.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,6 +32,7 @@ namespace JWT_Project_Core.Controllers
         }
 
         [HttpPut("{username}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateUser(string username, [FromBody] UserDTO dto)
         {
             if (!ModelState.IsValid)
@@ -41,6 +43,7 @@ namespace JWT_Project_Core.Controllers
         }
 
         [HttpDelete("{username}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteUser(string username)
         {
             var success = await _userService.DeleteUserAsync(username);

@@ -33,6 +33,19 @@ namespace JWT_Project_Core.Controllers
             if (data == null) return NotFound($"Mã hóa đơn {id} không tồn tại!");
             return Ok(data);
         }
+
+        [HttpGet("history")]
+        public async Task<IActionResult> GetUserOrderHistory()
+        {
+            var username = User.Identity?.Name; 
+            if (string.IsNullOrEmpty(username))
+                return Unauthorized();
+
+            var orders = await hoaDonService.GetByUserAsync(username);
+            return Ok(orders);
+        }
+
+
         [HttpPost]
         public async Task<IActionResult> CreateHoaDon([FromBody] HoaDonDTO dto)
         {
@@ -64,5 +77,20 @@ namespace JWT_Project_Core.Controllers
 
             return Ok($"Xóa hóa đơn {id} thành công!");
         }
+
+        [HttpPut("{id}/approve")]
+        public async Task<IActionResult> Approve(Guid id)
+        {
+            var result = await hoaDonService.ApproveAsync(id);
+            return result ? Ok("Duyệt thành công") : NotFound();
+        }
+
+        [HttpPut("{id}/cancel")]
+        public async Task<IActionResult> Cancel(Guid id)
+        {
+            var result = await hoaDonService.CancelAsync(id);
+            return result ? Ok("Hủy thành công") : NotFound();
+        }
+
     }
 }

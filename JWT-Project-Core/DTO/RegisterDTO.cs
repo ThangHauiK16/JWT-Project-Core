@@ -17,7 +17,10 @@ namespace JWT_Project_Core.DTO
         )]
         public string Password { get; set; } = string.Empty;
 
-
+        [Required(ErrorMessage = "Email is required!")]
+        [EmailAddress(ErrorMessage = "Invalid email format.")]
+        [MaxLength(100, ErrorMessage = "Email must be at most 100 characters!")]
+        public string Email { get; set; } = string.Empty;
 
     }
 }

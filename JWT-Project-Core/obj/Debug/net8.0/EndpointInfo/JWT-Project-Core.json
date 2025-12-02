@@ -389,6 +389,18 @@
         }
       }
     },
+    "/api/HoaDon/history": {
+      "get": {
+        "tags": [
+          "HoaDon"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/HoaDon": {
       "post": {
         "tags": [
@@ -413,6 +425,52 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HoaDon/{id}/approve": {
+      "put": {
+        "tags": [
+          "HoaDon"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HoaDon/{id}/cancel": {
+      "put": {
+        "tags": [
+          "HoaDon"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -853,7 +911,16 @@
       "EnumRole": {
         "enum": [
           "Admin",
-          "Customer"
+          "Customer",
+          "Staff"
+        ],
+        "type": "string"
+      },
+      "EnumStatus": {
+        "enum": [
+          "success",
+          "cancel",
+          "pending"
         ],
         "type": "string"
       },
@@ -872,6 +939,9 @@
           "ngayTao": {
             "type": "string",
             "format": "date-time"
+          },
+          "trangThai": {
+            "$ref": "#/components/schemas/EnumStatus"
           },
           "username": {
             "minLength": 1,
@@ -922,6 +992,7 @@
       },
       "RegisterDTO": {
         "required": [
+          "email",
           "password",
           "username"
         ],
@@ -936,12 +1007,19 @@
             "minLength": 1,
             "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&#^()\\-_=+]).{8,}$",
             "type": "string"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
           }
         },
         "additionalProperties": false
       },
       "UserDTO": {
         "required": [
+          "email",
           "role",
           "username"
         ],
@@ -956,6 +1034,12 @@
             "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&#^()\\-_=+]).{8,}$",
             "type": "string",
             "nullable": true
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
           },
           "role": {
             "$ref": "#/components/schemas/EnumRole"

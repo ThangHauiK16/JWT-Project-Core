@@ -47,7 +47,7 @@ namespace JWT_Project_Core.Controllers
             return Ok(data);
         }
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+       
         public async Task<IActionResult> AddSach([FromForm] SachDTO data)
         {
             if (!ModelState.IsValid)
@@ -59,7 +59,7 @@ namespace JWT_Project_Core.Controllers
             return Ok(newSach);
         }
         [HttpPut("{MaSach}")]
-        [Authorize(Roles = "Admin")]
+       
         public async Task<IActionResult> UpdateSach([FromForm] SachDTO data, string MaSach)
         {
             if (!ModelState.IsValid)
@@ -72,7 +72,7 @@ namespace JWT_Project_Core.Controllers
             return Ok(updated);
         }
         [HttpDelete("{MaSach}")]
-        [Authorize(Roles ="Admin")]
+        
         public async Task<IActionResult> DeleteSach(string MaSach)
         {
             var Delete = await sachService.DeleteAsync(MaSach);

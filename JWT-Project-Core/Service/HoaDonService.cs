@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using JWT_Project_Core.Data;
 using JWT_Project_Core.DTO;
+using JWT_Project_Core.Enum;
 using JWT_Project_Core.Interface;
 using JWT_Project_Core.Model;
 using Microsoft.EntityFrameworkCore;
@@ -99,12 +100,35 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
+        public async Task<List<HoaDonDTO>> GetByUserAsync(string username)
+        {
+            try
+            {
+                var orders = await _context.HoaDons
+                    .Where(h => h.Username == username)
+                    .Include(h => h.HoaDon_Saches)
+                        .ThenInclude(hs => hs.Sach)
+                    .Include(h => h.User)
+                    .OrderByDescending(h => h.NgayTao)
+                    .ToListAsync();
+
+                return _mapper.Map<List<HoaDonDTO>>(orders);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "GetByUserAsync: unexpected error for user {Username}", username);
+                throw;
+            }
+        }
+
 
         public async Task<HoaDonDTO> AddAsync(HoaDonDTO dto)
         {
             try
             {
                 var hoaDon = _mapper.Map<HoaDon>(dto);
+
+                hoaDon.TrangThai = EnumStatus.pending;
 
                 hoaDon.Username = dto.Username;
                 foreach (var hs in hoaDon.HoaDon_Saches)
@@ -192,6 +216,57 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
+        public async Task<bool> ApproveAsync(Guid id)
+        {
+            try
+            {
+                var hoaDon = await _context.HoaDons.FirstOrDefaultAsync(h => h.MaHoaDon == id);
+
+                if (hoaDon == null)
+                {
+                    Log.Warning("ApproveAsync: Không tìm thấy hóa đơn {MaHoaDon}", id);
+                    return false;
+                }
+
+                hoaDon.TrangThai = EnumStatus.success;
+                await _context.SaveChangesAsync();
+
+                Log.Information("ApproveAsync: Duyệt hóa đơn {MaHoaDon} thành công", id);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "ApproveAsync: Unexpected error while approving HoaDon {MaHoaDon}", id);
+                throw;
+            }
+        }
+
+
+        public async Task<bool> CancelAsync(Guid id)
+        {
+            try
+            {
+                var hoaDon = await _context.HoaDons.FirstOrDefaultAsync(h => h.MaHoaDon == id);
+
+                if (hoaDon == null)
+                {
+                    Log.Warning("CancelAsync: Không tìm thấy hóa đơn {MaHoaDon}", id);
+                    return false;
+                }
+
+                hoaDon.TrangThai = EnumStatus.cancel;
+                await _context.SaveChangesAsync();
+
+                Log.Information("CancelAsync: Hủy duyệt hóa đơn {MaHoaDon} thành công", id);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "CancelAsync: Unexpected error while cancelling HoaDon {MaHoaDon}", id);
+                throw;
+            }
+        }
+
 
     }
 }

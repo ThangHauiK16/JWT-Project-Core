@@ -1,0 +1,1153 @@
+2025-12-02 09:01:28.877 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:01:30.301 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 0 items
+2025-12-02 09:01:30.301 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:02:57.276 +07:00 [INF] Login success , HongTham , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdUaGFtIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQwOTc3LCJleHAiOjE3NjQ2NDgxNzcsImlhdCI6MTc2NDY0MDk3NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.cXBgZwlw-xuDp-UE2AXRmfVtZumOtW5uPGOxUybnWAs
+2025-12-02 09:02:57.297 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:02:57.303 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 0 items
+2025-12-02 09:03:02.287 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:03:02.294 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 0 items
+2025-12-02 09:03:07.865 +07:00 [INF] Login success , HongNgoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdOZ29jIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQwOTg3LCJleHAiOjE3NjQ2NDgxODcsImlhdCI6MTc2NDY0MDk4NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.oWUcPAFLFOHjUgzFj6W-RhP3PnQ82y21Is7oFlCJTOU
+2025-12-02 09:03:07.876 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-12-02 09:03:07.890 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-12-02 09:03:07.939 +07:00 [INF] Lay sach Giải Mã Giấc Mơ theo ma  04 thanh cong !
+2025-12-02 09:03:07.939 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:03:07.948 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-12-02 09:03:09.273 +07:00 [INF] GetCartAsync: Getting cart for user HongNgoc
+2025-12-02 09:03:09.277 +07:00 [INF] GetCartAsync: Retrived cart for user HongNgoc with 3 items
+2025-12-02 09:03:09.301 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-12-02 09:03:09.302 +07:00 [INF] Lay sach Giải Mã Giấc Mơ theo ma  04 thanh cong !
+2025-12-02 09:03:09.301 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:03:31.127 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQxMDExLCJleHAiOjE3NjQ2NDgyMTEsImlhdCI6MTc2NDY0MTAxMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.HL-G8GcdwvSuJoReOuKEdLm1A8dOeGueIKn91kKqs7g
+2025-12-02 09:03:31.139 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:03:31.143 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:03:32.654 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:03:34.202 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:03:37.746 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:03:39.416 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:04:01.336 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:04:04.366 +07:00 [INF] Login success , HongTham , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdUaGFtIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQxMDQ0LCJleHAiOjE3NjQ2NDgyNDQsImlhdCI6MTc2NDY0MTA0NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.oj4EATMPPDwZXTb0RFdVGleSsgbtzISJXTAVh71_F9U
+2025-12-02 09:04:04.376 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:04:04.379 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 0 items
+2025-12-02 09:04:15.593 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:04:15.600 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 0 items
+2025-12-02 09:12:27.162 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:13:26.900 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HongTham
+2025-12-02 09:13:26.912 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-02 09:13:27.008 +07:00 [INF] AddToCartAsync: Updated cart for HongTham
+2025-12-02 09:13:27.915 +07:00 [INF] AddToCartAsync: Adding 1 of 03 to cart HongTham
+2025-12-02 09:13:27.920 +07:00 [INF] AddToCartAsync: Item 03 not found, adding new
+2025-12-02 09:13:27.924 +07:00 [INF] AddToCartAsync: Updated cart for HongTham
+2025-12-02 09:13:29.290 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:13:29.295 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 2 items
+2025-12-02 09:13:29.325 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:13:29.330 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-12-02 09:13:30.696 +07:00 [INF] CheckoutAsync: Processing checkout for HongTham
+2025-12-02 09:13:30.706 +07:00 [INF] CheckoutAsync: Created invoice for HongTham, deleting cart items
+2025-12-02 09:13:30.754 +07:00 [INF] CheckoutAsync: Checkout completed successfully for HongTham
+2025-12-02 09:14:33.901 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQxNjczLCJleHAiOjE3NjQ2NDg4NzMsImlhdCI6MTc2NDY0MTY3MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.FKbPNj6X6uP_G25KZ2t8s8CYGVIwnuOBk1HejRm7jtA
+2025-12-02 09:14:33.919 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:14:33.924 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:14:35.794 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:14:37.388 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:14:39.584 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:14:46.457 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:14:47.665 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:14:51.852 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:14:54.066 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:14:55.115 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:15:02.412 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:03.992 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:15:04.720 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:06.024 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:07.531 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:15:08.488 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:09.104 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:15:10.062 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:12.894 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:15:21.263 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:28.522 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:15:34.769 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:50.248 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:53.506 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:15:54.189 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:15:55.905 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:16:03.607 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:16:15.394 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:16:28.717 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:16:48.738 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:16:50.111 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:16:50.985 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:16:51.681 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:17:06.652 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:17:10.019 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:17:13.216 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:17:14.468 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:17:48.354 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:18:17.652 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:18:19.662 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:18:23.894 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:18:26.264 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:18:27.446 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:18:29.178 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:23:50.618 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:23:51.492 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:23:51.492 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:23:52.980 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQyMjMyLCJleHAiOjE3NjQ2NDk0MzIsImlhdCI6MTc2NDY0MjIzMiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.qxVT_ecCLBDZls7_8vkT590x5OyP0iFrurTXN1KQmS4
+2025-12-02 09:23:52.994 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:23:53.002 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:25:34.938 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:25:52.638 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQyMzUyLCJleHAiOjE3NjQ2NDk1NTIsImlhdCI6MTc2NDY0MjM1MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.DV_JMWbEY7jfeolEwoGvvTruxBUI66fUWK3sHtLMdY8
+2025-12-02 09:25:52.652 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:25:52.657 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:25:54.130 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:26:32.763 +07:00 [INF] Cập nhật user HongNgoc thành công
+2025-12-02 09:26:32.778 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:26:37.656 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-12-02 09:26:38.422 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:26:39.103 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-12-02 09:26:40.207 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:26:41.021 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-12-02 09:26:41.555 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:26:59.666 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-12-02 09:27:00.320 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:27:01.251 +07:00 [INF] Lấy danh sách user (page 2, size 5) thành công!
+2025-12-02 09:27:02.204 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:27:08.055 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:27:09.089 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:27:09.911 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:27:14.872 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:27:20.467 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:27:29.608 +07:00 [INF] Login success , HongTham , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvbmdUaGFtIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQyNDQ5LCJleHAiOjE3NjQ2NDk2NDksImlhdCI6MTc2NDY0MjQ0OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.9hEzF6AEGSDqU3NauGvupLdIvVEY5NMBl1j4PuyHtUA
+2025-12-02 09:27:29.617 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:27:29.621 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 0 items
+2025-12-02 09:28:16.956 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:28:16.965 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 0 items
+2025-12-02 09:28:19.084 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HongTham
+2025-12-02 09:28:19.093 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-02 09:28:19.155 +07:00 [INF] AddToCartAsync: Updated cart for HongTham
+2025-12-02 09:28:20.137 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:28:20.147 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 1 items
+2025-12-02 09:28:20.166 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:28:23.075 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:28:23.085 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 1 items
+2025-12-02 09:28:23.103 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:28:23.120 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:37:16.780 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:37:17.711 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:37:17.723 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 1 items
+2025-12-02 09:37:17.824 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:37:18.144 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at JWT_Project_Core.Service.AuthService.LoginAsync(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\AuthService.cs:line 39
+   at JWT_Project_Core.Controllers.AuthController.Login(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\AuthController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 09:37:22.137 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at JWT_Project_Core.Service.AuthService.LoginAsync(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\AuthService.cs:line 39
+   at JWT_Project_Core.Controllers.AuthController.Login(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\AuthController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 09:40:33.302 +07:00 [INF] User created successfully!
+2025-12-02 09:40:39.144 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-12-02 09:40:48.958 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-12-02 09:42:01.228 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-12-02 09:42:04.175 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-12-02 09:42:40.686 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-12-02 09:44:20.622 +07:00 [INF] GetCartAsync: Getting cart for user HongTham
+2025-12-02 09:44:21.518 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:44:21.525 +07:00 [INF] GetCartAsync: Retrived cart for user HongTham with 1 items
+2025-12-02 09:44:21.615 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:44:40.126 +07:00 [INF] Login success , NguyenThanggg , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5ndXllblRoYW5nZ2ciLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjQ2NDM0ODAsImV4cCI6MTc2NDY1MDY3NiwiaWF0IjoxNzY0NjQzNDgwLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.9CbjdoKKTVGZ8278gEzLgEounyXY2FlzPZwxY2YyQ9E
+2025-12-02 09:44:40.144 +07:00 [INF] GetCartAsync: Getting cart for user NguyenThanggg
+2025-12-02 09:44:40.155 +07:00 [WRN] GetCartAsync: Cart not found for NguyenThanggg, creating new one
+2025-12-02 09:44:40.246 +07:00 [INF] GetCartAsync: Retrived cart for user NguyenThanggg with 0 items
+2025-12-02 09:45:52.709 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at JWT_Project_Core.Service.AuthService.LoginAsync(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\AuthService.cs:line 39
+   at JWT_Project_Core.Controllers.AuthController.Login(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\AuthController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 09:48:36.321 +07:00 [INF] User created successfully!
+2025-12-02 09:48:39.917 +07:00 [INF] Login success , admin , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQzNzE5LCJleHAiOjE3NjQ2NTA5MTksImlhdCI6MTc2NDY0MzcxOSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.c7g5KtZvX1b-O9uE-c3bE4QPI-Qv3KVASn8whW6_8Gc
+2025-12-02 09:48:39.929 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:48:39.933 +07:00 [WRN] GetCartAsync: Cart not found for admin, creating new one
+2025-12-02 09:48:39.937 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:49:45.080 +07:00 [INF] Cập nhật user admin thành công
+2025-12-02 09:49:52.112 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:49:52.119 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:49:52.160 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:49:55.160 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at JWT_Project_Core.Service.AuthService.LoginAsync(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\AuthService.cs:line 39
+   at JWT_Project_Core.Controllers.AuthController.Login(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\AuthController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 09:49:58.142 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at JWT_Project_Core.Service.AuthService.LoginAsync(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\AuthService.cs:line 39
+   at JWT_Project_Core.Controllers.AuthController.Login(LoginDTO login) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\AuthController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 09:51:28.829 +07:00 [INF] User created successfully!
+2025-12-02 09:51:31.863 +07:00 [INF] Login success , admin , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQzODkxLCJleHAiOjE3NjQ2NTEwOTEsImlhdCI6MTc2NDY0Mzg5MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ugiIE9rEmoywlXH8Vkq8-27_tYqtEeMgj--ei0xzw_o
+2025-12-02 09:51:31.876 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:51:31.880 +07:00 [WRN] GetCartAsync: Cart not found for admin, creating new one
+2025-12-02 09:51:31.887 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:52:59.781 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:52:59.791 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:52:59.842 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:53:02.388 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQzOTgyLCJleHAiOjE3NjQ2NTExODIsImlhdCI6MTc2NDY0Mzk4MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.2zzQv-8rtTLETk8aW5X648NTLLK4qkVS4rHboPXS7x8
+2025-12-02 09:53:02.398 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:53:02.404 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:53:03.968 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:53:04.754 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:53:05.939 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:54:21.616 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 09:54:21.631 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 09:54:21.658 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 09:58:59.771 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 09:59:31.940 +07:00 [INF] User created successfully!
+2025-12-02 09:59:37.055 +07:00 [INF] Login success , HoangThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjQ2NDQzNzcsImV4cCI6MTc2NDY1MTU3NywiaWF0IjoxNzY0NjQ0Mzc3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.-hAc9psI62StUAPacRbLNjvXbQ7I7ZSkiU-uXROCCSA
+2025-12-02 09:59:37.072 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 09:59:37.075 +07:00 [WRN] GetCartAsync: Cart not found for HoangThang, creating new one
+2025-12-02 09:59:37.079 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 09:59:41.225 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 09:59:41.233 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 09:59:43.854 +07:00 [INF] CheckoutAsync: Processing checkout for HoangThang
+2025-12-02 09:59:43.862 +07:00 [WRN] CheckoutAsync: Cart is empty for HoangThang
+2025-12-02 09:59:43.885 +07:00 [ERR] CheckoutAsync: Unexpected error during checkout for HoangThang
+System.InvalidOperationException: Giỏ hàng trống!
+   at JWT_Project_Core.Service.CartService.CheckoutAsync(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 272
+2025-12-02 09:59:43.951 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Giỏ hàng trống!
+   at JWT_Project_Core.Service.CartService.CheckoutAsync(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 272
+   at JWT_Project_Core.Controllers.CartController.Checkout(String username) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\CartController.cs:line 61
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 09:59:48.306 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart HoangThang
+2025-12-02 09:59:48.310 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-12-02 09:59:48.345 +07:00 [INF] AddToCartAsync: Updated cart for HoangThang
+2025-12-02 09:59:49.466 +07:00 [INF] AddToCartAsync: Adding 1 of 03 to cart HoangThang
+2025-12-02 09:59:49.470 +07:00 [INF] AddToCartAsync: Item 03 not found, adding new
+2025-12-02 09:59:49.474 +07:00 [INF] AddToCartAsync: Updated cart for HoangThang
+2025-12-02 09:59:50.169 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HoangThang
+2025-12-02 09:59:50.173 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-02 09:59:50.175 +07:00 [INF] AddToCartAsync: Updated cart for HoangThang
+2025-12-02 09:59:51.283 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 09:59:51.290 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 3 items
+2025-12-02 09:59:51.321 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-12-02 09:59:51.327 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 09:59:51.338 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-02 09:59:55.393 +07:00 [INF] CheckoutAsync: Processing checkout for HoangThang
+2025-12-02 09:59:55.415 +07:00 [INF] CheckoutAsync: Created invoice for HoangThang, deleting cart items
+2025-12-02 09:59:55.460 +07:00 [INF] CheckoutAsync: Checkout completed successfully for HoangThang
+2025-12-02 10:00:07.505 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 10:00:07.510 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 10:01:40.201 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 10:01:40.209 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 10:01:40.273 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:02:05.690 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 10:02:05.699 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 10:02:09.770 +07:00 [INF] AddToCartAsync: Adding 1 of 05 to cart HoangThang
+2025-12-02 10:02:09.776 +07:00 [INF] AddToCartAsync: Item 05 not found, adding new
+2025-12-02 10:02:09.784 +07:00 [INF] AddToCartAsync: Updated cart for HoangThang
+2025-12-02 10:02:14.538 +07:00 [INF] AddToCartAsync: Adding 1 of 09 to cart HoangThang
+2025-12-02 10:02:14.542 +07:00 [INF] AddToCartAsync: Item 09 not found, adding new
+2025-12-02 10:02:14.550 +07:00 [INF] AddToCartAsync: Updated cart for HoangThang
+2025-12-02 10:02:16.987 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 10:02:16.994 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 2 items
+2025-12-02 10:02:17.013 +07:00 [INF] Lay sach Bon Sai theo ma  05 thanh cong !
+2025-12-02 10:02:17.013 +07:00 [INF] Lay sach Kỹ thuật ký hoạ theo ma  09 thanh cong !
+2025-12-02 10:02:35.173 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ0NTU1LCJleHAiOjE3NjQ2NTE3NTUsImlhdCI6MTc2NDY0NDU1NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.VNp2hAODv0jO3R-x3f_EJaiNQ29632I0U1SH_X9xJgo
+2025-12-02 10:02:35.183 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:02:35.188 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:02:36.966 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:03:00.296 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:03:06.306 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:09:06.734 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:09:08.251 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ0OTQ4LCJleHAiOjE3NjQ2NTIxNDgsImlhdCI6MTc2NDY0NDk0OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Z7ge4wpaQGMScb4XxZYPrsVY6hRU8eSkjsfKPpmEc-I
+2025-12-02 10:09:08.274 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:09:08.391 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:09:09.918 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:09:12.714 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:09:13.725 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:09:15.256 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:09:15.579 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:09:17.619 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:09:55.287 +07:00 [INF] User created successfully!
+2025-12-02 10:10:00.449 +07:00 [INF] Login success , NguyenThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5ndXllblRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQ1MDAwLCJleHAiOjE3NjQ2NTIyMDAsImlhdCI6MTc2NDY0NTAwMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.YgH47J3r4XkWWyFtNaSNkOcCG-V2ddsMvnrbU-HVvwY
+2025-12-02 10:10:00.466 +07:00 [INF] GetCartAsync: Getting cart for user NguyenThang
+2025-12-02 10:10:00.471 +07:00 [WRN] GetCartAsync: Cart not found for NguyenThang, creating new one
+2025-12-02 10:10:00.484 +07:00 [INF] GetCartAsync: Retrived cart for user NguyenThang with 0 items
+2025-12-02 10:10:37.914 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:10:39.020 +07:00 [INF] Login success , NguyenThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5ndXllblRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQ1MDM5LCJleHAiOjE3NjQ2NTIyMzksImlhdCI6MTc2NDY0NTAzOSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.JIj_u89Tgc6iQriabTXfsGfLhCZfisE-q3Af-zZ05H0
+2025-12-02 10:10:39.029 +07:00 [INF] GetCartAsync: Getting cart for user NguyenThang
+2025-12-02 10:10:39.034 +07:00 [INF] GetCartAsync: Retrived cart for user NguyenThang with 0 items
+2025-12-02 10:10:51.870 +07:00 [INF] GetCartAsync: Getting cart for user NguyenThang
+2025-12-02 10:10:51.875 +07:00 [INF] GetCartAsync: Retrived cart for user NguyenThang with 0 items
+2025-12-02 10:10:52.039 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:11:06.897 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ1MDY2LCJleHAiOjE3NjQ2NTIyNjYsImlhdCI6MTc2NDY0NTA2NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.dH95EXJS0EfrDBD7gYPAMKDa_p2qGF3Ta6yXGNfmX4w
+2025-12-02 10:11:06.909 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:11:06.912 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:11:08.597 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:11:54.657 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:11:54.678 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:11:54.853 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:13:15.343 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:13:16.261 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:13:16.261 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:13:16.988 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ1MTk2LCJleHAiOjE3NjQ2NTIzOTYsImlhdCI6MTc2NDY0NTE5NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.lPI5CoKU18zJyux3nRm6jlXVW-cu5wKkh6Zo781Mtp8
+2025-12-02 10:13:17.004 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:13:17.010 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:13:21.408 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:14:39.888 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:14:41.811 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ1MjgxLCJleHAiOjE3NjQ2NTI0ODEsImlhdCI6MTc2NDY0NTI4MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.YLGXjS3aAU1MTs6qID8Ehz6q0AOZbFUTL65h31NFI3c
+2025-12-02 10:14:41.828 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:14:41.832 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:14:43.450 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:18:35.395 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:18:42.639 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:18:42.690 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:18:42.838 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:18:49.007 +07:00 [INF] Cập nhật user NguyenThang thành công
+2025-12-02 10:18:49.024 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:18:54.324 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:19:00.162 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:19:07.809 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ1NTQ3LCJleHAiOjE3NjQ2NTI3NDcsImlhdCI6MTc2NDY0NTU0NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.bqpQAQMmviD5lktG1p1idkEnLyhyX-FpGVJVocowGfg
+2025-12-02 10:19:07.824 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:19:07.827 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:19:09.414 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:19:32.071 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:19:34.872 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:19:51.145 +07:00 [INF] Login success , HoangThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjQ2NDU1OTEsImV4cCI6MTc2NDY1Mjc5MSwiaWF0IjoxNzY0NjQ1NTkxLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.snUJaYmoneLZhK7GnPzT7l0VeshfJsfR3vIpOEPjmYc
+2025-12-02 10:19:51.157 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 10:19:51.180 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 2 items
+2025-12-02 10:19:51.218 +07:00 [INF] Lay sach Bon Sai theo ma  05 thanh cong !
+2025-12-02 10:19:51.220 +07:00 [INF] Lay sach Kỹ thuật ký hoạ theo ma  09 thanh cong !
+2025-12-02 10:19:59.500 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:21:01.991 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:26:22.724 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:27:03.341 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:27:03.900 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:27:14.482 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:27:47.756 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:27:50.009 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ2MDY5LCJleHAiOjE3NjQ2NTMyNjksImlhdCI6MTc2NDY0NjA2OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.5sApq5oEyNEG4V23_j-v4javiuRB4eYHt9ugLBtCj-8
+2025-12-02 10:27:50.037 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:27:50.155 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:27:51.644 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:27:56.168 +07:00 [INF] Cập nhật user NguyenThang thành công
+2025-12-02 10:27:56.186 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:27:58.450 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:28:03.928 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:28:06.936 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:28:11.961 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:28:31.828 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:28:48.693 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ2MTI4LCJleHAiOjE3NjQ2NTMzMjgsImlhdCI6MTc2NDY0NjEyOCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.VyFfiLNn_ZjBujrcIyIlm-ufGxS-9bdR4G09PnoBkjQ
+2025-12-02 10:28:48.710 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:28:48.716 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:28:51.608 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:28:55.490 +07:00 [INF] Xóa user NguyenThang thành công
+2025-12-02 10:28:55.505 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:29:00.422 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 10:29:00.439 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:29:01.945 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:29:05.403 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:29:16.746 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ2MTU2LCJleHAiOjE3NjQ2NTMzNTYsImlhdCI6MTc2NDY0NjE1NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.o-oBPIr-uapyjJLwxFQpkcTAq8AYNrL2rnlCE2bWMRA
+2025-12-02 10:29:16.758 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:29:16.762 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:29:19.035 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:29:23.308 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 10:29:23.329 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:29:25.052 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:29:28.167 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:29:30.769 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:29:41.012 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:29:45.561 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:29:45.870 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:29:46.164 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:30:07.838 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-12-02 10:30:31.199 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:36:59.998 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:37:00.231 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:41:07.316 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:43:10.476 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:43:22.394 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:43:27.719 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ3MDA3LCJleHAiOjE3NjQ2NTQyMDcsImlhdCI6MTc2NDY0NzAwNywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ZZj6hov7SFdJY-kT0PnNyUbAIXzLAl1ttDcZWFy9Vos
+2025-12-02 10:43:27.744 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:43:27.827 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:43:29.363 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:43:31.809 +07:00 [INF] Xóa user HoangThang thành công
+2025-12-02 10:43:31.830 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:43:33.008 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:43:54.606 +07:00 [INF] User created successfully!
+2025-12-02 10:43:57.379 +07:00 [INF] Login success , HoangThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjQ2NDcwMzcsImV4cCI6MTc2NDY1NDIzNywiaWF0IjoxNzY0NjQ3MDM3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.7zBE-ae-pQrdDM6M3a556ZhPsni04c1bsqShKr-gcmk
+2025-12-02 10:43:57.394 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 10:43:57.399 +07:00 [WRN] GetCartAsync: Cart not found for HoangThang, creating new one
+2025-12-02 10:43:57.417 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 10:44:04.877 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ3MDQ0LCJleHAiOjE3NjQ2NTQyNDQsImlhdCI6MTc2NDY0NzA0NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Wigk4RUMhgeWkebYdJOPszdvo5FwjGVY39T-Nwch5nM
+2025-12-02 10:44:04.894 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:44:04.899 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:44:06.150 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:44:10.627 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 10:44:10.641 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:44:12.638 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:44:15.676 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:44:22.840 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:44:27.141 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:45:01.019 +07:00 [INF] User created successfully!
+2025-12-02 10:45:06.662 +07:00 [INF] Login success , NguyenThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5ndXllblRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQ3MTA2LCJleHAiOjE3NjQ2NTQzMDYsImlhdCI6MTc2NDY0NzEwNiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.z65DI7lgNl09LC_BXCMRiYws9GGLDFaaA6fUs5z8vgc
+2025-12-02 10:45:06.674 +07:00 [INF] GetCartAsync: Getting cart for user NguyenThang
+2025-12-02 10:45:06.677 +07:00 [WRN] GetCartAsync: Cart not found for NguyenThang, creating new one
+2025-12-02 10:45:06.680 +07:00 [INF] GetCartAsync: Retrived cart for user NguyenThang with 0 items
+2025-12-02 10:45:11.981 +07:00 [INF] Login success , NguyenThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5ndXllblRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQ3MTExLCJleHAiOjE3NjQ2NTQzMTEsImlhdCI6MTc2NDY0NzExMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ee2Q-aSBRFY39M4bPLJQwqwukugfnhCnBr3clV3xLcw
+2025-12-02 10:45:11.992 +07:00 [INF] GetCartAsync: Getting cart for user NguyenThang
+2025-12-02 10:45:11.996 +07:00 [INF] GetCartAsync: Retrived cart for user NguyenThang with 0 items
+2025-12-02 10:45:39.777 +07:00 [INF] User created successfully!
+2025-12-02 10:45:54.779 +07:00 [INF] Login success , NguyenThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5ndXllblRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjQ3MTU0LCJleHAiOjE3NjQ2NTQzNTQsImlhdCI6MTc2NDY0NzE1NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.nU1NBa9cpQw5p3SZonv5cpVyDMiqCDRkJmIB0unTvss
+2025-12-02 10:45:54.790 +07:00 [INF] GetCartAsync: Getting cart for user NguyenThang
+2025-12-02 10:45:54.794 +07:00 [INF] GetCartAsync: Retrived cart for user NguyenThang with 0 items
+2025-12-02 10:45:59.520 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ3MTU5LCJleHAiOjE3NjQ2NTQzNTksImlhdCI6MTc2NDY0NzE1OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.UYL67jiApVG-YaAu-j6VuIE_PukfRzkAgGM2Toirea4
+2025-12-02 10:45:59.529 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:45:59.532 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:46:02.275 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:46:09.993 +07:00 [INF] Cập nhật user HongTham thành công
+2025-12-02 10:46:10.006 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:46:12.351 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 10:46:25.713 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:46:27.179 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:47:57.738 +07:00 [WRN] Sai mat khau!
+2025-12-02 10:51:35.685 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ3NDk1LCJleHAiOjE3NjQ2NTQ2OTUsImlhdCI6MTc2NDY0NzQ5NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.GfCSYcay5uNMplUk2m-SvOsm63FURs7rQzcEFqb2kbA
+2025-12-02 10:51:35.702 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 10:51:35.707 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 10:51:37.788 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:51:42.016 +07:00 [INF] Xóa user HoangThang thành công
+2025-12-02 10:51:42.031 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:51:45.280 +07:00 [INF] Xóa user HongTham thành công
+2025-12-02 10:51:45.296 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:53:45.890 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:53:55.003 +07:00 [INF] Cập nhật user NguyenThang thành công
+2025-12-02 10:53:55.016 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:55:23.438 +07:00 [INF] Cập nhật user NguyenThang thành công
+2025-12-02 10:55:23.539 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 10:55:41.789 +07:00 [INF] Xóa user NguyenThang thành công
+2025-12-02 10:55:41.804 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:00:42.724 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:01:31.952 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:01:31.964 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:01:32.004 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:01:34.065 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:02:12.798 +07:00 [INF] User created successfully!
+2025-12-02 11:02:26.785 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ4MTQ2LCJleHAiOjE3NjQ2NTUzNDYsImlhdCI6MTc2NDY0ODE0NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Q201whPX4fBDMeYSY1ol9UfSXCg5rv7VCEYfqgzLq88
+2025-12-02 11:02:26.795 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:02:26.798 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:02:29.936 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:02:31.036 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:12:43.228 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:13:01.223 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:13:01.231 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:13:01.364 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:13:15.398 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:13:15.406 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:13:15.545 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:13:58.911 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:13:58.928 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:13:59.076 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:14:58.762 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:14:58.780 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:15:23.778 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:15:23.795 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:15:28.270 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:15:28.286 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:15:30.748 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:15:30.764 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:15:35.553 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:15:35.564 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:15:39.601 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:15:39.614 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:15:42.003 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:15:42.014 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:15:48.886 +07:00 [INF] Xóa user HoangThang thành công
+2025-12-02 11:15:48.897 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:22:24.234 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:22:25.098 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:22:25.099 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:22:31.656 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ5MzUxLCJleHAiOjE3NjQ2NTY1NTEsImlhdCI6MTc2NDY0OTM1MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1FDRtpJDBIzF2Ey9cQ5_X6upk222ht8npWbj2aM-PX0
+2025-12-02 11:22:31.673 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:22:31.685 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:22:33.924 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:22:41.266 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:23:04.841 +07:00 [INF] User created successfully!
+2025-12-02 11:23:08.417 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ5Mzg4LCJleHAiOjE3NjQ2NTY1ODgsImlhdCI6MTc2NDY0OTM4OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.fXvFvvxuBSFeNBm5RxoklQ_Wy75eBIB91etV5bt-xPo
+2025-12-02 11:23:08.428 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:23:08.435 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:23:10.926 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:23:17.321 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:23:17.337 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:23:23.076 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:23:25.785 +07:00 [WRN] Sai mat khau!
+2025-12-02 11:23:28.321 +07:00 [WRN] Sai mat khau!
+2025-12-02 11:23:29.146 +07:00 [WRN] Sai mat khau!
+2025-12-02 11:23:29.487 +07:00 [WRN] Sai mat khau!
+2025-12-02 11:23:29.830 +07:00 [WRN] Sai mat khau!
+2025-12-02 11:28:30.534 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:28:40.159 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ5NzIwLCJleHAiOjE3NjQ2NTY5MjAsImlhdCI6MTc2NDY0OTcyMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.byB06lwp97qYMpkcZUPT9O8j-w70w5uRuU7KAoLiZuM
+2025-12-02 11:28:40.186 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:28:40.306 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:28:41.712 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:28:46.331 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:28:46.353 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:28:48.595 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:28:48.608 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:28:57.825 +07:00 [INF] Xóa user HoangThang thành công
+2025-12-02 11:28:57.844 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:29:36.267 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:30:00.275 +07:00 [INF] User created successfully!
+2025-12-02 11:30:04.045 +07:00 [INF] Login success , HoangThang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjQ2NDk4MDQsImV4cCI6MTc2NDY1NzAwNCwiaWF0IjoxNzY0NjQ5ODA0LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.Mp4pJK9iwf2vpyf9_YM2M3RnNI0YqfWDgFx944Ti1io
+2025-12-02 11:30:04.059 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:30:04.063 +07:00 [WRN] GetCartAsync: Cart not found for HoangThang, creating new one
+2025-12-02 11:30:04.080 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:30:10.479 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ5ODEwLCJleHAiOjE3NjQ2NTcwMTAsImlhdCI6MTc2NDY0OTgxMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.AoMkqpropQJrY24UFq6yTGtaa-LSfDozIrBj_mm44uI
+2025-12-02 11:30:10.492 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:30:10.496 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:30:12.077 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:30:16.391 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:30:16.405 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:30:18.588 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:30:20.700 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NDk4MjAsImV4cCI6MTc2NDY1NzAyMCwiaWF0IjoxNzY0NjQ5ODIwLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.ZhLnJTWrwI3D-psN44rtUNCa5Y1AJakJZe7YNcQx31Q
+2025-12-02 11:30:20.711 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:30:20.715 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:30:20.737 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:30:23.450 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NDk4MjMsImV4cCI6MTc2NDY1NzAyMywiaWF0IjoxNzY0NjQ5ODIzLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.DxHAPiFOxR4bqpGLVuXrtHPNmJjUEP9ahWMr8Vf08vI
+2025-12-02 11:30:23.459 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:30:23.463 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:30:23.488 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:30:30.349 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NDk4MzAsImV4cCI6MTc2NDY1NzAzMCwiaWF0IjoxNzY0NjQ5ODMwLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.u9H9S40nEsQEyPZ1Si-UUAx-3i9YKIcZyGINx2t0UzQ
+2025-12-02 11:30:30.359 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:30:30.362 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:30:30.383 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:31:00.060 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:31:00.066 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:31:00.095 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:31:07.411 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NDk4NjcsImV4cCI6MTc2NDY1NzA2NywiaWF0IjoxNzY0NjQ5ODY3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.4gZeTZ1VTKGTxZdpqvazaqDjw0GnR4mjibETEV5PCSU
+2025-12-02 11:31:07.423 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:31:07.427 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:31:07.454 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:31:26.406 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:31:26.417 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:31:26.499 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:32:28.191 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:32:28.210 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:32:28.361 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:32:31.245 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NDk5NTEsImV4cCI6MTc2NDY1NzE1MSwiaWF0IjoxNzY0NjQ5OTUxLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.363swDghHJ--usifXgUekTrzqClc_zG0b3yCHZJS2rI
+2025-12-02 11:32:31.258 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:32:31.262 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:32:31.294 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:33:01.381 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjQ5OTgxLCJleHAiOjE3NjQ2NTcxODEsImlhdCI6MTc2NDY0OTk4MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.5KfxTXINRpIJmY3j4a3gAoIihyo_pbLZMAM6gAeezmo
+2025-12-02 11:33:01.393 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:33:01.396 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:33:03.078 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:33:07.111 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NDk5ODcsImV4cCI6MTc2NDY1NzE4NywiaWF0IjoxNzY0NjQ5OTg3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.llz1NcxLepXr-_eJ837GYraVBmirqDmIPYEdpHgEOJA
+2025-12-02 11:33:07.128 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:33:07.131 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:33:07.155 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:34:01.113 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTAwNDEsImV4cCI6MTc2NDY1NzI0MSwiaWF0IjoxNzY0NjUwMDQxLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.3jD7LYKYxJ8oc2FtNXb2NJkE-wdElf8QnHGMOQDXwx4
+2025-12-02 11:34:01.126 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:34:01.129 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:34:01.155 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:34:15.108 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTAwNTUsImV4cCI6MTc2NDY1NzI1NSwiaWF0IjoxNzY0NjUwMDU1LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.HV1y5KigR7hlTerVgwy-e_rBPyojspOHFIfTNeFEBbI
+2025-12-02 11:34:15.119 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:34:15.123 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:34:15.150 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:34:29.243 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTAwNjksImV4cCI6MTc2NDY1NzI2OSwiaWF0IjoxNzY0NjUwMDY5LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.3oVXTBcwsLaIDqzul2N-ZirXt7lRUluUjRA9FMgC6CM
+2025-12-02 11:34:29.257 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:34:29.261 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:34:43.393 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:34:43.403 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:34:43.529 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:34:46.252 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTAwODYsImV4cCI6MTc2NDY1NzI4NiwiaWF0IjoxNzY0NjUwMDg2LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.0MgxcJiNMvQaVAv52bxaerE49JANuDLfzZJkKUgj0D4
+2025-12-02 11:34:46.261 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:34:46.265 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:35:02.492 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:35:02.500 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:35:04.314 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:35:04.322 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:35:05.496 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:35:05.507 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:35:06.239 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:35:10.613 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTAxMTAsImV4cCI6MTc2NDY1NzMxMCwiaWF0IjoxNzY0NjUwMTEwLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.J2iXwLV_4O_-OGWSQlE8ahJjo7CcJICJiKzs0tfw0Lg
+2025-12-02 11:35:10.625 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:35:10.628 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:35:10.663 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:35:25.184 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:35:25.192 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:35:25.334 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:35:27.402 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTAxMjcsImV4cCI6MTc2NDY1NzMyNywiaWF0IjoxNzY0NjUwMTI3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.19jKKXgt5K40mFCVxFhoqve0P2OwgaQbwi7yI7F4o5o
+2025-12-02 11:35:27.412 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:35:27.415 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:35:27.451 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:39:40.413 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTAzODAsImV4cCI6MTc2NDY1NzU4MCwiaWF0IjoxNzY0NjUwMzgwLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.5DzrWIjcXo9oSdmkxPiE3qJuHcLb6iWR3aKaSog081k
+2025-12-02 11:39:40.427 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:39:40.432 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:39:40.453 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:40:01.773 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:40:01.789 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:40:01.811 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:40:03.259 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTA0MDMsImV4cCI6MTc2NDY1NzYwMywiaWF0IjoxNzY0NjUwNDAzLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.p1LRK-tBb0nsxdSiRmLPTK_zByeOA0wIuP4D3wdnlEg
+2025-12-02 11:40:03.270 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:40:03.273 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:40:03.301 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:40:27.871 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTA0MjcsImV4cCI6MTc2NDY1NzYyNywiaWF0IjoxNzY0NjUwNDI3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.EaaU8rLuqs4s6eu09OKLIeK_nFciwvzESBDfa4UfllM
+2025-12-02 11:40:27.880 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:40:27.884 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:40:27.904 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:40:31.117 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjUwNDMxLCJleHAiOjE3NjQ2NTc2MzEsImlhdCI6MTc2NDY1MDQzMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.thGg_UZRN3Yn6fSBJ5q3tFmPHxU-RLuocFLgF2BhCKg
+2025-12-02 11:40:31.126 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:40:31.129 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:40:33.552 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:40:37.749 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:40:37.761 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:40:39.142 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:40:41.781 +07:00 [INF] Login success , HoangThang , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3NjQ2NTA0NDEsImV4cCI6MTc2NDY1NzY0MSwiaWF0IjoxNzY0NjUwNDQxLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.E0lSdlqrxejQWgnhLl529JAMICIjIqCIBe8cpejA1so
+2025-12-02 11:40:41.792 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:40:41.795 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:40:43.469 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:40:47.916 +07:00 [INF] Login success , HoangThang , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3NjQ2NTA0NDcsImV4cCI6MTc2NDY1NzY0NywiaWF0IjoxNzY0NjUwNDQ3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.NGv4we020BCQP2rfFMV3hs-7dD48sHTRIBPQF7WMx64
+2025-12-02 11:40:47.925 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:40:47.927 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:40:49.300 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:40:54.023 +07:00 [INF] Cập nhật user HoangThang thành công
+2025-12-02 11:40:54.038 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:40:58.241 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:40:58.247 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:40:58.270 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:40:59.898 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:41:00.626 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:41:01.248 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:41:03.176 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 11:41:04.547 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:41:05.612 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTA0NjUsImV4cCI6MTc2NDY1NzY2NSwiaWF0IjoxNzY0NjUwNDY1LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.iR2lv1MgrZmBxyVGm0RxKBo45QBhXGy14AlaTnu6Q80
+2025-12-02 11:41:05.625 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:41:05.628 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:41:05.647 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:41:44.222 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTA1MDQsImV4cCI6MTc2NDY1NzcwNCwiaWF0IjoxNzY0NjUwNTA0LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.ab4iJxbU1WZYJo0x84UGT10J_TW0IwzCNCMUrJdo7gA
+2025-12-02 11:41:44.231 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:41:44.235 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:41:44.254 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:43:40.237 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-12-02 11:46:13.710 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:46:13.724 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:46:13.731 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:46:13.740 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:46:22.784 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTA3ODIsImV4cCI6MTc2NDY1Nzk4MiwiaWF0IjoxNzY0NjUwNzgyLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.dYLrVSGAmmYs708-bggsFDQSRkkMOwkibnTe1vbKhsE
+2025-12-02 11:46:22.794 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 11:46:22.796 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 11:46:22.817 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 11:46:52.550 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjUwODEyLCJleHAiOjE3NjQ2NTgwMTIsImlhdCI6MTc2NDY1MDgxMiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1Hdw8Bl63Un0DPhKis4GuJOyaQP6D3XsCfMnlQL7nKA
+2025-12-02 11:46:52.561 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 11:46:52.565 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 11:46:54.092 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:08:04.452 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:08:04.993 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjU1Njg0LCJleHAiOjE3NjQ2NjI4ODQsImlhdCI6MTc2NDY1NTY4NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.qDbULwnyjuSFo76Nlf3LRNobrGaDll6LiOq-vhxMI3k
+2025-12-02 13:08:05.016 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 13:08:05.141 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 13:08:07.158 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:08:11.868 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU2OTEsImV4cCI6MTc2NDY2Mjg5MSwiaWF0IjoxNzY0NjU1NjkxLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.suDZnXVBXSMSeNSmClXkiktmV0WP0VP_h6_7Mi-NpDE
+2025-12-02 13:08:11.882 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:08:11.888 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:08:11.913 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:09:14.791 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU3NTQsImV4cCI6MTc2NDY2Mjk1NCwiaWF0IjoxNzY0NjU1NzU0LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.EI_xSyBbHwZAtEZLCaFUwc3_XstOpjMx3Ksn5OrJyas
+2025-12-02 13:09:14.804 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:09:14.808 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:09:14.828 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:09:15.975 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU3NTUsImV4cCI6MTc2NDY2Mjk1NSwiaWF0IjoxNzY0NjU1NzU1LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.VsQqn7xP4e_5wjkRqfIs1GEHNT0NPJx7NDmc3ap9sRQ
+2025-12-02 13:09:15.983 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:09:15.990 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:09:16.013 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:09:17.278 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU3NTcsImV4cCI6MTc2NDY2Mjk1NywiaWF0IjoxNzY0NjU1NzU3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.Yf2-T_wnjswmzn9pVNu5EBfNOoQniEK9IXUETRsTgBE
+2025-12-02 13:09:17.291 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:09:17.294 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:09:17.313 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:09:31.928 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU3NzEsImV4cCI6MTc2NDY2Mjk3MSwiaWF0IjoxNzY0NjU1NzcxLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.XaarXrwceNTon2Yl5pBlYKSru3DXEp4yRg8wnHJmSAk
+2025-12-02 13:09:31.943 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:09:31.946 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:09:42.715 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU3ODIsImV4cCI6MTc2NDY2Mjk4MiwiaWF0IjoxNzY0NjU1NzgyLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.l4ovzPMrsct8KI-F7thuAhG7uhtS663gxMf_8EPmxZo
+2025-12-02 13:09:42.727 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:09:42.730 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:09:42.753 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:11:53.771 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU5MTMsImV4cCI6MTc2NDY2MzExMywiaWF0IjoxNzY0NjU1OTEzLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.GgINgGj9D0qc3eh2uzPRJmlx1CI-73bod3XRjKo-LqI
+2025-12-02 13:11:53.785 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:11:53.792 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:11:53.813 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:12:05.233 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjU1OTI1LCJleHAiOjE3NjQ2NjMxMjUsImlhdCI6MTc2NDY1NTkyNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.4ZGtmlhvVhRqpkxyegdjXoym8LWzVD7k0JuZzSjsLNA
+2025-12-02 13:12:05.249 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 13:12:05.254 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 13:12:06.594 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:12:10.637 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU5MzAsImV4cCI6MTc2NDY2MzEzMCwiaWF0IjoxNzY0NjU1OTMwLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.qWb_s5c7xG1LIl2lFdZoBIbjlfwzBn_6pZ3y2A27Kn0
+2025-12-02 13:12:10.646 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:12:10.653 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:12:10.678 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:12:36.010 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTU5NTYsImV4cCI6MTc2NDY2MzE1NiwiaWF0IjoxNzY0NjU1OTU2LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.DzOOYd6WCRciWbMbavakMW07gzgnZpZ9XRyyzCjhWhA
+2025-12-02 13:12:36.031 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:12:36.036 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:12:36.057 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:13:02.438 +07:00 [INF] User created successfully!
+2025-12-02 13:13:06.592 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjU1OTg2LCJleHAiOjE3NjQ2NjMxODYsImlhdCI6MTc2NDY1NTk4NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.tMT_qtUEAQSXN8eWJp7K6grNgP0VFKaEEHLcZObhNQ8
+2025-12-02 13:13:06.604 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 13:13:06.610 +07:00 [WRN] GetCartAsync: Cart not found for Thang, creating new one
+2025-12-02 13:13:06.630 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 13:13:51.108 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjU2MDMxLCJleHAiOjE3NjQ2NjMyMzEsImlhdCI6MTc2NDY1NjAzMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.FaeeqvI1Wgciao772XFoRuVCIJbeyornYzHG3ca0mcY
+2025-12-02 13:13:51.124 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 13:13:51.127 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 13:13:52.862 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:14:40.742 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:16:26.381 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:16:29.634 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjU2MTg5LCJleHAiOjE3NjQ2NjMzODksImlhdCI6MTc2NDY1NjE4OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.wD1A264L5KFTnxGGLYtAoJAUlr14lhVVMTDA8CQ70hM
+2025-12-02 13:16:29.644 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 13:16:29.648 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 13:16:30.596 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:16:33.905 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjU2MTkzLCJleHAiOjE3NjQ2NjMzOTMsImlhdCI6MTc2NDY1NjE5MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.l2u4oPOtjV03JrLbKbsyQq-Bau8M5R046NoVeTl6vIE
+2025-12-02 13:16:33.914 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 13:16:33.921 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 13:16:39.166 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTYxOTksImV4cCI6MTc2NDY2MzM5OSwiaWF0IjoxNzY0NjU2MTk5LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.JoTYdAN0GFODcmlZf_qZf_GZ1rvENeHD--pW_4ecktQ
+2025-12-02 13:16:39.180 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:16:39.183 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:16:39.207 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:16:48.677 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTYyMDgsImV4cCI6MTc2NDY2MzQwOCwiaWF0IjoxNzY0NjU2MjA4LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.wD3O431rTdG8Ej0J358Es6vXW1fAstKGkZVZutTVuAg
+2025-12-02 13:16:48.688 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:16:48.692 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:16:48.712 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:17:19.570 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTYyMzksImV4cCI6MTc2NDY2MzQzOSwiaWF0IjoxNzY0NjU2MjM5LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.W8XK9hhmPeN1DRmqj1eyCOf6gv3csl8kHmMY2nK3vCU
+2025-12-02 13:17:19.583 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:17:19.588 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:17:19.609 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:19:21.355 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTYzNjEsImV4cCI6MTc2NDY2MzU2MSwiaWF0IjoxNzY0NjU2MzYxLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.0TTerk8EMc35BGL9nCOAD0JDI9Dg47Zlpva4Mm9cQtM
+2025-12-02 13:19:21.367 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:19:21.372 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:19:21.397 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:19:37.412 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTYzNzcsImV4cCI6MTc2NDY2MzU3NywiaWF0IjoxNzY0NjU2Mzc3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.MxceXq8UqMdN8jv_1wTzFbK7to7D3EkPe0HlbEVEJKw
+2025-12-02 13:19:37.426 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:19:37.429 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:19:37.453 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:21:05.751 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTY0NjUsImV4cCI6MTc2NDY2MzY2NSwiaWF0IjoxNzY0NjU2NDY1LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.fkAryvEFCA_fUamosEE6HRHApSKUlCX2QEH76wR67TI
+2025-12-02 13:21:05.767 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:21:05.771 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:21:05.794 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:21:14.580 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTY0NzQsImV4cCI6MTc2NDY2MzY3NCwiaWF0IjoxNzY0NjU2NDc0LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.LNfPH1dFGYYnQ-086za2IWzeNTd0hlHIywM48q05JC0
+2025-12-02 13:21:14.592 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:21:14.595 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:21:14.623 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:21:27.217 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTY0ODcsImV4cCI6MTc2NDY2MzY4NywiaWF0IjoxNzY0NjU2NDg3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.i3in1YE-X_WexAkmndtDJ4a-l0rXvZmaGQzxDnx1hvQ
+2025-12-02 13:21:27.230 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:21:27.233 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:21:27.258 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:21:28.536 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTY0ODgsImV4cCI6MTc2NDY2MzY4OCwiaWF0IjoxNzY0NjU2NDg4LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.9MHAXWJzh6i4LvD2_NSD_glETtaew37kH_DROvRcnp4
+2025-12-02 13:21:28.560 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:21:28.565 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:21:28.592 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:21:52.180 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjU2NTEyLCJleHAiOjE3NjQ2NjM3MTIsImlhdCI6MTc2NDY1NjUxMiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.x74eeREDt3ZpGjAosd6btIkeY62y-SfF3TmHdWC07CY
+2025-12-02 13:21:52.193 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 13:21:52.197 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 13:21:55.880 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:24:07.734 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTY2NDcsImV4cCI6MTc2NDY2Mzg0NywiaWF0IjoxNzY0NjU2NjQ3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.CH8fPOE4g5kUBdY706H4nMQoWWmGIHBCwWM4C-gYYj0
+2025-12-02 13:24:07.746 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:24:07.750 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:24:10.638 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:24:13.050 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:24:23.051 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-02 13:24:23.071 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:24:27.350 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-02 13:24:27.371 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:25:37.965 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-02 13:25:37.991 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:25:42.768 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-02 13:25:42.781 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:26:06.696 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-02 13:26:06.708 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:26:16.760 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-02 13:26:16.777 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:28:52.571 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTY5MzIsImV4cCI6MTc2NDY2NDEzMiwiaWF0IjoxNzY0NjU2OTMyLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.YpbWpiI07ZuVScC8gWqZbcj4qacdmPMP_Jk13kNaBxc
+2025-12-02 13:33:01.482 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-12-02 13:33:44.297 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:33:44.399 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:33:44.483 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:33:46.223 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTcyMjYsImV4cCI6MTc2NDY2NDQyNiwiaWF0IjoxNzY0NjU3MjI2LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.fAX9073H9MnXQ9g5YKAmLCzv2PMwEVeuwLmhtyJFWLk
+2025-12-02 13:33:46.235 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:33:46.239 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:33:47.591 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:34:14.302 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:34:14.684 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:34:15.126 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:38:39.867 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:38:40.824 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:38:43.014 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:38:44.621 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:57:25.298 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:57:26.836 +07:00 [WRN] GetCartAsync: Cart not found for HoangThang, creating new one
+2025-12-02 13:57:26.863 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:57:26.945 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:57:27.090 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTg2NDcsImV4cCI6MTc2NDY2NTg0NywiaWF0IjoxNzY0NjU4NjQ3LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.IfxMMGxDlwTHXDpcLbrjj2K9JwsuZbEOJXGoagAwcbQ
+2025-12-02 13:57:27.107 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 13:57:27.117 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 13:57:28.691 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:57:30.432 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:57:30.824 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:57:31.508 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:57:32.611 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:57:33.560 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 13:57:35.895 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 13:57:38.848 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjU4NjU4LCJleHAiOjE3NjQ2NjU4NTgsImlhdCI6MTc2NDY1ODY1OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.pOES69sIPYoRQ4fcSTnTbLsWvHXt75ke8oGE-sjvH1M
+2025-12-02 13:57:38.860 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 13:57:38.863 +07:00 [WRN] GetCartAsync: Cart not found for Thang, creating new one
+2025-12-02 13:57:38.867 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 13:57:50.416 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 13:57:50.421 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 13:57:55.865 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-02 13:57:55.878 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-12-02 13:57:55.931 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-02 13:57:57.049 +07:00 [INF] AddToCartAsync: Adding 1 of 03 to cart Thang
+2025-12-02 13:57:57.056 +07:00 [INF] AddToCartAsync: Item 03 not found, adding new
+2025-12-02 13:57:57.059 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-02 13:57:57.888 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-02 13:57:57.892 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-02 13:57:57.898 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-02 13:57:58.864 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 13:57:58.874 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 3 items
+2025-12-02 13:57:58.913 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-12-02 13:57:58.913 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 13:57:58.913 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-02 13:58:02.270 +07:00 [INF] CheckoutAsync: Processing checkout for Thang
+2025-12-02 13:58:02.290 +07:00 [INF] CheckoutAsync: Created invoice for Thang, deleting cart items
+2025-12-02 13:58:02.331 +07:00 [INF] CheckoutAsync: Checkout completed successfully for Thang
+2025-12-02 13:59:18.905 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 13:59:18.914 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 14:01:29.311 +07:00 [INF] Thêm hóa đơn "da0cb43f-9190-4d34-a63b-4d854055772b" thành công!
+2025-12-02 14:02:58.009 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-02 14:02:58.018 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-02 14:02:58.025 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-02 14:02:58.793 +07:00 [INF] AddToCartAsync: Adding 1 of 03 to cart Thang
+2025-12-02 14:02:58.798 +07:00 [INF] AddToCartAsync: Item 03 not found, adding new
+2025-12-02 14:02:58.801 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-02 14:03:00.020 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:03:00.027 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-02 14:03:00.050 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-12-02 14:03:00.051 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 14:03:01.008 +07:00 [INF] CheckoutAsync: Processing checkout for Thang
+2025-12-02 14:03:01.012 +07:00 [INF] CheckoutAsync: Created invoice for Thang, deleting cart items
+2025-12-02 14:03:01.022 +07:00 [INF] CheckoutAsync: Checkout completed successfully for Thang
+2025-12-02 14:06:47.438 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:06:48.344 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 14:06:48.344 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:06:53.273 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NTkyMTMsImV4cCI6MTc2NDY2NjQxMywiaWF0IjoxNzY0NjU5MjEzLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.Xv2cJVXNKEPDzKL1GwHF5H9r_1zEdR96aWPzmM0S8A4
+2025-12-02 14:06:53.290 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:06:53.296 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:06:55.503 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:07:02.844 +07:00 [INF] Xóa hóa đơn "8fb6dd86-e08f-43f0-4c4f-08de317022c7" thành công
+2025-12-02 14:07:05.611 +07:00 [INF] Xóa hóa đơn "da0cb43f-9190-4d34-a63b-4d854055772b" thành công
+2025-12-02 14:07:07.615 +07:00 [INF] Xóa hóa đơn "9ea269de-34ab-4597-4c50-08de317022c7" thành công
+2025-12-02 14:07:10.050 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:07:18.976 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjU5MjM4LCJleHAiOjE3NjQ2NjY0MzgsImlhdCI6MTc2NDY1OTIzOCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1mZfTioIfZDRerfFl3KBtd7m9v_bmau9XAtiB4LxI6M
+2025-12-02 14:07:18.988 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:07:18.994 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 14:07:21.578 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-02 14:07:21.592 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-02 14:07:21.640 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-02 14:07:22.297 +07:00 [INF] AddToCartAsync: Adding 1 of 03 to cart Thang
+2025-12-02 14:07:22.305 +07:00 [INF] AddToCartAsync: Item 03 not found, adding new
+2025-12-02 14:07:22.313 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-02 14:07:23.472 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:07:23.480 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-02 14:07:23.516 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03 thanh cong !
+2025-12-02 14:07:23.515 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-02 14:07:25.069 +07:00 [INF] CheckoutAsync: Processing checkout for Thang
+2025-12-02 14:07:25.082 +07:00 [INF] CheckoutAsync: Created invoice for Thang, deleting cart items
+2025-12-02 14:07:25.099 +07:00 [INF] CheckoutAsync: Checkout completed successfully for Thang
+2025-12-02 14:28:25.767 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:28:26.698 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 14:28:26.698 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:28:28.952 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjYwNTA4LCJleHAiOjE3NjQ2Njc3MDgsImlhdCI6MTc2NDY2MDUwOCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.gAXTmvYa7CWBy5AE_7BBhRW6qGOl_hyv4WYO8CNycPY
+2025-12-02 14:28:28.966 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:28:28.971 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 14:28:38.848 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NjA1MTgsImV4cCI6MTc2NDY2NzcxOCwiaWF0IjoxNzY0NjYwNTE4LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.R0p7ekB-kebdSfGmRXLeHuIWywKUD0Kmy3bArqU43zY
+2025-12-02 14:28:38.859 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:28:38.863 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:28:40.052 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 14:28:45.809 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:34:16.159 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:38:02.296 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:38:02.340 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:38:02.507 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:38:03.437 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:38:04.756 +07:00 [WRN] CancelAsync: Hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" không ở trạng thái pending để hủy
+2025-12-02 14:38:04.785 +07:00 [ERR] CancelAsync: Unexpected error while cancelling HoaDon "3091b0be-d6a7-45ab-3b7b-08de3171723c"
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+2025-12-02 14:38:04.901 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+   at JWT_Project_Core.Controllers.HoaDonController.Cancel(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 14:38:07.131 +07:00 [WRN] CancelAsync: Hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" không ở trạng thái pending để hủy
+2025-12-02 14:38:07.147 +07:00 [ERR] CancelAsync: Unexpected error while cancelling HoaDon "3091b0be-d6a7-45ab-3b7b-08de3171723c"
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+2025-12-02 14:38:07.201 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+   at JWT_Project_Core.Controllers.HoaDonController.Cancel(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 14:38:47.962 +07:00 [WRN] CancelAsync: Hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" không ở trạng thái pending để hủy
+2025-12-02 14:38:47.981 +07:00 [ERR] CancelAsync: Unexpected error while cancelling HoaDon "3091b0be-d6a7-45ab-3b7b-08de3171723c"
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+2025-12-02 14:38:48.033 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+   at JWT_Project_Core.Controllers.HoaDonController.Cancel(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 14:39:00.587 +07:00 [WRN] CancelAsync: Hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" không ở trạng thái pending để hủy
+2025-12-02 14:39:00.603 +07:00 [ERR] CancelAsync: Unexpected error while cancelling HoaDon "3091b0be-d6a7-45ab-3b7b-08de3171723c"
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+2025-12-02 14:39:00.682 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Chỉ có thể hủy hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.CancelAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 266
+   at JWT_Project_Core.Controllers.HoaDonController.Cancel(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 91
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 14:40:25.169 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:40:26.121 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:40:26.121 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:40:29.581 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NjEyMjksImV4cCI6MTc2NDY2ODQyOSwiaWF0IjoxNzY0NjYxMjI5LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.4btXwdXjYMjkYeWpg-50AJKAClVz4_yFw0-_-t3ojZc
+2025-12-02 14:40:29.599 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:40:29.608 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:40:31.137 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:40:32.800 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:40:33.846 +07:00 [WRN] ApproveAsync: Hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" không ở trạng thái pending để duyệt
+2025-12-02 14:40:33.878 +07:00 [ERR] ApproveAsync: Unexpected error while approving HoaDon "3091b0be-d6a7-45ab-3b7b-08de3171723c"
+System.InvalidOperationException: Chỉ có thể duyệt hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.ApproveAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 234
+2025-12-02 14:40:34.012 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Chỉ có thể duyệt hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.ApproveAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 234
+   at JWT_Project_Core.Controllers.HoaDonController.Approve(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 84
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 14:40:36.473 +07:00 [WRN] ApproveAsync: Hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" không ở trạng thái pending để duyệt
+2025-12-02 14:40:36.490 +07:00 [ERR] ApproveAsync: Unexpected error while approving HoaDon "3091b0be-d6a7-45ab-3b7b-08de3171723c"
+System.InvalidOperationException: Chỉ có thể duyệt hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.ApproveAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 234
+2025-12-02 14:40:36.546 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: Chỉ có thể duyệt hóa đơn đang pending!
+   at JWT_Project_Core.Service.HoaDonService.ApproveAsync(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\HoaDonService.cs:line 234
+   at JWT_Project_Core.Controllers.HoaDonController.Approve(Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\HoaDonController.cs:line 84
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-02 14:41:13.680 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:41:14.549 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:41:14.549 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:41:15.995 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NjEyNzUsImV4cCI6MTc2NDY2ODQ3NSwiaWF0IjoxNzY0NjYxMjc1LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.c18Tfvt1h5WFaiT6dU2CVXiC_4SdEOv9EyYv68lCJl0
+2025-12-02 14:41:16.009 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:41:16.014 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:41:16.966 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:41:18.317 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:19.111 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:19.894 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:20.952 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:21.755 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:22.401 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:23.498 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:24.346 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:25.793 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:41:26.808 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:42:12.138 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:42:38.281 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:45:10.957 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:45:11.790 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:45:12.671 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:45:19.482 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:45:21.817 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjYxNTIxLCJleHAiOjE3NjQ2Njg3MjEsImlhdCI6MTc2NDY2MTUyMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.IDkxGXqzVhjAltZCfgP7FFGovhh_GhQT2VNTo9AITis
+2025-12-02 14:45:21.829 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:45:21.832 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 14:52:34.920 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:55:16.522 +07:00 [INF] Login success , HoangThang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkhvYW5nVGhhbmciLCJyb2xlIjoiU3RhZmYiLCJuYmYiOjE3NjQ2NjIxMTYsImV4cCI6MTc2NDY2OTMxNiwiaWF0IjoxNzY0NjYyMTE2LCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.2KBbpMgmuUVvGK9ah0WEXWgK7F18H95kE1H29ibYnFA
+2025-12-02 14:55:16.556 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:55:16.560 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:55:17.922 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:55:44.648 +07:00 [INF] GetCartAsync: Getting cart for user HoangThang
+2025-12-02 14:55:44.664 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThang with 0 items
+2025-12-02 14:55:44.813 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:55:55.443 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "3091b0be-d6a7-45ab-3b7b-08de3171723c" thành công
+2025-12-02 14:57:39.182 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 14:57:41.663 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NjYyMjYxLCJleHAiOjE3NjQ2Njk0NjEsImlhdCI6MTc2NDY2MjI2MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Db3f9cBjpVcpfGPT1j1efScMhhxG9oY3tg_Qsw88Tc0
+2025-12-02 14:57:41.673 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-02 14:57:41.677 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-02 15:00:53.789 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NjYyNDUzLCJleHAiOjE3NjQ2Njk2NTMsImlhdCI6MTc2NDY2MjQ1MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.g4djTk1bpzZe4RsF-cCBDRtPwPrnpfiuhHVU4vLv1pw
+2025-12-02 15:00:53.800 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 15:00:53.804 +07:00 [WRN] GetCartAsync: Cart not found for admin, creating new one
+2025-12-02 15:00:53.831 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 15:00:55.632 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 15:00:56.994 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-02 15:01:01.225 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 15:01:02.214 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 15:01:58.609 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-02 15:01:58.625 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-02 15:01:58.791 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-02 15:02:55.808 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!

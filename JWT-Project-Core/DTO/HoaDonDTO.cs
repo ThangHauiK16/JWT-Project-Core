@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using JWT_Project_Core.Enum;
+using System.ComponentModel.DataAnnotations;
 
 namespace JWT_Project_Core.DTO
 {
@@ -8,6 +9,7 @@ namespace JWT_Project_Core.DTO
 
         [Required]
         public DateTime NgayTao { get; set; } = DateTime.UtcNow;
+        public EnumStatus TrangThai { get; set; }
         [Required]
         public string Username { get; set; } = string.Empty;
 

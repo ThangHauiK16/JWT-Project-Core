@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using JWT_Project_Core.Data;
 using JWT_Project_Core.DTO;
+using JWT_Project_Core.Enum;
 using JWT_Project_Core.Interface;
 using JWT_Project_Core.Model;
 using Microsoft.EntityFrameworkCore;
@@ -276,6 +277,7 @@ namespace JWT_Project_Core.Service
                 {
                     Username = username,
                     NgayTao = DateTime.UtcNow,
+                    TrangThai = EnumStatus.pending,
                     HoaDon_Saches = cart.CartItems.Select(ci => new HoaDon_Sach
                     {
                         MaSach = ci.MaSach,

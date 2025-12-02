@@ -167,3 +167,4 @@ C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\obj\Debug\net8.0\JWT-Project-Core.
 C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\obj\Debug\net8.0\ref\JWT-Project-Core.dll
 C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\bin\Debug\net8.0\JWT-Project-Core.staticwebassets.runtime.json
 C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\obj\Debug\net8.0\JWT-Project-Core.sourcelink.json
+C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\bin\Debug\net8.0\BCrypt.Net-Next.dll

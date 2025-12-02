@@ -249,6 +249,48 @@
   },
   {
     "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "Approve",
+    "RelativePath": "api/HoaDon/{id}/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "Cancel",
+    "RelativePath": "api/HoaDon/{id}/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
+    "Method": "GetUserOrderHistory",
+    "RelativePath": "api/HoaDon/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.HoaDonController",
     "Method": "GetPaged",
     "RelativePath": "api/HoaDon/paged",
     "HttpMethod": "GET",

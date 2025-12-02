@@ -8,6 +8,7 @@ namespace JWT_Project_Core.Model.Human
         [Key]
         public string Username { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
+        public string? Email { get; set; }
         public EnumRole Role { get; set; }
         public ICollection<HoaDon> HoaDons { get; set; } = new List<HoaDon>();
     }
