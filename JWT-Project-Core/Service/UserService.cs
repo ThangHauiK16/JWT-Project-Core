@@ -101,7 +101,9 @@ namespace JWT_Project_Core.Service
             }
         }
 
+
       
+
         public async Task<bool> DeleteUserAsync(string username)
         {
             try
@@ -113,10 +115,12 @@ namespace JWT_Project_Core.Service
                     return false;
                 }
 
-                _context.Users.Remove(user);
+              
+                user.IsDeleted = true;            
+                _context.Users.Update(user);
                 await _context.SaveChangesAsync();
 
-                Log.Information("Xóa user {Username} thành công", username);
+                Log.Information("Soft delete user {Username} thành công", username);
 
                 return true;
             }
@@ -126,5 +130,6 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
+        
     }
 }

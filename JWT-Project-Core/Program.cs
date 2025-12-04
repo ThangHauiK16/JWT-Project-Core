@@ -39,6 +39,9 @@ builder.Services.AddScoped<IFileService , FileService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
+
+
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {

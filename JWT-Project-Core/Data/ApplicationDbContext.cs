@@ -68,6 +68,8 @@ namespace JWT_Project_Core.Data
                 .WithMany()
                 .HasForeignKey(ci => ci.MaSach)
                 .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDeleted);
+
         }
 
         public override int SaveChanges()
@@ -125,7 +127,7 @@ namespace JWT_Project_Core.Data
             foreach (var entry in entries)
             {
                 var now = DateTime.UtcNow;
-                var currentUser = "System"; // TODO: lấy user hiện tại nếu có
+                var currentUser = "System"; 
 
                 if (entry.State == EntityState.Added)
                 {

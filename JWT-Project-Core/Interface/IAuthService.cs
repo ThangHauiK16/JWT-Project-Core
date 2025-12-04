@@ -9,5 +9,8 @@ namespace JWT_Project_Core.Interface
         Task<string?> RefreshTokenAsync(string refreshToken);
         Task<bool> RemoveRefreshTokenAsync(string refreshToken);
         Task<string> RegisterAsync(RegisterDTO newUser);
+        Task<string> ForgotPasswordAsync(string email);
+        Task<string> ChangePasswordAsync(string username, string oldPassword, string newPassword);
+
     }
 }

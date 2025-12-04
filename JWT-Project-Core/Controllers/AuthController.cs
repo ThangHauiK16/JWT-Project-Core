@@ -23,7 +23,7 @@ namespace JWT_Project_Core.Controllers
         {
             var result = await _authService.LoginAsync(login);
             if (result == null)
-                return Unauthorized("Username or password incorrect");
+                return Unauthorized("Sai Username hoặc Password !");
 
             return Ok(result);
         }
@@ -53,7 +53,7 @@ namespace JWT_Project_Core.Controllers
             }
 
             var result = await _authService.RegisterAsync(newUser);
-            if (result == "Username already exists")
+            if (result == "Username đã tồn tại !" || result == "Email đã tồn tại !")
                 return BadRequest(result);
 
             return Ok(result);
@@ -65,6 +65,34 @@ namespace JWT_Project_Core.Controllers
             var result = await _authService.RemoveRefreshTokenAsync(dto.RefreshToken);
             if (!result) return BadRequest("Không tìm thấy refresh token");
             return Ok(new { message = "Đăng xuất thành công" });
+        }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDto dto)
+        {
+            var result = await _authService.ForgotPasswordAsync(dto.Email);
+
+            if (result == "Không tìm thấy Email !")
+                return NotFound(result);
+
+            return Ok(result);
+        }
+
+        [HttpPost("change-password")]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto dto)
+        {
+            
+            var username = User.Identity?.Name;
+
+            if (string.IsNullOrEmpty(username))
+                return Unauthorized("Invalid token");
+
+            var result = await _authService.ChangePasswordAsync(username, dto.OldPassword, dto.NewPassword);
+
+            if (result == "Password updated successfully")
+                return Ok(new { message = result });
+
+            return BadRequest(new { message = result });
         }
 
 
