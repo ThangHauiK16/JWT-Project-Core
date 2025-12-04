@@ -22,6 +22,52 @@ namespace JWT_Project_Core.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("JWT_Project_Core.Model.Book", b =>
+                {
+                    b.Property<string>("MaSach")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("GiaBan")
+                        .HasColumnType("float");
+
+                    b.Property<double>("GiaNhap")
+                        .HasColumnType("float");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NoiDungSach")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TenSach")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TenTacGia")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TheLoai")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("MaSach");
+
+                    b.ToTable("Books");
+                });
+
             modelBuilder.Entity("JWT_Project_Core.Model.Cart", b =>
                 {
                     b.Property<Guid>("CartId")
@@ -69,17 +115,67 @@ namespace JWT_Project_Core.Migrations
                     b.ToTable("CartItems");
                 });
 
-            modelBuilder.Entity("JWT_Project_Core.Model.HoaDon", b =>
+            modelBuilder.Entity("JWT_Project_Core.Model.Human.User", b =>
+                {
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Username");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("JWT_Project_Core.Model.Order", b =>
                 {
                     b.Property<Guid>("MaHoaDon")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("NgayTao")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("TrangThai")
                         .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .HasColumnType("nvarchar(450)");
@@ -88,10 +184,10 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasIndex("Username");
 
-                    b.ToTable("HoaDons");
+                    b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("JWT_Project_Core.Model.HoaDon_Sach", b =>
+            modelBuilder.Entity("JWT_Project_Core.Model.Order_Book", b =>
                 {
                     b.Property<Guid>("MaHoaDon")
                         .HasColumnType("uniqueidentifier");
@@ -106,58 +202,34 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasIndex("MaSach");
 
-                    b.ToTable("HoaDon_Saches");
+                    b.ToTable("Order_Books");
                 });
 
-            modelBuilder.Entity("JWT_Project_Core.Model.Human.User", b =>
+            modelBuilder.Entity("JWT_Project_Core.Model.RefreshToken", b =>
                 {
-                    b.Property<string>("Username")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Password")
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Token")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Role")
-                        .HasColumnType("int");
-
-                    b.HasKey("Username");
-
-                    b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("JWT_Project_Core.Model.Sach", b =>
-                {
-                    b.Property<string>("MaSach")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<double>("GiaBan")
-                        .HasColumnType("float");
-
-                    b.Property<double>("GiaNhap")
-                        .HasColumnType("float");
-
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("Username")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("NoiDungSach")
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("Id");
 
-                    b.Property<string>("TenSach")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TenTacGia")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TheLoai")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("MaSach");
-
-                    b.ToTable("Saches");
+                    b.ToTable("RefreshTokens");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.Cart", b =>
@@ -178,7 +250,7 @@ namespace JWT_Project_Core.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("JWT_Project_Core.Model.Sach", "Sach")
+                    b.HasOne("JWT_Project_Core.Model.Book", "Sach")
                         .WithMany()
                         .HasForeignKey("MaSach")
                         .OnDelete(DeleteBehavior.Restrict);
@@ -188,26 +260,26 @@ namespace JWT_Project_Core.Migrations
                     b.Navigation("Sach");
                 });
 
-            modelBuilder.Entity("JWT_Project_Core.Model.HoaDon", b =>
+            modelBuilder.Entity("JWT_Project_Core.Model.Order", b =>
                 {
                     b.HasOne("JWT_Project_Core.Model.Human.User", "User")
-                        .WithMany("HoaDons")
+                        .WithMany("Orders")
                         .HasForeignKey("Username")
                         .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("JWT_Project_Core.Model.HoaDon_Sach", b =>
+            modelBuilder.Entity("JWT_Project_Core.Model.Order_Book", b =>
                 {
-                    b.HasOne("JWT_Project_Core.Model.HoaDon", "HoaDon")
-                        .WithMany("HoaDon_Saches")
+                    b.HasOne("JWT_Project_Core.Model.Order", "HoaDon")
+                        .WithMany("Order_Books")
                         .HasForeignKey("MaHoaDon")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("JWT_Project_Core.Model.Sach", "Sach")
-                        .WithMany("HoaDon_Saches")
+                    b.HasOne("JWT_Project_Core.Model.Book", "Sach")
+                        .WithMany("Order_Books")
                         .HasForeignKey("MaSach")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -217,24 +289,24 @@ namespace JWT_Project_Core.Migrations
                     b.Navigation("Sach");
                 });
 
+            modelBuilder.Entity("JWT_Project_Core.Model.Book", b =>
+                {
+                    b.Navigation("Order_Books");
+                });
+
             modelBuilder.Entity("JWT_Project_Core.Model.Cart", b =>
                 {
                     b.Navigation("CartItems");
                 });
 
-            modelBuilder.Entity("JWT_Project_Core.Model.HoaDon", b =>
-                {
-                    b.Navigation("HoaDon_Saches");
-                });
-
             modelBuilder.Entity("JWT_Project_Core.Model.Human.User", b =>
                 {
-                    b.Navigation("HoaDons");
+                    b.Navigation("Orders");
                 });
 
-            modelBuilder.Entity("JWT_Project_Core.Model.Sach", b =>
+            modelBuilder.Entity("JWT_Project_Core.Model.Order", b =>
                 {
-                    b.Navigation("HoaDon_Saches");
+                    b.Navigation("Order_Books");
                 });
 #pragma warning restore 612, 618
         }

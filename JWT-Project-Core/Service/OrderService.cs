@@ -9,18 +9,18 @@ using Serilog;
 
 namespace JWT_Project_Core.Service
 {
-    public class HoaDonService : IHoaDonService
+    public class OrderService : IHoaDonService
     {
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
 
-        public HoaDonService(ApplicationDbContext context, IMapper mapper)
+        public OrderService(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<PagedResult<HoaDonDTO>> GetPagedAsync(
+        public async Task<PagedResult<OrderDTO>> GetPagedAsync(
                  int page,
                  int pageSize,
                  string? search
@@ -28,8 +28,8 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var query = _context.HoaDons
-                    .Include(h => h.HoaDon_Saches).ThenInclude(hs => hs.Sach)
+                var query = _context.Orders
+                    .Include(h => h.Order_Books).ThenInclude(hs => hs.Sach)
                     .Include(h => h.User)
                     .AsQueryable();
 
@@ -60,8 +60,8 @@ namespace JWT_Project_Core.Service
                     .Take(pageSize)
                     .ToListAsync();
 
-                return new PagedResult<HoaDonDTO>(
-                    _mapper.Map<IEnumerable<HoaDonDTO>>(items),
+                return new PagedResult<OrderDTO>(
+                    _mapper.Map<IEnumerable<OrderDTO>>(items),
                     totalItems,
                     page,
                     pageSize
@@ -76,12 +76,12 @@ namespace JWT_Project_Core.Service
 
 
 
-        public async Task<HoaDonDTO> GetByIdAsync(Guid id)
+        public async Task<OrderDTO> GetByIdAsync(Guid id)
         {
             try
             {
-                var hd = await _context.HoaDons
-                    .Include(h => h.HoaDon_Saches)
+                var hd = await _context.Orders
+                    .Include(h => h.Order_Books)
                     .ThenInclude(hs => hs.Sach)
                     .Include(h => h.User)
                     .FirstOrDefaultAsync(h => h.MaHoaDon == id);
@@ -92,7 +92,7 @@ namespace JWT_Project_Core.Service
                     return null!;
                 }
 
-                return _mapper.Map<HoaDonDTO>(hd);
+                return _mapper.Map<OrderDTO>(hd);
             }
             catch (Exception ex)
             {
@@ -100,19 +100,19 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
-        public async Task<List<HoaDonDTO>> GetByUserAsync(string username)
+        public async Task<List<OrderDTO>> GetByUserAsync(string username)
         {
             try
             {
-                var orders = await _context.HoaDons
+                var orders = await _context.Orders
                     .Where(h => h.Username == username)
-                    .Include(h => h.HoaDon_Saches)
+                    .Include(h => h.Order_Books)
                         .ThenInclude(hs => hs.Sach)
                     .Include(h => h.User)
                     .OrderByDescending(h => h.NgayTao)
                     .ToListAsync();
 
-                return _mapper.Map<List<HoaDonDTO>>(orders);
+                return _mapper.Map<List<OrderDTO>>(orders);
             }
             catch (Exception ex)
             {
@@ -122,18 +122,18 @@ namespace JWT_Project_Core.Service
         }
 
 
-        public async Task<HoaDonDTO> AddAsync(HoaDonDTO dto)
+        public async Task<OrderDTO> AddAsync(OrderDTO dto)
         {
             try
             {
-                var hoaDon = _mapper.Map<HoaDon>(dto);
+                var hoaDon = _mapper.Map<Order>(dto);
 
                 hoaDon.TrangThai = EnumStatus.pending;
 
                 hoaDon.Username = dto.Username;
-                foreach (var hs in hoaDon.HoaDon_Saches)
+                foreach (var hs in hoaDon.Order_Books)
                 {
-                    var sachExist = await _context.Saches.FindAsync(hs.MaSach);
+                    var sachExist = await _context.Books.FindAsync(hs.MaSach);
                     if (sachExist == null)
                     {
                         Log.Warning("AddAsync: Sach {MaSach} không tồn tại", hs.MaSach);
@@ -142,11 +142,11 @@ namespace JWT_Project_Core.Service
                     hs.HoaDon = hoaDon; 
                 }
 
-                _context.HoaDons.Add(hoaDon);
+                _context.Orders.Add(hoaDon);
                 await _context.SaveChangesAsync();
 
                 Log.Information("Thêm hóa đơn {MaHoaDon} thành công!", hoaDon.MaHoaDon);
-                return _mapper.Map<HoaDonDTO>(hoaDon);
+                return _mapper.Map<OrderDTO>(hoaDon);
             }
             catch (Exception ex)
             {
@@ -155,12 +155,12 @@ namespace JWT_Project_Core.Service
             }
         }
 
-        public async Task<HoaDonDTO> UpdateAsync(HoaDonDTO dto, Guid id)
+        public async Task<OrderDTO> UpdateAsync(OrderDTO dto, Guid id)
         {
             try
             {
-                var hoaDon = await _context.HoaDons
-                    .Include(h => h.HoaDon_Saches)
+                var hoaDon = await _context.Orders
+                    .Include(h => h.Order_Books)
                     .FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
@@ -169,8 +169,8 @@ namespace JWT_Project_Core.Service
                     return null!;
                 }
 
-                _context.HoaDon_Saches.RemoveRange(hoaDon.HoaDon_Saches);
-                hoaDon.HoaDon_Saches = dto.HoaDon_Saches.Select(hs => new HoaDon_Sach
+                _context.Order_Books.RemoveRange(hoaDon.Order_Books);
+                hoaDon.Order_Books = dto.Order_Books.Select(hs => new Order_Book
                 {
                     MaHoaDon = id,
                     MaSach = hs.MaSach,
@@ -180,7 +180,7 @@ namespace JWT_Project_Core.Service
                 await _context.SaveChangesAsync();
 
                 Log.Information("Cập nhật hóa đơn {MaHoaDon} thành công", id);
-                return _mapper.Map<HoaDonDTO>(hoaDon);
+                return _mapper.Map<OrderDTO>(hoaDon);
             }
             catch (Exception ex)
             {
@@ -193,8 +193,8 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var hoaDon = await _context.HoaDons
-                    .Include(h => h.HoaDon_Saches)
+                var hoaDon = await _context.Orders
+                    .Include(h => h.Order_Books)
                     .FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
@@ -203,8 +203,8 @@ namespace JWT_Project_Core.Service
                     return false;
                 }
 
-                _context.HoaDon_Saches.RemoveRange(hoaDon.HoaDon_Saches);
-                _context.HoaDons.Remove(hoaDon);
+                _context.Order_Books.RemoveRange(hoaDon.Order_Books);
+                _context.Orders.Remove(hoaDon);
                 await _context.SaveChangesAsync();
 
                 Log.Information("Xóa hóa đơn {MaHoaDon} thành công", id);
@@ -220,7 +220,7 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var hoaDon = await _context.HoaDons.FirstOrDefaultAsync(h => h.MaHoaDon == id);
+                var hoaDon = await _context.Orders.FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
                 {
@@ -246,7 +246,7 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var hoaDon = await _context.HoaDons.FirstOrDefaultAsync(h => h.MaHoaDon == id);
+                var hoaDon = await _context.Orders.FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
                 {

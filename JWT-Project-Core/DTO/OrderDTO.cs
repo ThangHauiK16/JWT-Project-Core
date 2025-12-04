@@ -1,9 +1,10 @@
 ﻿using JWT_Project_Core.Enum;
+using JWT_Project_Core.Model.Base;
 using System.ComponentModel.DataAnnotations;
 
 namespace JWT_Project_Core.DTO
 {
-    public class HoaDonDTO
+    public class OrderDTO : BaseEntityDTO
     {
         public Guid MaHoaDon { get; set; } = Guid.NewGuid();
 
@@ -14,6 +15,6 @@ namespace JWT_Project_Core.DTO
         public string Username { get; set; } = string.Empty;
 
         [Required]
-        public List<HoaDon_SachDTO> HoaDon_Saches { get; set; } = new List<HoaDon_SachDTO>();
+        public List<Order_BookDTO> Order_Books { get; set; } = new List<Order_BookDTO>();
     }
 }

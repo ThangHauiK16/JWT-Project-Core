@@ -4,15 +4,15 @@ namespace JWT_Project_Core.Interface
 {
     public interface IHoaDonService
     {
-       Task<PagedResult<HoaDonDTO>> GetPagedAsync(
+       Task<PagedResult<OrderDTO>> GetPagedAsync(
                  int page,
                  int pageSize,
                  string? search
              );
-        Task<HoaDonDTO> GetByIdAsync(Guid id);
-        Task<List<HoaDonDTO>> GetByUserAsync(string username);
-        Task<HoaDonDTO> AddAsync(HoaDonDTO dto);
-        Task<HoaDonDTO> UpdateAsync(HoaDonDTO dto, Guid id);
+        Task<OrderDTO> GetByIdAsync(Guid id);
+        Task<List<OrderDTO>> GetByUserAsync(string username);
+        Task<OrderDTO> AddAsync(OrderDTO dto);
+        Task<OrderDTO> UpdateAsync(OrderDTO dto, Guid id);
         Task<bool> DeleteAsync(Guid id);
         Task<bool> ApproveAsync(Guid id);
         Task<bool> CancelAsync(Guid id);

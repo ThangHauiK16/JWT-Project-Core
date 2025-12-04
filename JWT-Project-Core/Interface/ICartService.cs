@@ -11,6 +11,6 @@ namespace JWT_Project_Core.Interface
         Task<CartDTO> IncreaseQuantityAsync(string username, string maSach);
         Task<CartDTO> DecreaseQuantityAsync(string username, string maSach);
 
-        Task<HoaDonDTO> CheckoutAsync(string username);
+        Task<OrderDTO> CheckoutAsync(string username);
     }
 }

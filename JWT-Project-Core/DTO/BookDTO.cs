@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using JWT_Project_Core.Model.Base;
+using System.ComponentModel.DataAnnotations;
 
 namespace JWT_Project_Core.DTO
 {
-    public class SachDTO
+    public class BookDTO : BaseEntityDTO
     {
         [Required(ErrorMessage = "Mã sách là bắt buộc!")]
         [StringLength(50, ErrorMessage = "Mã sách không được vượt quá 50 ký tự.")]

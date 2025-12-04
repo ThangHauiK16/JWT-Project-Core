@@ -31,12 +31,14 @@ builder.WebHost.UseWebRoot("wwwroot");
 //Mapper
 builder.Services.AddAutoMapper(typeof(Program));
 //DI 
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<ISachService, SachService>();
-builder.Services.AddScoped<IHoaDonService , HoaDonService>();
+builder.Services.AddScoped<ISachService, BookService>();
+builder.Services.AddScoped<IHoaDonService , OrderService>();
 builder.Services.AddScoped<IFileService , FileService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {

@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using JWT_Project_Core.Model.Base;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JWT_Project_Core.Model
 {
-    public class CartItem
+    public class CartItem 
     {
         [Key]
         public int CartItemId { get; set; }
@@ -14,7 +15,7 @@ namespace JWT_Project_Core.Model
 
         [ForeignKey("Sach")]
         public string? MaSach { get; set; }
-        public Sach? Sach { get; set; }
+        public Book? Sach { get; set; }
 
         public int SoLuong { get; set; }
     }

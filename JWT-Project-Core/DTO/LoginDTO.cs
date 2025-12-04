@@ -2,7 +2,10 @@
 {
     public class LoginDTO
     {
-        public string Username { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
+        public string AccessToken { get; set; } = null!;
+        public string RefreshToken { get; set; } = null!;
+        public string Username { get; set; } = null!;
+        public string Role { get; set; } = null!;
+        public string? Password { get; set; }
     }
 }

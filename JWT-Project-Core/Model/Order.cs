@@ -1,11 +1,12 @@
 ﻿using JWT_Project_Core.Enum;
+using JWT_Project_Core.Model.Base;
 using JWT_Project_Core.Model.Human;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JWT_Project_Core.Model
 {
-    public class HoaDon
+    public class Order : BaseEntity
     {
         [Key]
         public Guid MaHoaDon { get; set; }
@@ -13,6 +14,6 @@ namespace JWT_Project_Core.Model
         public string? Username { get; set; }
         public EnumStatus TrangThai { get; set; }
         public User? User { get; set; }
-        public ICollection<HoaDon_Sach> HoaDon_Saches { get; set; } = new List<HoaDon_Sach>();
+        public ICollection<Order_Book> Order_Books { get; set; } = new List<Order_Book>();
     }
 }

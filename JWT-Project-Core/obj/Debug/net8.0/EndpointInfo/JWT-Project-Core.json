@@ -36,6 +36,37 @@
         }
       }
     },
+    "/api/Auth/refresh": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/register": {
       "post": {
         "tags": [
@@ -60,6 +91,408 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LogoutDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Book": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Book"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "MaSach",
+                  "TenSach"
+                ],
+                "type": "object",
+                "properties": {
+                  "MaSach": {
+                    "maxLength": 50,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "TenSach": {
+                    "maxLength": 200,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "TheLoai": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "GiaNhap": {
+                    "minimum": 0,
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "GiaBan": {
+                    "minimum": 0,
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "TenTacGia": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "NoiDungSach": {
+                    "maxLength": 2000,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ImageUrl": {
+                    "type": "string"
+                  },
+                  "CreatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "CreatedBy": {
+                    "type": "string"
+                  },
+                  "UpdatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "UpdatedBy": {
+                    "type": "string"
+                  },
+                  "IsDeleted": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "MaSach": {
+                  "style": "form"
+                },
+                "TenSach": {
+                  "style": "form"
+                },
+                "TheLoai": {
+                  "style": "form"
+                },
+                "GiaNhap": {
+                  "style": "form"
+                },
+                "GiaBan": {
+                  "style": "form"
+                },
+                "TenTacGia": {
+                  "style": "form"
+                },
+                "NoiDungSach": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                },
+                "ImageUrl": {
+                  "style": "form"
+                },
+                "CreatedAt": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "UpdatedAt": {
+                  "style": "form"
+                },
+                "UpdatedBy": {
+                  "style": "form"
+                },
+                "IsDeleted": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Book/page": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Book/categories": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Book/{MaSach}": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "parameters": [
+          {
+            "name": "MaSach",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Book"
+        ],
+        "parameters": [
+          {
+            "name": "MaSach",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "MaSach",
+                  "TenSach"
+                ],
+                "type": "object",
+                "properties": {
+                  "MaSach": {
+                    "maxLength": 50,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "TenSach": {
+                    "maxLength": 200,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "TheLoai": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "GiaNhap": {
+                    "minimum": 0,
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "GiaBan": {
+                    "minimum": 0,
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "TenTacGia": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "NoiDungSach": {
+                    "maxLength": 2000,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ImageUrl": {
+                    "type": "string"
+                  },
+                  "CreatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "CreatedBy": {
+                    "type": "string"
+                  },
+                  "UpdatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "UpdatedBy": {
+                    "type": "string"
+                  },
+                  "IsDeleted": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "MaSach": {
+                  "style": "form"
+                },
+                "TenSach": {
+                  "style": "form"
+                },
+                "TheLoai": {
+                  "style": "form"
+                },
+                "GiaNhap": {
+                  "style": "form"
+                },
+                "GiaBan": {
+                  "style": "form"
+                },
+                "TenTacGia": {
+                  "style": "form"
+                },
+                "NoiDungSach": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                },
+                "ImageUrl": {
+                  "style": "form"
+                },
+                "CreatedAt": {
+                  "style": "form"
+                },
+                "CreatedBy": {
+                  "style": "form"
+                },
+                "UpdatedAt": {
+                  "style": "form"
+                },
+                "UpdatedBy": {
+                  "style": "form"
+                },
+                "IsDeleted": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Book"
+        ],
+        "parameters": [
+          {
+            "name": "MaSach",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -266,10 +699,10 @@
         }
       }
     },
-    "/api/HoaDon/paged": {
+    "/api/Order/paged": {
       "get": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "parameters": [
           {
@@ -305,10 +738,10 @@
         }
       }
     },
-    "/api/HoaDon/{id}": {
+    "/api/Order/{id}": {
       "get": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "parameters": [
           {
@@ -329,7 +762,7 @@
       },
       "put": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "parameters": [
           {
@@ -346,17 +779,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HoaDonDTO"
+                "$ref": "#/components/schemas/OrderDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HoaDonDTO"
+                "$ref": "#/components/schemas/OrderDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HoaDonDTO"
+                "$ref": "#/components/schemas/OrderDTO"
               }
             }
           }
@@ -369,7 +802,7 @@
       },
       "delete": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "parameters": [
           {
@@ -389,10 +822,10 @@
         }
       }
     },
-    "/api/HoaDon/history": {
+    "/api/Order/history": {
       "get": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "responses": {
           "200": {
@@ -401,26 +834,26 @@
         }
       }
     },
-    "/api/HoaDon": {
+    "/api/Order": {
       "post": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/HoaDonDTO"
+                "$ref": "#/components/schemas/OrderDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/HoaDonDTO"
+                "$ref": "#/components/schemas/OrderDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/HoaDonDTO"
+                "$ref": "#/components/schemas/OrderDTO"
               }
             }
           }
@@ -432,10 +865,10 @@
         }
       }
     },
-    "/api/HoaDon/{id}/approve": {
+    "/api/Order/{id}/approve": {
       "put": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "parameters": [
           {
@@ -455,10 +888,10 @@
         }
       }
     },
-    "/api/HoaDon/{id}/cancel": {
+    "/api/Order/{id}/cancel": {
       "put": {
         "tags": [
-          "HoaDon"
+          "Order"
         ],
         "parameters": [
           {
@@ -468,313 +901,6 @@
             "schema": {
               "type": "string",
               "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Sach": {
-      "get": {
-        "tags": [
-          "Sach"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Sach"
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "required": [
-                  "MaSach",
-                  "TenSach"
-                ],
-                "type": "object",
-                "properties": {
-                  "MaSach": {
-                    "maxLength": 50,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "TenSach": {
-                    "maxLength": 200,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "TheLoai": {
-                    "maxLength": 100,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "GiaNhap": {
-                    "minimum": 0,
-                    "type": "number",
-                    "format": "double"
-                  },
-                  "GiaBan": {
-                    "minimum": 0,
-                    "type": "number",
-                    "format": "double"
-                  },
-                  "TenTacGia": {
-                    "maxLength": 100,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "NoiDungSach": {
-                    "maxLength": 2000,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "ImageFile": {
-                    "type": "string",
-                    "format": "binary"
-                  },
-                  "ImageUrl": {
-                    "type": "string"
-                  }
-                }
-              },
-              "encoding": {
-                "MaSach": {
-                  "style": "form"
-                },
-                "TenSach": {
-                  "style": "form"
-                },
-                "TheLoai": {
-                  "style": "form"
-                },
-                "GiaNhap": {
-                  "style": "form"
-                },
-                "GiaBan": {
-                  "style": "form"
-                },
-                "TenTacGia": {
-                  "style": "form"
-                },
-                "NoiDungSach": {
-                  "style": "form"
-                },
-                "ImageFile": {
-                  "style": "form"
-                },
-                "ImageUrl": {
-                  "style": "form"
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Sach/page": {
-      "get": {
-        "tags": [
-          "Sach"
-        ],
-        "parameters": [
-          {
-            "name": "page",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "pageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          },
-          {
-            "name": "search",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Sach/categories": {
-      "get": {
-        "tags": [
-          "Sach"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Sach/{MaSach}": {
-      "get": {
-        "tags": [
-          "Sach"
-        ],
-        "parameters": [
-          {
-            "name": "MaSach",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Sach"
-        ],
-        "parameters": [
-          {
-            "name": "MaSach",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "required": [
-                  "MaSach",
-                  "TenSach"
-                ],
-                "type": "object",
-                "properties": {
-                  "MaSach": {
-                    "maxLength": 50,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "TenSach": {
-                    "maxLength": 200,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "TheLoai": {
-                    "maxLength": 100,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "GiaNhap": {
-                    "minimum": 0,
-                    "type": "number",
-                    "format": "double"
-                  },
-                  "GiaBan": {
-                    "minimum": 0,
-                    "type": "number",
-                    "format": "double"
-                  },
-                  "TenTacGia": {
-                    "maxLength": 100,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "NoiDungSach": {
-                    "maxLength": 2000,
-                    "minLength": 0,
-                    "type": "string"
-                  },
-                  "ImageFile": {
-                    "type": "string",
-                    "format": "binary"
-                  },
-                  "ImageUrl": {
-                    "type": "string"
-                  }
-                }
-              },
-              "encoding": {
-                "MaSach": {
-                  "style": "form"
-                },
-                "TenSach": {
-                  "style": "form"
-                },
-                "TheLoai": {
-                  "style": "form"
-                },
-                "GiaNhap": {
-                  "style": "form"
-                },
-                "GiaBan": {
-                  "style": "form"
-                },
-                "TenTacGia": {
-                  "style": "form"
-                },
-                "NoiDungSach": {
-                  "style": "form"
-                },
-                "ImageFile": {
-                  "style": "form"
-                },
-                "ImageUrl": {
-                  "style": "form"
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Sach"
-        ],
-        "parameters": [
-          {
-            "name": "MaSach",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
             }
           }
         ],
@@ -924,14 +1050,70 @@
         ],
         "type": "string"
       },
-      "HoaDonDTO": {
+      "LoginDTO": {
+        "type": "object",
+        "properties": {
+          "accessToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LogoutDto": {
+        "type": "object",
+        "properties": {
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDTO": {
         "required": [
-          "hoaDon_Saches",
           "ngayTao",
+          "order_Books",
           "username"
         ],
         "type": "object",
         "properties": {
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "isDeleted": {
+            "type": "boolean"
+          },
           "maHoaDon": {
             "type": "string",
             "format": "uuid"
@@ -947,16 +1129,16 @@
             "minLength": 1,
             "type": "string"
           },
-          "hoaDon_Saches": {
+          "order_Books": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/HoaDon_SachDTO"
+              "$ref": "#/components/schemas/Order_BookDTO"
             }
           }
         },
         "additionalProperties": false
       },
-      "HoaDon_SachDTO": {
+      "Order_BookDTO": {
         "required": [
           "maSach",
           "soLuong"
@@ -972,20 +1154,6 @@
             "minimum": 1,
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "LoginDTO": {
-        "type": "object",
-        "properties": {
-          "username": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1025,6 +1193,26 @@
         ],
         "type": "object",
         "properties": {
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "isDeleted": {
+            "type": "boolean"
+          },
           "username": {
             "maxLength": 50,
             "minLength": 1,

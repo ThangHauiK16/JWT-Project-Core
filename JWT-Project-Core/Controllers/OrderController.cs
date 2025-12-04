@@ -8,10 +8,10 @@ namespace JWT_Project_Core.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HoaDonController : ControllerBase
+    public class OrderController : ControllerBase
     {
         private readonly IHoaDonService hoaDonService;
-        public HoaDonController(IHoaDonService hoaDonService)
+        public OrderController(IHoaDonService hoaDonService)
         {
             this.hoaDonService = hoaDonService;
         }
@@ -47,7 +47,7 @@ namespace JWT_Project_Core.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateHoaDon([FromBody] HoaDonDTO dto)
+        public async Task<IActionResult> CreateHoaDon([FromBody] OrderDTO dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -56,7 +56,7 @@ namespace JWT_Project_Core.Controllers
             return CreatedAtAction(nameof(GetHoaDonById), new { id = result.MaHoaDon }, result);
         }
         [HttpPut("{id:guid}")]
-        public async Task<IActionResult> UpdateHoaDon(Guid id, [FromBody] HoaDonDTO dto)
+        public async Task<IActionResult> UpdateHoaDon(Guid id, [FromBody] OrderDTO dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

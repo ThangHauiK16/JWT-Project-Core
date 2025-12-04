@@ -21,11 +21,20 @@ namespace JWT_Project_Core.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO login)
         {
-            var token = await _authService.LoginAsync(login);
-            if (token == null)
+            var result = await _authService.LoginAsync(login);
+            if (result == null)
                 return Unauthorized("Username or password incorrect");
 
-            return Ok(new { token , login.Username});
+            return Ok(result);
+        }
+
+        [HttpPost("refresh")]
+        public async Task<IActionResult> Refresh([FromBody] LogoutDto dto)
+        {
+            var newToken = await _authService.RefreshTokenAsync(dto.RefreshToken);
+            if (newToken == null) return Unauthorized("Invalid refresh token");
+
+            return Ok(new { token = newToken });
         }
 
         [HttpPost("register")]
@@ -49,6 +58,15 @@ namespace JWT_Project_Core.Controllers
 
             return Ok(result);
         }
+
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout([FromBody] LogoutDto dto)
+        {
+            var result = await _authService.RemoveRefreshTokenAsync(dto.RefreshToken);
+            if (!result) return BadRequest("Không tìm thấy refresh token");
+            return Ok(new { message = "Đăng xuất thành công" });
+        }
+
 
     }
 }

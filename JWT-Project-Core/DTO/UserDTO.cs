@@ -1,9 +1,10 @@
 ﻿using JWT_Project_Core.Enum;
+using JWT_Project_Core.Model.Base;
 using System.ComponentModel.DataAnnotations;
 
 namespace JWT_Project_Core.DTO
 {
-    public class UserDTO
+    public class UserDTO : BaseEntityDTO
     {
         [Required(ErrorMessage = "Username is required!")]
         [MaxLength(50, ErrorMessage = "Username must be at most 50 characters!")]

@@ -8,24 +8,24 @@ using Serilog;
 
 namespace JWT_Project_Core.Service
 {
-    public class SachService  : ISachService
+    public class BookService  : ISachService
     {
         public readonly ApplicationDbContext context;
         public readonly IMapper mapper;
         public readonly IFileService fileService;
-        public SachService(ApplicationDbContext context, IMapper mapper , IFileService fileService)
+        public BookService(ApplicationDbContext context, IMapper mapper , IFileService fileService)
         {
             this.context = context;
             this.mapper = mapper;
             this.fileService = fileService;
         }
-        public async Task<IEnumerable<SachDTO>> GetAllAsync() 
+        public async Task<IEnumerable<BookDTO>> GetAllAsync() 
         {
             try
             {
-                var Sach = await context.Saches.ToListAsync();
+                var Sach = await context.Books.ToListAsync();
                 Log.Information("Lay danh sach san pham thang cong!");
-                return mapper.Map<IEnumerable<SachDTO>>(Sach);
+                return mapper.Map<IEnumerable<BookDTO>>(Sach);
             }
             catch (Exception ex)
             {
@@ -33,12 +33,12 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
-        public async Task<PagedResult<SachDTO>> GetPageAsync(    int page, int pageSize,string? search  )
+        public async Task<PagedResult<BookDTO>> GetPageAsync(    int page, int pageSize,string? search  )
                                 
         {
             try
             {
-                var query = context.Saches.AsQueryable();
+                var query = context.Books.AsQueryable();
 
                 if (!string.IsNullOrWhiteSpace(search))
                 {
@@ -59,8 +59,8 @@ namespace JWT_Project_Core.Service
                     .Take(pageSize)
                     .ToListAsync();
 
-                return new PagedResult<SachDTO>(
-                    mapper.Map<IEnumerable<SachDTO>>(items),
+                return new PagedResult<BookDTO>(
+                    mapper.Map<IEnumerable<BookDTO>>(items),
                     totalItems,
                     page,
                     pageSize
@@ -77,7 +77,7 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var categories = await context.Saches
+                var categories = await context.Books
                     .Select(s => s.TheLoai)
                     .Distinct()
                     .ToListAsync();
@@ -91,11 +91,11 @@ namespace JWT_Project_Core.Service
             }
         }
     
-        public async Task<SachDTO> GetByMaSach(string MaSach)
+        public async Task<BookDTO> GetByMaSach(string MaSach)
         {
             try
             {
-                var sach = await context.Saches.FindAsync(MaSach);
+                var sach = await context.Books.FindAsync(MaSach);
                 if(sach == null)
                 {
                     Log.Warning("Khong tim thay sach co ma {MaSach} nay !" , MaSach);
@@ -104,7 +104,7 @@ namespace JWT_Project_Core.Service
                 else
                 {
                     Log.Information("Lay sach {TenSach} theo ma  {MaSach} thanh cong !", sach.TenSach, sach.MaSach);
-                    return mapper.Map<SachDTO>(sach);
+                    return mapper.Map<BookDTO>(sach);
                 }
             }
             catch (Exception ex)
@@ -113,11 +113,11 @@ namespace JWT_Project_Core.Service
                 throw;
             }
        }
-        public async Task<SachDTO> AddAsync(SachDTO dto)
+        public async Task<BookDTO> AddAsync(BookDTO dto)
         {
             try
             {
-                var exit = await context.Saches.AnyAsync(s => s.MaSach == dto.MaSach);
+                var exit = await context.Books.AnyAsync(s => s.MaSach == dto.MaSach);
                 if (exit)
                 {
                     Log.Warning("AddAsync: Sach with name {TenSach} already exists", dto.TenSach);
@@ -127,11 +127,11 @@ namespace JWT_Project_Core.Service
                 {
                     dto.ImageUrl = await fileService.SaveImageAsync(dto.ImageFile);
                 }
-                var sach = mapper.Map<Sach>(dto);
-                context.Saches.Add(sach);
+                var sach = mapper.Map<Book>(dto);
+                context.Books.Add(sach);
                 await context.SaveChangesAsync();
                 Log.Information("Them sach thanh cong !");
-                return mapper.Map<SachDTO>(sach);
+                return mapper.Map<BookDTO>(sach);
             }
             catch (Exception ex)
             {
@@ -139,11 +139,11 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
-        public async Task<SachDTO> UpdateAsync(SachDTO dto , string MaSach)
+        public async Task<BookDTO> UpdateAsync(BookDTO dto , string MaSach)
         {
             try
             {
-                var sach = await context.Saches.FindAsync(MaSach);
+                var sach = await context.Books.FindAsync(MaSach);
                 if(sach == null)
                 {
                     Log.Warning("UpdateAsync: Khong Tim thay sach co ma bang {MaSach}", MaSach);
@@ -164,7 +164,7 @@ namespace JWT_Project_Core.Service
                 mapper.Map(dto , sach);
                 await context.SaveChangesAsync();
                 Log.Information("UpdateAsync: Updated student with ma {MaSach}", MaSach);
-                return mapper.Map<SachDTO>(sach);
+                return mapper.Map<BookDTO>(sach);
             }
             catch (Exception ex)
             {
@@ -176,13 +176,13 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var exit = await context.Saches.FindAsync(MaSach);
+                var exit = await context.Books.FindAsync(MaSach);
                 if(exit == null)
                 {
                     Log.Warning("DeleteAsync: Book with ma {MaSach} has not exists", MaSach);
                     return false;
                 }
-                context.Saches.Remove(exit);
+                context.Books.Remove(exit);
                 await context.SaveChangesAsync();
                 Log.Information("DeleteAsync: Deleted student with Id {MaSach}", MaSach);
                 return true;

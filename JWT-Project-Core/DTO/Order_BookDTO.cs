@@ -2,7 +2,7 @@
 
 namespace JWT_Project_Core.DTO
 {
-    public class HoaDon_SachDTO
+    public class Order_BookDTO
     {
         [Required]
         public string MaSach { get; set; } = string.Empty;

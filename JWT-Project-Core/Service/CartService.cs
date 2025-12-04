@@ -257,7 +257,7 @@ namespace JWT_Project_Core.Service
 
 
         // Thanh toán
-        public async Task<HoaDonDTO> CheckoutAsync(string username)
+        public async Task<OrderDTO> CheckoutAsync(string username)
         {
             try
             {
@@ -273,19 +273,19 @@ namespace JWT_Project_Core.Service
                     throw new InvalidOperationException("Giỏ hàng trống!");
                 }
 
-                var hoaDon = new HoaDon
+                var hoaDon = new Order
                 {
                     Username = username,
                     NgayTao = DateTime.UtcNow,
                     TrangThai = EnumStatus.pending,
-                    HoaDon_Saches = cart.CartItems.Select(ci => new HoaDon_Sach
+                    Order_Books = cart.CartItems.Select(ci => new Order_Book
                     {
                         MaSach = ci.MaSach,
                         SoLuong = ci.SoLuong
                     }).ToList()
                 };
 
-                _context.HoaDons.Add(hoaDon);
+                _context.Orders.Add(hoaDon);
 
                 Log.Information("CheckoutAsync: Created invoice for {Username}, deleting cart items", username);
 
@@ -294,7 +294,7 @@ namespace JWT_Project_Core.Service
 
                 Log.Information("CheckoutAsync: Checkout completed successfully for {Username}", username);
 
-                return _mapper.Map<HoaDonDTO>(hoaDon);
+                return _mapper.Map<OrderDTO>(hoaDon);
             }
             catch (Exception ex)
             {

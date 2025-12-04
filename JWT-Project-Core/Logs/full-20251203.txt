@@ -1,0 +1,1575 @@
+2025-12-03 09:27:54.348 +07:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [CartItems] DROP CONSTRAINT [FK_CartItems_Saches_MaSach];
+2025-12-03 09:29:19.118 +07:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [CartItems] DROP CONSTRAINT [FK_CartItems_Saches_MaSach];
+2025-12-03 09:32:09.242 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:32:49.621 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:32:49.639 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:32:49.851 +07:00 [WRN] GetCartAsync: Cart not found for admin, creating new one
+2025-12-03 09:32:49.987 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:32:52.223 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzI5MTcyLCJleHAiOjE3NjQ3MzYzNzIsImlhdCI6MTc2NDcyOTE3MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.rjxbZY6K3bfAgE1lWexGWyBOLslgPYlSnuvehgw1lxQ
+2025-12-03 09:32:52.239 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:32:52.256 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:32:54.360 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 09:32:56.996 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:33:02.437 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:35:08.575 +07:00 [INF] Them sach thanh cong !
+2025-12-03 09:35:13.364 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:35:16.252 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 09:35:17.435 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 09:35:23.410 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 09:37:18.343 +07:00 [INF] Them sach thanh cong !
+2025-12-03 09:37:27.931 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:37:32.325 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:37:35.980 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NzI5NDU1LCJleHAiOjE3NjQ3MzY2NTUsImlhdCI6MTc2NDcyOTQ1NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.5VutFphtMrmoM9cGqZwUNSSCcKXmmCsxeb9RCHwcxjc
+2025-12-03 09:37:35.993 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 09:37:36.004 +07:00 [WRN] GetCartAsync: Cart not found for Thang, creating new one
+2025-12-03 09:37:36.008 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 09:37:40.130 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-03 09:37:40.152 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-12-03 09:37:40.201 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 09:37:44.466 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-03 09:37:44.486 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-03 09:37:44.490 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 09:37:46.549 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 09:37:46.574 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 09:37:46.593 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-03 09:37:46.603 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 09:37:47.446 +07:00 [INF] CheckoutAsync: Processing checkout for Thang
+2025-12-03 09:37:47.468 +07:00 [INF] CheckoutAsync: Created invoice for Thang, deleting cart items
+2025-12-03 09:37:47.528 +07:00 [INF] CheckoutAsync: Checkout completed successfully for Thang
+2025-12-03 09:38:08.459 +07:00 [INF] Thêm hóa đơn "40df8c77-9304-4d32-b5f4-81501755c2da" thành công!
+2025-12-03 09:38:33.187 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzI5NTEzLCJleHAiOjE3NjQ3MzY3MTMsImlhdCI6MTc2NDcyOTUxMywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.p1i5yHs3z0Vq7u_WYQrS3DA_OQLZJT0ai29H8sLg2a8
+2025-12-03 09:38:33.203 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:38:33.206 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:38:34.467 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:39:46.631 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:39:46.639 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:39:46.775 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:39:55.231 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:40:03.752 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:41:02.418 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:41:02.448 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:41:02.561 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:43:53.849 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:43:53.887 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:43:54.003 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:43:55.393 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzI5ODM1LCJleHAiOjE3NjQ3MzcwMzUsImlhdCI6MTc2NDcyOTgzNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.RKXJXLe61ou11OjHr8IdSzP4ZFgsyldWalHgdfO7jxM
+2025-12-03 09:43:55.409 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:43:55.415 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:43:56.997 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:44:05.689 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:44:05.695 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:44:05.795 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:44:46.670 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 09:44:46.694 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 09:44:46.826 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:45:59.257 +07:00 [INF] Xóa hóa đơn "40df8c77-9304-4d32-b5f4-81501755c2da" thành công
+2025-12-03 09:46:02.915 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 09:46:03.711 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:46:06.770 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NzI5OTY2LCJleHAiOjE3NjQ3MzcxNjYsImlhdCI6MTc2NDcyOTk2NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.QOwKAoMpjxry-Ds1_vshNBNenN98DLI6sLXFnH18SrM
+2025-12-03 09:46:06.780 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 09:46:06.788 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 09:46:08.795 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 09:46:08.800 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 09:48:49.103 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 09:49:00.507 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 09:49:00.517 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 09:49:03.472 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-03 09:49:03.485 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-12-03 09:49:03.540 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 09:49:04.507 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 09:49:04.518 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 1 items
+2025-12-03 09:49:04.564 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 10:08:30.691 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:08:54.684 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NzMxMzM0LCJleHAiOjE3NjQ3Mzg1MzQsImlhdCI6MTc2NDczMTMzNCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.oObSDURE6CiqL9SdBdsCmlSpSSGJ95CPclh57_3JJoA
+2025-12-03 10:08:54.708 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 10:08:54.844 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 1 items
+2025-12-03 10:08:54.879 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 10:09:46.665 +07:00 [INF] User created successfully!
+2025-12-03 10:09:52.475 +07:00 [INF] Login success , Ngoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5nb2MiLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjQ3MzEzOTIsImV4cCI6MTc2NDczODU5MiwiaWF0IjoxNzY0NzMxMzkyLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.R7zuEIEQJhNXjmjx1uyfSDKkYO3SKNWJvOpFmbL73sM
+2025-12-03 10:09:52.490 +07:00 [INF] GetCartAsync: Getting cart for user Ngoc
+2025-12-03 10:09:52.498 +07:00 [WRN] GetCartAsync: Cart not found for Ngoc, creating new one
+2025-12-03 10:09:52.509 +07:00 [INF] GetCartAsync: Retrived cart for user Ngoc with 0 items
+2025-12-03 10:10:00.526 +07:00 [INF] Login success , Ngoc , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5nb2MiLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3NjQ3MzE0MDAsImV4cCI6MTc2NDczODYwMCwiaWF0IjoxNzY0NzMxNDAwLCJpc3MiOiJTdHVkZW50QXBpIiwiYXVkIjoiU3R1ZGVudEFwaVVzZXJzIn0.AUkESFMf-dtPdFyYuxxxqXh-dUHKoNd53YhYFmbL1xg
+2025-12-03 10:10:00.543 +07:00 [INF] GetCartAsync: Getting cart for user Ngoc
+2025-12-03 10:10:00.548 +07:00 [INF] GetCartAsync: Retrived cart for user Ngoc with 0 items
+2025-12-03 10:24:57.671 +07:00 [INF] GetCartAsync: Getting cart for user Ngoc
+2025-12-03 10:24:58.581 +07:00 [INF] GetCartAsync: Retrived cart for user Ngoc with 0 items
+2025-12-03 10:24:58.581 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:25:09.036 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzMyMzA5LCJleHAiOjE3NjQ3Mzk1MDksImlhdCI6MTc2NDczMjMwOSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.vAG3NkAjmhl8ifmMtCJ6uCGgn36_Cf2jRUxQ2nOVZYk
+2025-12-03 10:25:09.053 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:25:09.062 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:25:10.487 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:25:17.203 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:25:40.574 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'JWT_Project_Core.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-12-03 10:25:40.624 +07:00 [ERR] UpdateUserAsync error Ngoc
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+2025-12-03 10:25:40.733 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+   at JWT_Project_Core.Controllers.UserController.UpdateUser(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\UserController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-03 10:25:40.766 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'JWT_Project_Core.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-12-03 10:25:40.792 +07:00 [ERR] UpdateUserAsync error Ngoc
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+2025-12-03 10:25:40.874 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+   at JWT_Project_Core.Controllers.UserController.UpdateUser(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\UserController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-03 10:25:46.453 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'JWT_Project_Core.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-12-03 10:25:46.484 +07:00 [ERR] UpdateUserAsync error Ngoc
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+2025-12-03 10:25:46.564 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+   at JWT_Project_Core.Controllers.UserController.UpdateUser(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\UserController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-03 10:25:52.439 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:25:52.448 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:25:52.564 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:25:58.799 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'JWT_Project_Core.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-12-03 10:25:58.828 +07:00 [ERR] UpdateUserAsync error Ngoc
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+2025-12-03 10:25:58.913 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UpdatedAt', table 'DbProduct.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:27ee6938-5fb8-43b7-9fb4-294987dece90
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.UserService.UpdateUserAsync(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\UserService.cs:line 91
+   at JWT_Project_Core.Controllers.UserController.UpdateUser(String username, UserDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\UserController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 131
+2025-12-03 10:32:24.343 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:32:25.308 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:32:25.308 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:32:25.527 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzMyNzQ1LCJleHAiOjE3NjQ3Mzk5NDUsImlhdCI6MTc2NDczMjc0NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.1CBKwXQWYhGSUPh23o7Q6bOxjCaiBbulwg7qWZTjCjI
+2025-12-03 10:32:25.548 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:32:25.555 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:32:27.224 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:32:28.355 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:32:32.525 +07:00 [INF] Cập nhật user Ngoc thành công
+2025-12-03 10:32:32.542 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:35:02.636 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-12-03 10:36:50.842 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:36:50.863 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:36:51.003 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:37:40.719 +07:00 [INF] Cập nhật user Ngoc thành công
+2025-12-03 10:37:40.741 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:38:25.581 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:38:26.927 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzMzMTA2LCJleHAiOjE3NjQ3NDAzMDYsImlhdCI6MTc2NDczMzEwNiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.LVfUosL1b0WJKHjoM8ZLo065UVvWszOPEjpMD9-EgQg
+2025-12-03 10:38:26.940 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:38:26.949 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:38:28.804 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:38:29.805 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:38:32.311 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:38:33.604 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:39:18.775 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:39:19.751 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:39:19.751 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:39:19.994 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzMzMTU5LCJleHAiOjE3NjQ3NDAzNTksImlhdCI6MTc2NDczMzE1OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.ybBw59JfnUBFKZBR4kHkYtWI-96tUAvZuO_9e0taLok
+2025-12-03 10:39:20.008 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:39:20.015 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:39:21.461 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:41:05.239 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:41:17.045 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:41:17.072 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:41:17.151 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:41:19.758 +07:00 [INF] Xóa user Ngoc thành công
+2025-12-03 10:41:19.776 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:41:23.744 +07:00 [INF] Xóa user Thang thành công
+2025-12-03 10:41:23.761 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:41:25.775 +07:00 [INF] Xóa user HoangThang thành công
+2025-12-03 10:41:25.796 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:47:35.396 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:47:36.304 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:47:36.304 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:47:37.350 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzMzNjU3LCJleHAiOjE3NjQ3NDA4NTcsImlhdCI6MTc2NDczMzY1NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.E1lI7wzpGWuu6dR-FluQkNCpSWBzMhRH8Jyu4VMZ89M
+2025-12-03 10:47:37.366 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:47:37.373 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:47:39.622 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:47:40.409 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:47:41.156 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:47:43.842 +07:00 [INF] Xóa hóa đơn "92cab6b9-e1f3-42c8-1159-08de3214f208" thành công
+2025-12-03 10:47:49.667 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:48:08.260 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 10:48:27.344 +07:00 [INF] User created successfully!
+2025-12-03 10:48:34.692 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzMzNzE0LCJleHAiOjE3NjQ3NDA5MTQsImlhdCI6MTc2NDczMzcxNCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.yMdUnKlHZMDqpdQFu0rrwHR-EaxxAvNYZVk3K9EzJu0
+2025-12-03 10:48:34.704 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 10:48:34.711 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 10:48:36.308 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:49:06.152 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 10:49:06.167 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:49:20.260 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 10:49:20.274 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 10:49:23.502 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 10:49:23.515 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:11:30.394 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:11:31.474 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:11:31.479 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:11:34.158 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1MDk0LCJleHAiOjE3NjQ3NDIyOTQsImlhdCI6MTc2NDczNTA5NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.eNl9Zd5lNsj4fuPBRMKWbXLKKqk5G5H4268RNXXOiEo
+2025-12-03 11:11:34.173 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:11:34.178 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:11:35.521 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:11:41.062 +07:00 [INF] Xóa user Thang thành công
+2025-12-03 11:11:41.082 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:11:42.772 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:12:11.776 +07:00 [INF] User created successfully!
+2025-12-03 11:12:23.606 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1MTQzLCJleHAiOjE3NjQ3NDIzNDMsImlhdCI6MTc2NDczNTE0MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.aonr7igFyyEjCL-tRG9TiXkqUYcW1lNjeBDqagZ2g1Q
+2025-12-03 11:12:23.624 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:12:23.631 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:12:24.844 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:12:36.206 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:12:36.220 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:13:05.509 +07:00 [INF] Xóa user Thang thành công
+2025-12-03 11:13:05.527 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:15:48.369 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:15:49.272 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:15:49.272 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:16:20.793 +07:00 [INF] User created successfully!
+2025-12-03 11:16:26.308 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1Mzg2LCJleHAiOjE3NjQ3NDI1ODYsImlhdCI6MTc2NDczNTM4NiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.YFEC_UQp8GK_3wvpFKKbiX1BQ4ws_sfYEs0mhjgCOMo
+2025-12-03 11:16:26.324 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:16:26.329 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:16:27.769 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:16:42.364 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:16:42.388 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:16:58.357 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:17:00.737 +07:00 [INF] Login success , Thang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IlN0YWZmIiwibmJmIjoxNzY0NzM1NDIwLCJleHAiOjE3NjQ3NDI2MjAsImlhdCI6MTc2NDczNTQyMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.eNX4wb3NBN7gQIwVl8dG0zBEk_GiLs8PhZWH-5VlP4I
+2025-12-03 11:17:00.749 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:17:00.758 +07:00 [WRN] GetCartAsync: Cart not found for Thang, creating new one
+2025-12-03 11:17:00.769 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:17:02.038 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:17:04.319 +07:00 [INF] Xóa user Thang thành công
+2025-12-03 11:17:04.333 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:17:17.343 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:17:18.426 +07:00 [WRN] Sai ten dang nhap hoac mat khau !
+2025-12-03 11:17:44.841 +07:00 [INF] User created successfully!
+2025-12-03 11:17:47.983 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NzM1NDY3LCJleHAiOjE3NjQ3NDI2NjcsImlhdCI6MTc2NDczNTQ2NywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Wj_aAsjlH2S_1_Vun_2xvfDPTzM9eZyo56jT94pgkLY
+2025-12-03 11:17:47.995 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:17:48.005 +07:00 [WRN] GetCartAsync: Cart not found for Thang, creating new one
+2025-12-03 11:17:48.010 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:17:52.795 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1NDcyLCJleHAiOjE3NjQ3NDI2NzIsImlhdCI6MTc2NDczNTQ3MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.JtRLP6d9ZDv9tlLvey8eWtVIQ4rYReX4sQp1S7arDgU
+2025-12-03 11:17:52.806 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:17:52.813 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:17:54.925 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:17:58.504 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:17:58.519 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:19:03.424 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:19:04.552 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1NTQ0LCJleHAiOjE3NjQ3NDI3NDQsImlhdCI6MTc2NDczNTU0NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.haGWGeWDeqn24BHqsk2F3DmGnobQve_ntZ8932qWj9c
+2025-12-03 11:19:04.565 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:19:04.575 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:19:06.070 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:19:06.861 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:19:07.662 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:19:08.498 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:19:13.696 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:19:15.649 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1NTU1LCJleHAiOjE3NjQ3NDI3NTUsImlhdCI6MTc2NDczNTU1NSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Q54Zi8iFSGYyVe5K5dew0--lOjbUBHOxCTxR-l-T-JE
+2025-12-03 11:19:15.659 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:19:15.663 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:19:29.095 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:19:32.725 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:19:32.742 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:19:36.095 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:19:36.111 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:19:40.124 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:19:43.828 +07:00 [INF] Login success , Thang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IlN0YWZmIiwibmJmIjoxNzY0NzM1NTgzLCJleHAiOjE3NjQ3NDI3ODMsImlhdCI6MTc2NDczNTU4MywiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.kK6r9d0jia8-IdbvbIq28sqiTRYitepnnYo_o5YYhFI
+2025-12-03 11:19:43.841 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:19:43.844 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:19:47.823 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:19:50.187 +07:00 [INF] Login success , Thang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IlN0YWZmIiwibmJmIjoxNzY0NzM1NTkwLCJleHAiOjE3NjQ3NDI3OTAsImlhdCI6MTc2NDczNTU5MCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.8QtMfJxti0zZW80MvI7BO3jW3Kq9_SF2lXuDn8qriMU
+2025-12-03 11:19:50.197 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:19:50.203 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:19:51.641 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:19:54.251 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1NTk0LCJleHAiOjE3NjQ3NDI3OTQsImlhdCI6MTc2NDczNTU5NCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.G8RUa84DM-b0-S9Hh3nPXlvn1zJ_0BdPq7Sp95LuxnI
+2025-12-03 11:19:54.264 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:19:54.269 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:19:56.417 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:20:05.869 +07:00 [INF] Login success , Thang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IlN0YWZmIiwibmJmIjoxNzY0NzM1NjA1LCJleHAiOjE3NjQ3NDI4MDUsImlhdCI6MTc2NDczNTYwNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.09s5hVyJJWAtNDlrXWARIDqOgYjDTWg5lZ2_3mGDGDY
+2025-12-03 11:20:05.881 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:20:05.892 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:20:09.812 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:20:12.959 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:20:12.979 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:20:20.722 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:20:20.729 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:20:20.948 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:20:22.344 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:20:24.156 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:20:25.425 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NzM1NjI1LCJleHAiOjE3NjQ3NDI4MjUsImlhdCI6MTc2NDczNTYyNSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Kae_kMpaZxePtqdJasXFAa35LoUrAZ0mSRw3ONHTdgI
+2025-12-03 11:20:25.439 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:20:25.443 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:20:32.509 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1NjMyLCJleHAiOjE3NjQ3NDI4MzIsImlhdCI6MTc2NDczNTYzMiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.0Oez9AfQjTDnkXg4TVRBXUAMzxNeKg7LcqRpFpONlgw
+2025-12-03 11:20:32.523 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:20:32.526 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:20:38.664 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:20:42.695 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:23:50.994 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1ODMwLCJleHAiOjE3NjQ3NDMwMzAsImlhdCI6MTc2NDczNTgzMCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.46aWsoWe2sC_ju9WRtBEVXccUjVsvfPZCJ1aBq70H4w
+2025-12-03 11:23:51.011 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:23:51.022 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:23:52.461 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:24:45.722 +07:00 [INF] Them sach thanh cong !
+2025-12-03 11:24:48.554 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:24:51.554 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NzM1ODkxLCJleHAiOjE3NjQ3NDMwOTEsImlhdCI6MTc2NDczNTg5MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.UPFnhqqOVWVSHlYeoPW0ISdE6NE5Ngecdk8z3EZfPhM
+2025-12-03 11:24:51.565 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:24:51.573 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:24:58.285 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:24:58.289 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:25:00.149 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-03 11:25:00.159 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-12-03 11:25:00.202 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 11:25:00.636 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-03 11:25:00.643 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-03 11:25:00.649 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 11:25:02.520 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:25:02.547 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 11:25:02.578 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-03 11:25:02.582 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 11:25:03.489 +07:00 [INF] CheckoutAsync: Processing checkout for Thang
+2025-12-03 11:25:03.513 +07:00 [INF] CheckoutAsync: Created invoice for Thang, deleting cart items
+2025-12-03 11:25:03.548 +07:00 [INF] CheckoutAsync: Checkout completed successfully for Thang
+2025-12-03 11:25:21.781 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1OTIxLCJleHAiOjE3NjQ3NDMxMjEsImlhdCI6MTc2NDczNTkyMSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.rZ3Ef69IZKl-ySiD2be3WQw-unaeWElbsWzh0gbbvY0
+2025-12-03 11:25:21.792 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:25:21.795 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:25:24.121 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:25:27.580 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:25:27.594 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:25:36.189 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:25:36.207 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:25:39.092 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:25:41.602 +07:00 [INF] Login success , Thang , "Customer" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzY0NzM1OTQxLCJleHAiOjE3NjQ3NDMxNDEsImlhdCI6MTc2NDczNTk0MSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.J-1LD-lXou3LSOtwjxp_ziLaWMTz_N7B_u0AYz1Q7c4
+2025-12-03 11:25:41.618 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:25:41.627 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:25:48.713 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM1OTQ4LCJleHAiOjE3NjQ3NDMxNDgsImlhdCI6MTc2NDczNTk0OCwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.Kl0VFlYZ9V5QT7hpzQ5gYT_GrnbP-KFSNwpZvjVaFMM
+2025-12-03 11:25:48.730 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:25:48.735 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:25:50.959 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:25:55.948 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:25:55.961 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:25:56.925 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:26:02.251 +07:00 [INF] Login success , Thang , "Staff" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRoYW5nIiwicm9sZSI6IlN0YWZmIiwibmJmIjoxNzY0NzM1OTYyLCJleHAiOjE3NjQ3NDMxNjIsImlhdCI6MTc2NDczNTk2MiwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.2bSmm6YK_sKJox-ov1xbrP1Q9K3O9oj-ltJHi03HEbo
+2025-12-03 11:26:02.261 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 11:26:02.264 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 11:26:04.133 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:26:07.411 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:26:07.427 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:26:11.087 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 11:26:11.100 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:26:19.405 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:29:39.474 +07:00 [INF] Login success , admin , "Admin" , eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzY0NzM2MTc5LCJleHAiOjE3NjQ3NDMzNzksImlhdCI6MTc2NDczNjE3OSwiaXNzIjoiU3R1ZGVudEFwaSIsImF1ZCI6IlN0dWRlbnRBcGlVc2VycyJ9.j2j_FOBF1XPbhAqqd0DLOOU2FLJHeJOf7vXLZ7izHwE
+2025-12-03 11:29:39.487 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 11:29:39.500 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 11:29:40.904 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 11:29:42.311 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 11:29:44.631 +07:00 [INF] Xóa hóa đơn "0c016392-c7ac-4f83-262b-08de3223ee36" thành công
+2025-12-03 11:29:52.511 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:35:18.932 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:35:19.716 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:35:19.840 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:35:21.707 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:35:23.123 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:35:24.078 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:37:40.249 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:37:44.451 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:37:44.459 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:37:51.381 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:37:57.455 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:37:57.459 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:37:59.534 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:38:01.209 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:38:01.212 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:38:21.627 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:41:34.433 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:41:34.442 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:41:40.939 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:42:13.070 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:43:22.743 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:43:39.600 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:43:39.604 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:43:42.076 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:45:27.283 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:45:27.292 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:45:50.107 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:45:50.111 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:45:59.990 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:47:47.515 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:47:47.515 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:47:52.279 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:47:52.282 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:47:59.194 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:48:43.604 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:48:43.604 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:49:21.615 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:49:21.620 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:49:22.664 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:55:14.707 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:55:14.710 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:55:14.710 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 13:55:28.301 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:55:28.310 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:55:28.438 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:55:30.022 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:55:30.025 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:55:41.244 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:57:01.135 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:57:01.135 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:57:03.794 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:57:03.798 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:57:04.952 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:58:08.960 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:58:08.960 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:58:11.868 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 13:58:11.873 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 13:58:15.575 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:58:25.218 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:58:25.218 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 13:59:45.978 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:00:05.512 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:00:05.633 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:00:12.245 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:00:37.361 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:00:37.365 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:00:39.241 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:01:09.196 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:01:09.203 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:01:09.313 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:04:34.848 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:04:51.647 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:04:51.656 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:04:51.815 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:04:55.316 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:04:55.343 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:04:59.361 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:04:59.376 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:06:49.908 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:06:49.936 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:06:50.078 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:06:52.771 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:06:52.779 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:06:52.928 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:07:11.307 +07:00 [INF] Xóa user Thang thành công
+2025-12-03 14:07:11.322 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:07:13.665 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:07:51.327 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:07:51.331 +07:00 [WRN] GetCartAsync: Cart not found for Thang, creating new one
+2025-12-03 14:07:51.343 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:08:08.572 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:08:08.577 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:15:31.641 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:15:31.684 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:15:51.182 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:15:51.190 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:15:52.329 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:15:52.336 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:15:54.358 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:16:19.168 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:16:19.182 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:16:19.312 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:16:22.526 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:16:22.532 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:16:23.739 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:17:07.960 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:17:08.015 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:17:08.112 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:18:27.607 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:18:29.186 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:18:29.192 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:18:31.460 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:18:46.698 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:18:46.705 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:18:46.896 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:18:51.620 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:18:51.632 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:18:55.428 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:18:55.444 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:18:58.999 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:18:59.014 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:19:21.080 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:19:21.098 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:19:25.599 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:19:25.613 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:19:43.899 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:19:43.910 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:19:44.052 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:19:47.187 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:19:47.201 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:19:51.187 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:19:51.204 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:20:06.212 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:20:20.734 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:20:20.740 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:20:27.338 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:20:38.580 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:20:38.584 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:20:50.048 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:21:47.962 +07:00 [INF] Them sach thanh cong !
+2025-12-03 14:21:55.329 +07:00 [INF] UpdateAsync: Updated student with ma 04
+2025-12-03 14:22:02.601 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:22:04.760 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:22:06.330 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 14:22:09.220 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 14:22:15.458 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:22:18.099 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:22:18.103 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:26:43.136 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:26:43.177 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:26:43.343 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:27:24.091 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:27:24.097 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:27:35.627 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:27:35.631 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:27:37.658 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:27:41.276 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:27:41.290 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:27:45.151 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:27:45.165 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:30:59.492 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:30:59.506 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:31:03.527 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:31:03.541 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:31:09.434 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:31:26.187 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:31:31.725 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:31:31.738 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:31:34.830 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:31:34.845 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:32:50.768 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:32:50.784 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:32:54.485 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:32:54.500 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:01.548 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:33:01.558 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:33:01.685 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:06.645 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:33:06.660 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:09.804 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:33:09.816 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:12.843 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:33:15.549 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:33:15.553 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:33:17.079 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:20.432 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:33:20.448 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:24.293 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:33:24.308 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:36.209 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:33:36.223 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:38.518 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:33:38.526 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:33:38.657 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:33:53.561 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:33:57.099 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:33:57.102 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:34:04.391 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:34:04.398 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:34:06.298 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:34:09.425 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:34:09.436 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:34:12.849 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:34:12.865 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:34:15.477 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:34:18.056 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:34:18.059 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:34:25.640 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:34:29.257 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:34:29.271 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:34:32.176 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:34:32.191 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:34:32.358 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:35:22.181 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 14:35:22.195 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 14:35:22.343 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:35:23.750 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:35:26.176 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:35:26.180 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:35:27.286 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:35:45.981 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:35:45.996 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:35:46.165 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:35:49.153 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:35:49.166 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:40:02.156 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:40:09.223 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 14:40:09.227 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 14:40:35.001 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:40:37.930 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:40:37.944 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:40:41.169 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 14:40:41.182 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 14:41:14.601 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 14:50:50.286 +07:00 [INF] Xóa user Thang thành công
+2025-12-03 14:51:04.345 +07:00 [INF] Lấy danh sách user (page 1, size 10) thành công!
+2025-12-03 15:00:14.549 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:00:17.410 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:00:17.528 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:01:51.491 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:01:51.504 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:02:40.571 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:02:40.589 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:04:12.997 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:04:14.868 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:04:43.850 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:04:43.855 +07:00 [WRN] GetCartAsync: Cart not found for Thang, creating new one
+2025-12-03 15:04:43.866 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 15:04:47.719 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:04:47.731 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 15:04:47.935 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:04:53.998 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:04:54.001 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 15:05:18.726 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:05:18.748 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 15:05:18.875 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:05:35.117 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:05:36.253 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 15:05:36.255 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:05:36.571 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:05:36.577 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 15:05:41.091 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:05:41.099 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 15:05:46.148 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:05:46.152 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:05:47.257 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:05:51.040 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:05:51.056 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:05:54.763 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:05:54.776 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:08:06.978 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:08:12.188 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:08:12.192 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:08:15.722 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:11:16.344 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:11:23.366 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:11:23.370 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:13:27.483 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:13:27.502 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:14:30.462 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:14:30.478 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:16:10.440 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:16:10.453 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:16:23.082 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:16:23.094 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:16:26.194 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:16:29.459 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:16:29.472 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:16:32.594 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:16:32.612 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:16:34.000 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:18:41.367 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:18:43.710 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:18:46.012 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:18:49.770 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:18:54.049 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:19:41.949 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:19:41.988 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:19:50.164 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:19:50.190 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:20:19.036 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:20:19.061 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:20:28.084 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:20:28.101 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:23:25.007 +07:00 [INF] Them sach thanh cong !
+2025-12-03 15:23:37.189 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:23:38.994 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:23:40.215 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:24:19.582 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-03 15:24:19.597 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-03 15:24:19.627 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:20.489 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-03 15:24:20.495 +07:00 [INF] AddToCartAsync: Item 03  not found, adding new
+2025-12-03 15:24:20.498 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:40.959 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:24:40.979 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 15:24:41.013 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-03 15:24:41.013 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 15:24:41.727 +07:00 [INF] CheckoutAsync: Processing checkout for Thang
+2025-12-03 15:24:41.754 +07:00 [INF] CheckoutAsync: Created invoice for Thang, deleting cart items
+2025-12-03 15:24:41.794 +07:00 [INF] CheckoutAsync: Checkout completed successfully for Thang
+2025-12-03 15:24:54.626 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-03 15:24:54.630 +07:00 [INF] AddToCartAsync: Item 03  not found, adding new
+2025-12-03 15:24:54.633 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:57.531 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-03 15:24:57.536 +07:00 [INF] AddToCartAsync: Item 03  exists, increasing quantity to 2
+2025-12-03 15:24:57.542 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:57.714 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-03 15:24:57.720 +07:00 [INF] AddToCartAsync: Item 03  exists, increasing quantity to 3
+2025-12-03 15:24:57.724 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:58.858 +07:00 [INF] AddToCartAsync: Adding 1 of 04 to cart Thang
+2025-12-03 15:24:58.863 +07:00 [INF] AddToCartAsync: Item 04 not found, adding new
+2025-12-03 15:24:58.869 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:59.019 +07:00 [INF] AddToCartAsync: Adding 1 of 04 to cart Thang
+2025-12-03 15:24:59.025 +07:00 [INF] AddToCartAsync: Item 04 exists, increasing quantity to 2
+2025-12-03 15:24:59.027 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:59.489 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-03 15:24:59.493 +07:00 [INF] AddToCartAsync: Item 03  exists, increasing quantity to 4
+2025-12-03 15:24:59.499 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:24:59.648 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-03 15:24:59.653 +07:00 [INF] AddToCartAsync: Item 03  exists, increasing quantity to 5
+2025-12-03 15:24:59.655 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 15:25:00.706 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:25:00.719 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 15:25:00.737 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 15:25:00.737 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 15:27:50.642 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 15:27:51.588 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 15:27:51.588 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:27:51.698 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 15:27:51.698 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 15:28:40.319 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:28:41.974 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:28:42.672 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:28:44.084 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:28:45.200 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:28:47.280 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:28:49.620 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:28:52.109 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "8ecb4220-a750-4a91-4211-08de3245684f" thành công
+2025-12-03 15:28:55.483 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "8ecb4220-a750-4a91-4211-08de3245684f" thành công
+2025-12-03 15:28:57.693 +07:00 [INF] ApproveAsync: Duyệt hóa đơn "8ecb4220-a750-4a91-4211-08de3245684f" thành công
+2025-12-03 15:29:00.382 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:29:06.203 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:29:06.219 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:29:16.215 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:29:16.233 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:29:30.169 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:29:30.181 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:29:30.343 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:29:35.326 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:29:35.342 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:36:45.373 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:36:46.281 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:36:46.281 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:37:00.591 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:37:03.896 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:37:07.555 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:37:07.573 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:37:10.546 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:37:10.567 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:39:10.551 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:39:10.570 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:39:10.801 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:39:12.812 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:39:47.236 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:39:52.689 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:39:52.703 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:39:56.358 +07:00 [INF] Cập nhật user Thang thành công
+2025-12-03 15:39:56.373 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:41:03.390 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:41:03.400 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:41:03.573 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:41:53.535 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:41:53.554 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:41:53.723 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:41:54.595 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:46:14.585 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:46:14.606 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:46:16.433 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:48:34.150 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:48:34.158 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:49:02.131 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:49:04.837 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 15:49:05.821 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:50:28.549 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:50:28.583 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:50:36.011 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:52:36.166 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:52:37.296 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 15:52:37.296 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 15:56:42.587 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 15:56:42.595 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:01:45.233 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:01:46.260 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:01:48.384 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 16:02:49.180 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:02:49.195 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:05:34.767 +07:00 [INF] Them sach thanh cong !
+2025-12-03 16:05:56.121 +07:00 [INF] UpdateAsync: Updated student with ma 06
+2025-12-03 16:06:17.652 +07:00 [INF] UpdateAsync: Updated student with ma 06
+2025-12-03 16:10:45.642 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:10:48.576 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:10:53.506 +07:00 [INF] CancelAsync: Hủy duyệt hóa đơn "8ecb4220-a750-4a91-4211-08de3245684f" thành công
+2025-12-03 16:10:58.729 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:11:23.424 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:11:23.440 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:11:23.462 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:11:23.462 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:11:25.007 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:11:25.012 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:11:25.032 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:11:25.032 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:11:37.285 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:11:37.290 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:11:37.310 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:11:37.310 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:11:42.467 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:11:42.473 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:11:42.488 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:11:42.488 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:11:44.855 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:11:44.861 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:11:44.882 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:11:44.882 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:11:48.453 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:11:48.458 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:11:48.475 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:11:48.475 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:11:54.510 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:11:54.515 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:11:54.533 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:11:54.533 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:13:13.619 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:13:13.631 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:13:13.639 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:13:13.665 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:13:30.302 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:13:30.312 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:13:30.372 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:13:31.335 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:13:31.342 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:13:31.365 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:13:31.365 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:13:33.479 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:13:33.486 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:13:33.517 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:13:44.486 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:13:44.495 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:13:44.655 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:14:17.579 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:14:17.587 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:14:17.607 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:14:17.653 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:14:22.371 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:14:22.379 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:14:22.466 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:14:22.466 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:14:22.513 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:14:26.786 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:14:26.798 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:14:26.877 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:14:26.877 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:14:26.952 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:14:31.705 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:14:31.714 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:14:31.789 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:14:31.789 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:14:31.914 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:14:47.562 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:14:47.568 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:14:47.588 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:14:47.588 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-03 16:14:49.413 +07:00 [INF] RemoveItemAsync: Removing item 03  from cart of Thang
+2025-12-03 16:14:49.441 +07:00 [INF] RemoveItemAsync: Removed item 03  successfully
+2025-12-03 16:14:50.066 +07:00 [INF] RemoveItemAsync: Removing item 04 from cart of Thang
+2025-12-03 16:14:50.072 +07:00 [INF] RemoveItemAsync: Removed item 04 successfully
+2025-12-03 16:14:52.607 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-03 16:14:52.612 +07:00 [INF] AddToCartAsync: Item 01 not found, adding new
+2025-12-03 16:14:52.628 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 16:15:31.540 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:15:31.556 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:15:31.567 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 1 items
+2025-12-03 16:15:31.596 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:15:31.619 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:15:36.551 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:15:36.556 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 1 items
+2025-12-03 16:15:36.571 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:15:41.971 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:15:41.988 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 1 items
+2025-12-03 16:15:42.053 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:15:42.163 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:15:47.205 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:15:47.213 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 1 items
+2025-12-03 16:15:47.234 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:15:51.151 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:15:51.157 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 1 items
+2025-12-03 16:15:51.177 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:15:53.248 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-03 16:15:53.253 +07:00 [INF] AddToCartAsync: Item 01 exists, increasing quantity to 2
+2025-12-03 16:15:53.257 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 16:15:54.712 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-03 16:15:54.715 +07:00 [INF] AddToCartAsync: Item 02 not found, adding new
+2025-12-03 16:15:54.724 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 16:15:55.759 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-03 16:15:55.763 +07:00 [INF] AddToCartAsync: Item 03  not found, adding new
+2025-12-03 16:15:55.767 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 16:15:56.882 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:15:56.890 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 3 items
+2025-12-03 16:15:56.915 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-03 16:15:56.915 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:15:56.915 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:15:59.660 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:15:59.668 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 3 items
+2025-12-03 16:15:59.698 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-03 16:15:59.699 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-03 16:15:59.702 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-03 16:16:00.542 +07:00 [INF] CheckoutAsync: Processing checkout for Thang
+2025-12-03 16:16:00.551 +07:00 [INF] CheckoutAsync: Created invoice for Thang, deleting cart items
+2025-12-03 16:16:00.586 +07:00 [INF] CheckoutAsync: Checkout completed successfully for Thang
+2025-12-03 16:16:22.573 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:16:22.578 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:16:23.843 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 16:16:25.162 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:16:27.128 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 16:16:28.114 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:16:28.968 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 16:16:29.473 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:18:13.438 +07:00 [INF] Them sach thanh cong !
+2025-12-03 16:19:21.797 +07:00 [INF] Them sach thanh cong !
+2025-12-03 16:20:19.126 +07:00 [INF] Them sach thanh cong !
+2025-12-03 16:20:23.270 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:20:25.678 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:20:44.963 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 16:21:13.908 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:21:16.889 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:21:16.895 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 16:22:01.506 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:22:01.512 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 16:22:05.786 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:22:05.790 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 16:25:29.795 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:25:29.800 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:25:31.138 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:27:43.525 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:28:03.768 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:28:13.335 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:28:16.902 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:28:16.915 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 16:28:29.490 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:28:29.496 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:29:05.801 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:29:26.533 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:39:18.751 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:39:19.631 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:39:19.631 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:39:20.431 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:39:20.441 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:39:22.935 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:39:35.771 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:39:48.860 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:39:48.868 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:39:48.974 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:39:53.397 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:42:24.702 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:42:52.112 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:43:17.746 +07:00 [ERR] UpdateAsync: Unexpected error while updating HoaDon "de65f48f-6b32-4f24-22bd-08de324c936d"
+System.InvalidOperationException: The instance of entity type 'Order_Book' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries()
+   at JWT_Project_Core.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Data\ApplicationDbContext.cs:line 86
+   at JWT_Project_Core.Service.OrderService.UpdateAsync(OrderDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\OrderService.cs:line 180
+2025-12-03 16:43:17.882 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.InvalidOperationException: The instance of entity type 'Order_Book' cannot be tracked because another instance with the same key value for {'MaHoaDon', 'MaSach'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer.NavigationCollectionChanged(InternalEntityEntry entry, INavigationBase navigationBase, IEnumerable`1 added, IEnumerable`1 removed)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectNavigationChange(InternalEntityEntry entry, INavigationBase navigationBase)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.LocalDetectChanges(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector.DetectChanges(IStateManager stateManager)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.TryDetectChanges()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.Entries()
+   at JWT_Project_Core.Data.ApplicationDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Data\ApplicationDbContext.cs:line 86
+   at JWT_Project_Core.Service.OrderService.UpdateAsync(OrderDTO dto, Guid id) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\OrderService.cs:line 180
+   at JWT_Project_Core.Controllers.OrderController.UpdateHoaDon(Guid id, OrderDTO dto) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\OrderController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 133
+2025-12-03 16:43:26.457 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:43:31.590 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:43:42.626 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:43:54.382 +07:00 [INF] Cập nhật hóa đơn "de65f48f-6b32-4f24-22bd-08de324c936d" thành công
+2025-12-03 16:44:21.939 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 16:44:23.607 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:44:25.833 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:44:25.839 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 16:46:40.104 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:46:40.127 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 16:46:40.286 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:46:47.547 +07:00 [INF] Thêm hóa đơn "0dd5e598-2b25-4576-9601-c388d9e976e2" thành công!
+2025-12-03 16:47:01.019 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:47:01.024 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:47:02.187 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:47:06.810 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:48:09.257 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 16:48:09.262 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 16:48:10.267 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:48:13.258 +07:00 [INF] Xóa hóa đơn "0dd5e598-2b25-4576-9601-c388d9e976e2" thành công
+2025-12-03 16:48:15.600 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 16:48:27.624 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:48:27.630 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-03 16:48:40.530 +07:00 [INF] Thêm hóa đơn "fb8bb53b-6b72-4df1-afbd-9ea1693ac41f" thành công!
+2025-12-03 16:48:52.882 +07:00 [INF] AddToCartAsync: Adding 1 of 07 to cart Thang
+2025-12-03 16:48:52.895 +07:00 [INF] AddToCartAsync: Item 07 not found, adding new
+2025-12-03 16:48:52.915 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 16:48:53.761 +07:00 [INF] AddToCartAsync: Adding 1 of 08 to cart Thang
+2025-12-03 16:48:53.769 +07:00 [INF] AddToCartAsync: Item 08 not found, adding new
+2025-12-03 16:48:53.772 +07:00 [INF] AddToCartAsync: Updated cart for Thang
+2025-12-03 16:48:59.989 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 16:48:59.997 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 16:49:00.126 +07:00 [INF] Lay sach Bách Khoa Về Kỳ Đà theo ma  07 thanh cong !
+2025-12-03 16:49:00.126 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-03 17:14:42.023 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 17:14:43.073 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 17:14:43.073 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:14:43.158 +07:00 [INF] Lay sach Bách Khoa Về Kỳ Đà theo ma  07 thanh cong !
+2025-12-03 17:14:43.158 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-03 17:14:43.443 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-03 17:14:43.449 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-03 17:14:43.478 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-03 17:14:43.478 +07:00 [INF] Lay sach Bách Khoa Về Kỳ Đà theo ma  07 thanh cong !
+2025-12-03 17:27:38.969 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:27:39.731 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:27:39.862 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:28:04.235 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:28:06.391 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:28:06.398 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:28:30.413 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:30:22.490 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:30:22.506 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:30:23.797 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:33:07.692 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:33:07.692 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:33:21.085 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:33:21.091 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:33:22.567 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:34:33.185 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:34:33.185 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:34:41.454 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:34:41.458 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:34:45.253 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 17:36:57.969 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:36:57.985 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:36:57.999 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 17:36:58.001 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-03 17:37:00.741 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:37:04.337 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:37:04.341 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:37:05.461 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:37:08.082 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:37:08.088 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:37:43.054 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:37:43.061 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:37:47.610 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:37:47.616 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:37:48.899 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:38:41.817 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:38:42.203 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:38:42.356 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-03 17:38:46.581 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-03 17:38:49.004 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-03 17:38:49.012 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items

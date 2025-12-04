@@ -9,10 +9,10 @@ namespace JWT_Project_Core.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SachController : ControllerBase
+    public class BookController : ControllerBase
     {
         public readonly ISachService sachService;
-        public SachController(ISachService sachService)
+        public BookController(ISachService sachService)
         {
             this.sachService = sachService;
         }
@@ -48,7 +48,7 @@ namespace JWT_Project_Core.Controllers
         }
         [HttpPost]
        
-        public async Task<IActionResult> AddSach([FromForm] SachDTO data)
+        public async Task<IActionResult> AddSach([FromForm] BookDTO data)
         {
             if (!ModelState.IsValid)
             {
@@ -60,7 +60,7 @@ namespace JWT_Project_Core.Controllers
         }
         [HttpPut("{MaSach}")]
        
-        public async Task<IActionResult> UpdateSach([FromForm] SachDTO data, string MaSach)
+        public async Task<IActionResult> UpdateSach([FromForm] BookDTO data, string MaSach)
         {
             if (!ModelState.IsValid)
             {
