@@ -57,12 +57,20 @@ namespace JWT_Project_Core.Service
             }
         }
 
-        // Thêm sản phẩm vào giỏ
+       
         public async Task<CartDTO> AddToCartAsync(string username, string maSach, int soLuong)
         {
             try
             {
                 Log.Information("AddToCartAsync: Adding {SoLuong} of {MaSach} to cart {Username}", soLuong, maSach, username);
+
+               
+                var book = await _context.Books.FirstOrDefaultAsync(x => x.MaSach == maSach);
+                if (book == null)
+                    throw new Exception("Sách không tồn tại!");
+
+                if (soLuong <= 0)
+                    throw new Exception("Số lượng phải lớn hơn 0!");
 
                 var cart = await _context.Carts
                     .Include(c => c.CartItems!)
@@ -70,26 +78,23 @@ namespace JWT_Project_Core.Service
 
                 if (cart == null)
                 {
-                    Log.Warning("AddToCartAsync: Cart not found for {Username}, creating new one", username);
-
-                    cart = new Cart
-                    {
-                        Username = username,
-                        CartItems = new List<CartItem>()
-                    };
-
+                    cart = new Cart { Username = username, CartItems = new List<CartItem>() };
                     _context.Carts.Add(cart);
-                    await _context.SaveChangesAsync();
                 }
 
                 cart.CartItems ??= new List<CartItem>();
 
                 var item = cart.CartItems.FirstOrDefault(x => x.MaSach == maSach);
 
+                int currentQty = item?.SoLuong ?? 0;
+
+                if (currentQty + soLuong > book.SoLuong)
+                {
+                    throw new Exception($"Chỉ còn {book.SoLuong} sản phẩm trong kho!");
+                }
+
                 if (item == null)
                 {
-                    Log.Information("AddToCartAsync: Item {MaSach} not found, adding new", maSach);
-
                     cart.CartItems.Add(new CartItem
                     {
                         MaSach = maSach,
@@ -98,57 +103,48 @@ namespace JWT_Project_Core.Service
                 }
                 else
                 {
-                    Log.Information("AddToCartAsync: Item {MaSach} exists, increasing quantity to {NewQty}", maSach, item.SoLuong + soLuong);
                     item.SoLuong += soLuong;
                 }
 
                 await _context.SaveChangesAsync();
 
-                Log.Information("AddToCartAsync: Updated cart for {Username}", username);
-
                 return _mapper.Map<CartDTO>(cart);
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "AddToCartAsync: Unexpected error for user {Username}", username);
+                Log.Error(ex, "AddToCartAsync Error");
                 throw;
             }
         }
 
-        // Update số lượng
+       
         public async Task<CartDTO> UpdateQuantityAsync(string username, string maSach, int soLuong)
         {
             try
             {
-                Log.Information("UpdateQuantityAsync: Updating {MaSach} to quantity {SoLuong} for {Username}", maSach, soLuong, username);
-
                 var cart = await _context.Carts
                     .Include(c => c.CartItems!)
                     .FirstOrDefaultAsync(c => c.Username == username);
 
-                if (cart == null || cart.CartItems == null)
-                {
-                    Log.Warning("UpdateQuantityAsync: Cart or cart items not found for {Username}", username);
-                    return null!;
-                }
+                if (cart == null) return null!;
 
-                var item = cart.CartItems.FirstOrDefault(x => x.MaSach == maSach);
-                if (item == null)
-                {
-                    Log.Warning("UpdateQuantityAsync: Item {MaSach} not found for {Username}", maSach, username);
-                    return null!;
-                }
+                var item = cart.CartItems!.FirstOrDefault(x => x.MaSach == maSach);
+                if (item == null) return null!;
+
+                var book = await _context.Books.FirstOrDefaultAsync(x => x.MaSach == maSach);
+                if (book == null) throw new Exception("Sách không tồn tại!");
+
+                if (soLuong > book.SoLuong)
+                    throw new Exception($"Tồn kho chỉ còn {book.SoLuong}!");
 
                 item.SoLuong = soLuong;
                 await _context.SaveChangesAsync();
-
-                Log.Information("UpdateQuantityAsync: Updated quantity for {MaSach} successfully", maSach);
 
                 return _mapper.Map<CartDTO>(cart);
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "UpdateQuantityAsync: Unexpected error for user {Username}", username);
+                Log.Error(ex, "UpdateQuantityAsync Error");
                 throw;
             }
         }
@@ -190,7 +186,7 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
-        // Tăng số lượng 1 đơn vị
+       
         public async Task<CartDTO> IncreaseQuantityAsync(string username, string maSach)
         {
             try
@@ -199,24 +195,27 @@ namespace JWT_Project_Core.Service
                     .Include(c => c.CartItems!)
                     .FirstOrDefaultAsync(c => c.Username == username);
 
-                if (cart == null || cart.CartItems == null)
-                    return null!;
+                var item = cart?.CartItems?.FirstOrDefault(x => x.MaSach == maSach);
+                if (item == null) return null!;
 
-                var item = cart.CartItems.FirstOrDefault(x => x.MaSach == maSach);
-                if (item == null)
-                    return null!;
+                var book = await _context.Books.FirstOrDefaultAsync(x => x.MaSach == maSach);
+                if (book == null) throw new Exception("Sách không tồn tại!");
 
-                item.SoLuong += 1;
+                if (item.SoLuong + 1 > book.SoLuong)
+                    throw new Exception($"Không thể tăng thêm. Tồn kho chỉ còn {book.SoLuong}!");
+
+                item.SoLuong++;
                 await _context.SaveChangesAsync();
 
                 return _mapper.Map<CartDTO>(cart);
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "IncreaseQuantityAsync: Unexpected error for user {Username}", username);
+                Log.Error(ex, "IncreaseQuantityAsync Error");
                 throw;
             }
         }
+
 
         // Giảm số lượng 1 đơn vị
         public async Task<CartDTO> DecreaseQuantityAsync(string username, string maSach)
@@ -240,7 +239,7 @@ namespace JWT_Project_Core.Service
                 }
                 else
                 {
-                    // Nếu số lượng = 1, giảm nữa => xóa sản phẩm khỏi giỏ
+                   
                     _context.CartItems.Remove(item);
                 }
 
@@ -256,24 +255,40 @@ namespace JWT_Project_Core.Service
         }
 
 
-        // Thanh toán
+        
+
         public async Task<OrderDTO> CheckoutAsync(string username)
         {
             try
             {
-                Log.Information("CheckoutAsync: Processing checkout for {Username}", username);
-
                 var cart = await _context.Carts
                     .Include(c => c.CartItems!)
                     .FirstOrDefaultAsync(c => c.Username == username);
 
-                if (cart == null || cart.CartItems == null || !cart.CartItems.Any())
+                if (cart == null || !cart.CartItems!.Any())
+                    throw new Exception("Giỏ hàng trống!");
+
+               
+                foreach (var ci in cart.CartItems!)
                 {
-                    Log.Warning("CheckoutAsync: Cart is empty for {Username}", username);
-                    throw new InvalidOperationException("Giỏ hàng trống!");
+                    var book = await _context.Books.FirstOrDefaultAsync(b => b.MaSach == ci.MaSach);
+
+                    if (book == null)
+                        throw new Exception($"Sách {ci.MaSach} không tồn tại!");
+
+                    if (ci.SoLuong > book.SoLuong)
+                        throw new Exception($"Sản phẩm {book.TenSach} chỉ còn {book.SoLuong} trong kho!");
                 }
 
-                var hoaDon = new Order
+                
+                foreach (var ci in cart.CartItems)
+                {
+                    var book = await _context.Books.FirstAsync(b => b.MaSach == ci.MaSach);
+                    book.SoLuong -= ci.SoLuong;
+                }
+
+               
+                var order = new Order
                 {
                     Username = username,
                     NgayTao = DateTime.UtcNow,
@@ -285,22 +300,21 @@ namespace JWT_Project_Core.Service
                     }).ToList()
                 };
 
-                _context.Orders.Add(hoaDon);
+                _context.Orders.Add(order);
 
-                Log.Information("CheckoutAsync: Created invoice for {Username}, deleting cart items", username);
-
+              
                 _context.CartItems.RemoveRange(cart.CartItems);
+
                 await _context.SaveChangesAsync();
 
-                Log.Information("CheckoutAsync: Checkout completed successfully for {Username}", username);
-
-                return _mapper.Map<OrderDTO>(hoaDon);
+                return _mapper.Map<OrderDTO>(order);
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "CheckoutAsync: Unexpected error during checkout for {Username}", username);
+                Log.Error(ex, "CheckoutAsync Error");
                 throw;
             }
         }
+
     }
 }

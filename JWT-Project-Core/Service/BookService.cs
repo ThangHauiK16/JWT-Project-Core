@@ -82,7 +82,7 @@ namespace JWT_Project_Core.Service
                     .Distinct()
                     .ToListAsync();
 
-                return categories;
+                return categories!;
             }
             catch (Exception ex)
             {

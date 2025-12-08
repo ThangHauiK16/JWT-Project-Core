@@ -154,6 +154,11 @@
         "IsRequired": false
       },
       {
+        "Name": "SoLuong",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "ImageUrl",
         "Type": "System.String",
         "IsRequired": false
@@ -248,6 +253,11 @@
       {
         "Name": "ImageFile",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "SoLuong",
+        "Type": "System.Int32",
         "IsRequired": false
       },
       {

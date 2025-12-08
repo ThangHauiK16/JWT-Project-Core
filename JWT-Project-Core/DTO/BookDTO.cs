@@ -29,6 +29,9 @@ namespace JWT_Project_Core.DTO
         public string? NoiDungSach { get; set; }
         public IFormFile? ImageFile { get; set; }
 
+        [Range(0, int.MaxValue, ErrorMessage = "Số lượng phải lớn hơn hoặc bằng 0.")]
+        public int SoLuong { get; set; }
+
         public string? ImageUrl { get; set; }
 
     }

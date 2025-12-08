@@ -255,6 +255,12 @@
                     "type": "string",
                     "format": "binary"
                   },
+                  "SoLuong": {
+                    "maximum": 2147483647,
+                    "minimum": 0,
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "ImageUrl": {
                     "type": "string"
                   },
@@ -300,6 +306,9 @@
                   "style": "form"
                 },
                 "ImageFile": {
+                  "style": "form"
+                },
+                "SoLuong": {
                   "style": "form"
                 },
                 "ImageUrl": {
@@ -466,6 +475,12 @@
                     "type": "string",
                     "format": "binary"
                   },
+                  "SoLuong": {
+                    "maximum": 2147483647,
+                    "minimum": 0,
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "ImageUrl": {
                     "type": "string"
                   },
@@ -511,6 +526,9 @@
                   "style": "form"
                 },
                 "ImageFile": {
+                  "style": "form"
+                },
+                "SoLuong": {
                   "style": "form"
                 },
                 "ImageUrl": {

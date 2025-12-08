@@ -242,22 +242,40 @@ namespace JWT_Project_Core.Service
         }
 
 
+       
         public async Task<bool> CancelAsync(Guid id)
         {
             try
             {
-                var hoaDon = await _context.Orders.FirstOrDefaultAsync(h => h.MaHoaDon == id);
+                var hoaDon = await _context.Orders
+                    .Include(h => h.Order_Books)
+                    .FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
                 {
                     Log.Warning("CancelAsync: Không tìm thấy hóa đơn {MaHoaDon}", id);
                     return false;
                 }
+                if (hoaDon.TrangThai == EnumStatus.cancel)
+                {
+                    Log.Warning("CancelAsync: Hóa đơn {MaHoaDon} đã ở trạng thái cancel", id);
+                    return false;
+                }
 
+                
+                foreach (var item in hoaDon.Order_Books)
+                {
+                    var sach = await _context.Books.FirstOrDefaultAsync(x => x.MaSach == item.MaSach);
+                    if (sach != null)
+                    {
+                        sach.SoLuong += item.SoLuong; 
+                    }
+                }
                 hoaDon.TrangThai = EnumStatus.cancel;
+
                 await _context.SaveChangesAsync();
 
-                Log.Information("CancelAsync: Hủy duyệt hóa đơn {MaHoaDon} thành công", id);
+                Log.Information("CancelAsync: Hủy hóa đơn {MaHoaDon} và hoàn tồn kho thành công", id);
                 return true;
             }
             catch (Exception ex)
