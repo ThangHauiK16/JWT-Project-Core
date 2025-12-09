@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Demo_prj\\JWT-Project-Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\dto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\dto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\OrderService.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
-              "RelativeToolTip": "JWT-Project-Core\\Service\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPQAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "JWT-Project-Core\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwFEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T03:21:37.707Z",
+              "WhenOpened": "2025-12-08T04:13:46.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BookDTO.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\BookDTO.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\BookDTO.cs",
@@ -120,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Model\\Book.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Model\\Book.cs",
@@ -133,33 +137,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\CartService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\CartService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\CartService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\CartService.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAuwNoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAIwNoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T02:54:48.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\BookService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\BookService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwFQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAwFwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T02:54:31.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ChangePasswordDto.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\ChangePasswordDto.cs",
@@ -171,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Interface\\IAuthService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Interface\\IAuthService.cs",
@@ -183,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\appsettings.Development.json",
               "RelativeDocumentMoniker": "JWT-Project-Core\\appsettings.Development.json",
@@ -195,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\appsettings.json",
               "RelativeDocumentMoniker": "JWT-Project-Core\\appsettings.json",
@@ -207,19 +211,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\EmailService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\EmailService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\EmailService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:15:16.857Z"
+              "WhenOpened": "2025-12-04T08:15:16.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Interface\\IEmailService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Interface\\IEmailService.cs",
@@ -231,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\AuthController.cs",
@@ -239,12 +244,37 @@
               "RelativeToolTip": "JWT-Project-Core\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwFMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T07:57:16.794Z",
+              "WhenOpened": "2025-12-04T07:57:16.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\AuthService.cs",
+              "RelativeToolTip": "JWT-Project-Core\\Service\\AuthService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwNMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:00:39.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\OrderService.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
+              "RelativeToolTip": "JWT-Project-Core\\Service\\OrderService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowPQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T03:21:37.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Model\\Human\\User.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Model\\Human\\User.cs",
@@ -252,24 +282,11 @@
               "RelativeToolTip": "JWT-Project-Core\\Model\\Human\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:03:39.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:03:39.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\AuthService.cs",
-              "RelativeToolTip": "JWT-Project-Core\\Service\\AuthService.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAuwNoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:00:39.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ForgotPasswordDto.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\ForgotPasswordDto.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\ForgotPasswordDto.cs",
@@ -281,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Program.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Program.cs",
@@ -293,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Data\\ApplicationDbContext.cs",
@@ -305,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\UserService.cs",

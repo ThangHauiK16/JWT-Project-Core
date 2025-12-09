@@ -345,3 +345,164 @@ System.Exception: Chỉ còn 0 sản phẩm trong kho!
 2025-12-08 10:39:22.978 +07:00 [INF] Lay danh sach san pham thang cong!
 2025-12-08 10:39:26.727 +07:00 [INF] GetCartAsync: Getting cart for user Thang
 2025-12-08 10:39:26.732 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-08 10:49:57.048 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 10:49:58.803 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-08 10:49:58.942 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-08 10:55:22.800 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-08 10:55:22.818 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-08 10:55:23.928 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 10:55:29.992 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 10:55:44.609 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-12-08 10:55:46.324 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 10:55:48.832 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-08 10:55:48.841 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-08 10:55:50.201 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-08 10:55:50.250 +07:00 [ERR] AddToCartAsync Error
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+2025-12-08 10:55:50.351 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+   at JWT_Project_Core.Controllers.CartController.AddToCart(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\CartController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 136
+2025-12-08 10:55:51.480 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-08 10:55:51.502 +07:00 [ERR] AddToCartAsync Error
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+2025-12-08 10:55:51.576 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+   at JWT_Project_Core.Controllers.CartController.AddToCart(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\CartController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 136
+2025-12-08 10:55:58.830 +07:00 [INF] Thêm hóa đơn "2816b06c-320a-4cea-b05d-a084c9a3afde" thành công!
+2025-12-08 10:56:14.069 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-08 10:56:14.107 +07:00 [ERR] AddToCartAsync Error
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+2025-12-08 10:56:14.166 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+   at JWT_Project_Core.Controllers.CartController.AddToCart(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\CartController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 136
+2025-12-08 10:56:30.018 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-08 10:56:30.026 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-08 10:56:31.305 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 10:56:34.371 +07:00 [INF] Xóa hóa đơn "2816b06c-320a-4cea-b05d-a084c9a3afde" thành công
+2025-12-08 10:59:05.323 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 10:59:08.283 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-08 10:59:08.298 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-08 11:06:11.506 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-08 11:06:11.519 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-08 11:06:12.762 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:20:00.339 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-08 11:20:01.173 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-08 11:20:01.175 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:20:05.802 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-08 11:20:05.811 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-08 11:21:54.435 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-08 11:21:54.463 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-08 11:21:54.481 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:21:55.640 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-08 11:21:58.666 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-08 11:23:39.038 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-08 11:23:39.683 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-08 11:23:39.834 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-08 11:23:48.450 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-08 11:25:17.545 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-08 11:25:17.553 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 0 items
+2025-12-08 11:25:19.997 +07:00 [INF] AddToCartAsync: Adding 1 of 01 to cart Thang
+2025-12-08 11:25:20.043 +07:00 [ERR] AddToCartAsync Error
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+2025-12-08 11:25:20.133 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+System.Exception: Chỉ còn 0 sản phẩm trong kho!
+   at JWT_Project_Core.Service.CartService.AddToCartAsync(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\CartService.cs:line 93
+   at JWT_Project_Core.Controllers.CartController.AddToCart(String username, String maSach, Int32 soLuong) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\CartController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 136
+2025-12-08 11:25:21.525 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart Thang
+2025-12-08 11:25:22.925 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart Thang
+2025-12-08 11:25:23.958 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-08 11:25:23.966 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-08 11:25:23.983 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-08 11:25:23.984 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-08 11:36:14.669 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-08 11:36:14.679 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-08 11:36:32.445 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:36:39.218 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:37:01.401 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:37:50.241 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:38:00.332 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:38:09.613 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:38:11.219 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:38:12.829 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:39:48.358 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:40:00.874 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:40:02.608 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:40:03.907 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:41:07.104 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-08 11:41:07.115 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-08 11:42:24.917 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:42:26.447 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:48:47.568 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:48:49.527 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-08 11:48:50.535 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:48:53.084 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-08 11:48:56.371 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-08 11:48:56.386 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 1 items
+2025-12-08 11:48:56.411 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-08 11:48:57.744 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-08 11:48:57.751 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 1 items
+2025-12-08 11:48:57.765 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-08 11:48:59.879 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !

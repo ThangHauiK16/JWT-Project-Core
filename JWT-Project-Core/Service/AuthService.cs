@@ -205,11 +205,11 @@ namespace JWT_Project_Core.Service
             if (user == null)
                 return "User not found";
 
-            // Check old password
+          
             if (!BCrypt.Net.BCrypt.Verify(oldPassword, user.Password))
                 return "Old password is incorrect";
 
-            // Change to new password
+           
             user.Password = BCrypt.Net.BCrypt.HashPassword(newPassword);
             user.UpdatedAt = DateTime.UtcNow;
 
