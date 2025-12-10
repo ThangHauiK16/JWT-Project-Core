@@ -2,7 +2,7 @@
 
 namespace JWT_Project_Core.Interface
 {
-    public interface ISachService
+    public interface IBookService
     {
         Task<IEnumerable<BookDTO>> GetAllAsync();
         Task<BookDTO> GetByMaSach(string MaSach);
@@ -15,5 +15,7 @@ namespace JWT_Project_Core.Interface
               string? search
           );
         Task<IEnumerable<string>> GetAllCategoriesAsync();
+        Task<PagedResult<BookDTO>> GetPageSortByPriceAsync(int page, int pageSize, string? search, string? category, string? sortPrice);
+
     }
 }

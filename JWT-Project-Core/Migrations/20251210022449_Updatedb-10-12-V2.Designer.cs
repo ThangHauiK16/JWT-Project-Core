@@ -4,6 +4,7 @@ using JWT_Project_Core.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JWT_Project_Core.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251210022449_Updatedb-10-12-V2")]
+    partial class Updatedb1012V2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -68,7 +71,7 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasKey("MaSach");
 
-                    b.ToTable("Books", (string)null);
+                    b.ToTable("Books");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.Cart", b =>
@@ -89,7 +92,7 @@ namespace JWT_Project_Core.Migrations
                         .IsUnique()
                         .HasFilter("[Username] IS NOT NULL");
 
-                    b.ToTable("Carts", (string)null);
+                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.CartItem", b =>
@@ -115,7 +118,7 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasIndex("MaSach");
 
-                    b.ToTable("CartItems", (string)null);
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.Human.User", b =>
@@ -150,7 +153,7 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasKey("Username");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.Order", b =>
@@ -187,7 +190,7 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasIndex("Username");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.OrderBook", b =>
@@ -205,7 +208,7 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasIndex("MaSach");
 
-                    b.ToTable("OrderBooks", (string)null);
+                    b.ToTable("OrderBooks");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.RefreshToken", b =>
@@ -232,7 +235,7 @@ namespace JWT_Project_Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RefreshTokens", (string)null);
+                    b.ToTable("RefreshTokens");
                 });
 
             modelBuilder.Entity("JWT_Project_Core.Model.Cart", b =>

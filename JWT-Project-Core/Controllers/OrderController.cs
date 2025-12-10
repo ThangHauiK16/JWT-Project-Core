@@ -10,8 +10,8 @@ namespace JWT_Project_Core.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
-        private readonly IHoaDonService hoaDonService;
-        public OrderController(IHoaDonService hoaDonService)
+        private readonly IOrderService hoaDonService;
+        public OrderController(IOrderService hoaDonService)
         {
             this.hoaDonService = hoaDonService;
         }

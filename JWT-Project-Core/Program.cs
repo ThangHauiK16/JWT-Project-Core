@@ -33,8 +33,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 //DI 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<ISachService, BookService>();
-builder.Services.AddScoped<IHoaDonService , OrderService>();
+builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IOrderService , OrderService>();
 builder.Services.AddScoped<IFileService , FileService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IUserService, UserService>();

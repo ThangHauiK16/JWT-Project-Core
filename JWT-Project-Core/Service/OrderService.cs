@@ -9,7 +9,7 @@ using Serilog;
 
 namespace JWT_Project_Core.Service
 {
-    public class OrderService : IHoaDonService
+    public class OrderService : IOrderService
     {
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
@@ -29,7 +29,7 @@ namespace JWT_Project_Core.Service
             try
             {
                 var query = _context.Orders
-                    .Include(h => h.Order_Books).ThenInclude(hs => hs.Sach)
+                    .Include(h => h.OrderBooks).ThenInclude(hs => hs.Sach)
                     .Include(h => h.User)
                     .AsQueryable();
 
@@ -81,7 +81,7 @@ namespace JWT_Project_Core.Service
             try
             {
                 var hd = await _context.Orders
-                    .Include(h => h.Order_Books)
+                    .Include(h => h.OrderBooks)
                     .ThenInclude(hs => hs.Sach)
                     .Include(h => h.User)
                     .FirstOrDefaultAsync(h => h.MaHoaDon == id);
@@ -106,7 +106,7 @@ namespace JWT_Project_Core.Service
             {
                 var orders = await _context.Orders
                     .Where(h => h.Username == username)
-                    .Include(h => h.Order_Books)
+                    .Include(h => h.OrderBooks)
                         .ThenInclude(hs => hs.Sach)
                     .Include(h => h.User)
                     .OrderByDescending(h => h.NgayTao)
@@ -131,7 +131,7 @@ namespace JWT_Project_Core.Service
                 hoaDon.TrangThai = EnumStatus.pending;
 
                 hoaDon.Username = dto.Username;
-                foreach (var hs in hoaDon.Order_Books)
+                foreach (var hs in hoaDon.OrderBooks)
                 {
                     var sachExist = await _context.Books.FindAsync(hs.MaSach);
                     if (sachExist == null)
@@ -160,7 +160,7 @@ namespace JWT_Project_Core.Service
             try
             {
                 var hoaDon = await _context.Orders
-                    .Include(h => h.Order_Books)
+                    .Include(h => h.OrderBooks)
                     .FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
@@ -169,8 +169,8 @@ namespace JWT_Project_Core.Service
                     return null!;
                 }
 
-                _context.Order_Books.RemoveRange(hoaDon.Order_Books);
-                hoaDon.Order_Books = dto.Order_Books.Select(hs => new Order_Book
+                _context.OrderBooks.RemoveRange(hoaDon.OrderBooks);
+                hoaDon.OrderBooks = dto.Order_Books.Select(hs => new OrderBook
                 {
                     MaHoaDon = id,
                     MaSach = hs.MaSach,
@@ -194,7 +194,7 @@ namespace JWT_Project_Core.Service
             try
             {
                 var hoaDon = await _context.Orders
-                    .Include(h => h.Order_Books)
+                    .Include(h => h.OrderBooks)
                     .FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
@@ -203,7 +203,7 @@ namespace JWT_Project_Core.Service
                     return false;
                 }
 
-                _context.Order_Books.RemoveRange(hoaDon.Order_Books);
+                _context.OrderBooks.RemoveRange(hoaDon.OrderBooks);
                 _context.Orders.Remove(hoaDon);
                 await _context.SaveChangesAsync();
 
@@ -248,7 +248,7 @@ namespace JWT_Project_Core.Service
             try
             {
                 var hoaDon = await _context.Orders
-                    .Include(h => h.Order_Books)
+                    .Include(h => h.OrderBooks)
                     .FirstOrDefaultAsync(h => h.MaHoaDon == id);
 
                 if (hoaDon == null)
@@ -263,7 +263,7 @@ namespace JWT_Project_Core.Service
                 }
 
                 
-                foreach (var item in hoaDon.Order_Books)
+                foreach (var item in hoaDon.OrderBooks)
                 {
                     var sach = await _context.Books.FirstOrDefaultAsync(x => x.MaSach == item.MaSach);
                     if (sach != null)

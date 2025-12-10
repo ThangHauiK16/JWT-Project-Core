@@ -2,7 +2,7 @@
 
 namespace JWT_Project_Core.Interface
 {
-    public interface IHoaDonService
+    public interface IOrderService
     {
        Task<PagedResult<OrderDTO>> GetPagedAsync(
                  int page,

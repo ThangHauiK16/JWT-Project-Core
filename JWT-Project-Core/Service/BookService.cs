@@ -8,7 +8,7 @@ using Serilog;
 
 namespace JWT_Project_Core.Service
 {
-    public class BookService  : ISachService
+    public class BookService  : IBookService
     {
         public readonly ApplicationDbContext context;
         public readonly IMapper mapper;
@@ -113,6 +113,80 @@ namespace JWT_Project_Core.Service
                 throw;
             }
        }
+
+        public async Task<PagedResult<BookDTO>> GetPageSortByPriceAsync(
+                                                                        int page,
+                                                                        int pageSize,
+                                                                        string? search,
+                                                                        string? category,
+                                                                        string? sortPrice)
+        {
+            try
+            {
+                var query = context.Books.AsQueryable();
+
+              
+                if (!string.IsNullOrWhiteSpace(search))
+                {
+                    search = search.ToLower();
+                    query = query.Where(s =>
+                        s.TenSach!.ToLower().Contains(search) ||
+                        s.MaSach!.ToLower().Contains(search) ||
+                        s.TheLoai!.ToLower().Contains(search)
+                    );
+                }
+
+               
+                if (!string.IsNullOrWhiteSpace(category) && category != "Tất cả")
+                {
+                    query = query.Where(s => s.TheLoai == category);
+                }
+
+                
+                switch (sortPrice)
+                {
+                    case "under100":
+                        query = query.Where(b => b.GiaBan < 100000);
+                        break;
+
+                    case "100-200":
+                        query = query.Where(b => b.GiaBan >= 100000 && b.GiaBan <= 200000);
+                        break;
+
+                    case "200-500":
+                        query = query.Where(b => b.GiaBan >= 200000 && b.GiaBan <= 500000);
+                        break;
+
+                    case "above500":
+                        query = query.Where(b => b.GiaBan > 500000);
+                        break;
+
+                    default:
+                        break;
+                }
+
+                var totalItems = await query.CountAsync();
+
+                var items = await query
+                    .OrderBy(b => b.GiaBan)
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToListAsync();
+
+                return new PagedResult<BookDTO>(
+                    mapper.Map<IEnumerable<BookDTO>>(items),
+                    totalItems,
+                    page,
+                    pageSize
+                );
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "GetPageSortByPriceAsync: error!");
+                throw;
+            }
+        }
+
         public async Task<BookDTO> AddAsync(BookDTO dto)
         {
             try

@@ -351,6 +351,42 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JWT_Project_Core.Controllers.BookController",
+    "Method": "GetSortByPrice",
+    "RelativePath": "api/Book/sort",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortPrice",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JWT_Project_Core.Controllers.CartController",
     "Method": "GetCart",
     "RelativePath": "api/Cart/{username}",

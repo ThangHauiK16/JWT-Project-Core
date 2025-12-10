@@ -51,18 +51,18 @@ namespace JWT_Project_Core.Mappings
                 .ForMember(dest => dest.UpdatedAt,
                     opt => opt.MapFrom(src => src.UpdatedAt.HasValue ? src.UpdatedAt.Value.AddHours(7) : (DateTime?)null))
                 .ForMember(dest => dest.Order_Books,
-                    opt => opt.MapFrom(src => src.Order_Books)); // thêm map chi tiết
+                    opt => opt.MapFrom(src => src.OrderBooks)); // thêm map chi tiết
 
             CreateMap<OrderDTO, Order>()
                 .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
                 .ForMember(dest => dest.CreatedBy, opt => opt.Ignore())
                 .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore())
                 .ForMember(dest => dest.UpdatedBy, opt => opt.Ignore())
-                .ForMember(dest => dest.Order_Books,
+                .ForMember(dest => dest.OrderBooks,
                     opt => opt.MapFrom(src => src.Order_Books)); // thêm map chi tiết
 
 
-            CreateMap<Order_BookDTO, Order_Book>().ReverseMap();
+            CreateMap<Order_BookDTO, OrderBook>().ReverseMap();
             CreateMap<CartItem, CartItemDTO>().ReverseMap();
             CreateMap<Cart, CartDTO>()
                 .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.CartItems))

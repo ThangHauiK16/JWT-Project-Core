@@ -17,60 +17,70 @@ namespace JWT_Project_Core.Data
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<Order_Book> Order_Books { get; set; }
+        public DbSet<OrderBook> OrderBooks { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
 
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
+
+        //    modelBuilder.Entity<OrderBook>()
+        //        .HasKey(hs => new { hs.MaHoaDon, hs.MaSach });
+
+        //    modelBuilder.Entity<OrderBook>()
+        //        .HasOne(hs => hs.HoaDon)
+        //        .WithMany(h => h.OrderBooks)
+        //        .HasForeignKey(hs => hs.MaHoaDon);
+
+        //    modelBuilder.Entity<OrderBook>()
+        //        .HasOne(hs => hs.Sach)
+        //        .WithMany(s => s.OrderBooks)
+        //        .HasForeignKey(hs => hs.MaSach);
+
+        //    modelBuilder.Entity<Order>()
+        //          .HasOne(h => h.User)
+        //          .WithMany(u => u.Orders)
+        //          .HasForeignKey(h => h.Username)
+        //          .OnDelete(DeleteBehavior.SetNull);
+
+        //    modelBuilder.Entity<Cart>()
+        //          .HasOne(c => c.User)
+        //          .WithMany()
+        //          .HasForeignKey(c => c.Username)
+        //          .OnDelete(DeleteBehavior.Cascade);
+
+        //    modelBuilder.Entity<Cart>()
+        //           .HasIndex(c => c.Username)
+        //           .IsUnique();
+
+        //    modelBuilder.Entity<CartItem>()
+        //        .HasOne(ci => ci.Cart)
+        //        .WithMany(c => c.CartItems)
+        //        .HasForeignKey(ci => ci.CartId)
+        //        .OnDelete(DeleteBehavior.Cascade);
+
+
+        //    modelBuilder.Entity<CartItem>()
+        //        .HasOne(ci => ci.Sach)
+        //        .WithMany()
+        //        .HasForeignKey(ci => ci.MaSach)
+        //        .OnDelete(DeleteBehavior.Restrict);
+        //    modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDeleted);
+
+        //}
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Order_Book>()
-                .HasKey(hs => new { hs.MaHoaDon, hs.MaSach });
-
-            modelBuilder.Entity<Order_Book>()
-                .HasOne(hs => hs.HoaDon)
-                .WithMany(h => h.Order_Books)
-                .HasForeignKey(hs => hs.MaHoaDon);
-
-            modelBuilder.Entity<Order_Book>()
-                .HasOne(hs => hs.Sach)
-                .WithMany(s => s.Order_Books)
-                .HasForeignKey(hs => hs.MaSach);
-
-            modelBuilder.Entity<Order>()
-                  .HasOne(h => h.User)
-                  .WithMany(u => u.Orders)
-                  .HasForeignKey(h => h.Username)
-                  .OnDelete(DeleteBehavior.SetNull);
-
-            modelBuilder.Entity<Cart>()
-                  .HasOne(c => c.User)
-                  .WithMany()
-                  .HasForeignKey(c => c.Username)
-                  .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<Cart>()
-                   .HasIndex(c => c.Username)
-                   .IsUnique();
-
-            modelBuilder.Entity<CartItem>()
-                .HasOne(ci => ci.Cart)
-                .WithMany(c => c.CartItems)
-                .HasForeignKey(ci => ci.CartId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-
-            modelBuilder.Entity<CartItem>()
-                .HasOne(ci => ci.Sach)
-                .WithMany()
-                .HasForeignKey(ci => ci.MaSach)
-                .OnDelete(DeleteBehavior.Restrict);
-            modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDeleted);
-
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
+
+
 
         public override int SaveChanges()
         {

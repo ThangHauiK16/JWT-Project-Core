@@ -293,7 +293,7 @@ namespace JWT_Project_Core.Service
                     Username = username,
                     NgayTao = DateTime.UtcNow,
                     TrangThai = EnumStatus.pending,
-                    Order_Books = cart.CartItems.Select(ci => new Order_Book
+                    OrderBooks = cart.CartItems.Select(ci => new OrderBook
                     {
                         MaSach = ci.MaSach,
                         SoLuong = ci.SoLuong

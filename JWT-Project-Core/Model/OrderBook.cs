@@ -1,9 +1,10 @@
 ﻿using JWT_Project_Core.Model.Base;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JWT_Project_Core.Model
 {
-    public class Order_Book  
+    public class OrderBook  
     {
         [Key]
         public Guid MaHoaDon { get; set; }

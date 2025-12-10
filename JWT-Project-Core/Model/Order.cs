@@ -14,6 +14,6 @@ namespace JWT_Project_Core.Model
         public string? Username { get; set; }
         public EnumStatus TrangThai { get; set; }
         public User? User { get; set; }
-        public ICollection<Order_Book> Order_Books { get; set; } = new List<Order_Book>();
+        public ICollection<OrderBook> OrderBooks { get; set; } = new List<OrderBook>();
     }
 }

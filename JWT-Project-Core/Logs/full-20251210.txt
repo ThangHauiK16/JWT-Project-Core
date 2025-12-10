@@ -1,0 +1,245 @@
+2025-12-10 09:14:35.067 +07:00 [ERR] Failed executing DbCommand (26ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[MaHoaDon], [t].[CreatedAt], [t].[CreatedBy], [t].[IsDeleted], [t].[NgayTao], [t].[TrangThai], [t].[UpdatedAt], [t].[UpdatedBy], [t].[Username], [t0].[Username], [t1].[MaHoaDon], [t1].[MaSach], [t1].[SoLuong], [t1].[MaSach0], [t1].[CreatedAt], [t1].[CreatedBy], [t1].[GiaBan], [t1].[GiaNhap], [t1].[ImageUrl], [t1].[IsDeleted], [t1].[NoiDungSach], [t1].[SoLuong0], [t1].[TenSach], [t1].[TenTacGia], [t1].[TheLoai], [t1].[UpdatedAt], [t1].[UpdatedBy], [t0].[CreatedAt], [t0].[CreatedBy], [t0].[Email], [t0].[IsDeleted], [t0].[Password], [t0].[Role], [t0].[UpdatedAt], [t0].[UpdatedBy]
+FROM (
+    SELECT [o].[MaHoaDon], [o].[CreatedAt], [o].[CreatedBy], [o].[IsDeleted], [o].[NgayTao], [o].[TrangThai], [o].[UpdatedAt], [o].[UpdatedBy], [o].[Username]
+    FROM [Orders] AS [o]
+    ORDER BY [o].[NgayTao] DESC
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+LEFT JOIN (
+    SELECT [u].[Username], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[IsDeleted], [u].[Password], [u].[Role], [u].[UpdatedAt], [u].[UpdatedBy]
+    FROM [Users] AS [u]
+    WHERE [u].[IsDeleted] = CAST(0 AS bit)
+) AS [t0] ON [t].[Username] = [t0].[Username]
+LEFT JOIN (
+    SELECT [o0].[MaHoaDon], [o0].[MaSach], [o0].[SoLuong], [b].[MaSach] AS [MaSach0], [b].[CreatedAt], [b].[CreatedBy], [b].[GiaBan], [b].[GiaNhap], [b].[ImageUrl], [b].[IsDeleted], [b].[NoiDungSach], [b].[SoLuong] AS [SoLuong0], [b].[TenSach], [b].[TenTacGia], [b].[TheLoai], [b].[UpdatedAt], [b].[UpdatedBy]
+    FROM [Order_Book] AS [o0]
+    INNER JOIN [Books] AS [b] ON [o0].[MaSach] = [b].[MaSach]
+) AS [t1] ON [t].[MaHoaDon] = [t1].[MaHoaDon]
+ORDER BY [t].[NgayTao] DESC, [t].[MaHoaDon], [t0].[Username], [t1].[MaHoaDon], [t1].[MaSach]
+2025-12-10 09:14:35.137 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'JWT_Project_Core.Data.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Order_Book'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:7ce632b6-92d2-48e4-8053-4b4127acbd69
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Order_Book'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:7ce632b6-92d2-48e4-8053-4b4127acbd69
+Error Number:208,State:1,Class:16
+2025-12-10 09:14:35.188 +07:00 [ERR] GetPagedAsync: unexpected error
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Order_Book'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.OrderService.GetPagedAsync(Int32 page, Int32 pageSize, String search) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\OrderService.cs:line 57
+ClientConnectionId:7ce632b6-92d2-48e4-8053-4b4127acbd69
+Error Number:208,State:1,Class:16
+2025-12-10 09:14:35.303 +07:00 [ERR]  GLOBAL ERROR: Có lỗi xảy ra!
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Order_Book'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at JWT_Project_Core.Service.OrderService.GetPagedAsync(Int32 page, Int32 pageSize, String search) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Service\OrderService.cs:line 57
+   at JWT_Project_Core.Controllers.OrderController.GetPaged(Int32 page, Int32 pageSize, String search) in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Controllers\OrderController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c.<<<Main>$>b__0_7>d.MoveNext() in C:\Demo_prj\JWT-Project-Core\JWT-Project-Core\Program.cs:line 136
+ClientConnectionId:7ce632b6-92d2-48e4-8053-4b4127acbd69
+Error Number:208,State:1,Class:16
+2025-12-10 09:19:34.614 +07:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE [Order_Books];
+2025-12-10 09:26:31.790 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 09:26:31.876 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:26:31.979 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 1 items
+2025-12-10 09:26:32.034 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 09:26:37.241 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 09:26:37.249 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 1 items
+2025-12-10 09:26:37.316 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 09:27:10.715 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:27:12.943 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 09:27:12.957 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 1 items
+2025-12-10 09:27:13.014 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 09:27:16.950 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-10 09:27:18.968 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HoangThangg
+2025-12-10 09:27:19.995 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart HoangThangg
+2025-12-10 09:27:25.562 +07:00 [INF] AddToCartAsync: Adding 1 of 04 to cart HoangThangg
+2025-12-10 09:27:27.327 +07:00 [INF] AddToCartAsync: Adding 1 of 05 to cart HoangThangg
+2025-12-10 09:27:29.620 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 09:27:29.624 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 4 items
+2025-12-10 09:27:29.648 +07:00 [INF] Lay sach Giải Mã Giấc Mơ theo ma  05 thanh cong !
+2025-12-10 09:27:29.658 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 09:27:29.671 +07:00 [INF] Lay sach Bon Sai theo ma  04 thanh cong !
+2025-12-10 09:27:29.683 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 09:27:45.536 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-10 09:27:45.547 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-10 09:27:47.477 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:27:49.424 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:27:54.350 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-10 09:27:56.609 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-10 09:27:58.167 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-10 09:27:59.234 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:28:04.655 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-10 09:28:06.787 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-10 09:28:08.595 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-10 09:28:09.624 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:28:27.137 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-10 09:28:38.960 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-12-10 09:28:40.843 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:28:47.863 +07:00 [INF] Cập nhật hóa đơn "58eadaf9-22fc-4020-7f56-08de3793ab5a" thành công
+2025-12-10 09:29:02.142 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 09:29:04.660 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 09:29:04.675 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 0 items
+2025-12-10 09:29:09.554 +07:00 [INF] AddToCartAsync: Adding 1 of 02 to cart HoangThangg
+2025-12-10 09:29:10.249 +07:00 [INF] AddToCartAsync: Adding 1 of 03  to cart HoangThangg
+2025-12-10 10:18:27.882 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:18:29.249 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:18:29.249 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:18:29.330 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:18:29.330 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:18:29.681 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:18:29.688 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:18:29.723 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:18:29.723 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:18:55.173 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:18:55.200 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:18:55.276 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:18:55.291 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:18:55.398 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:19:55.805 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:19:55.820 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:19:55.885 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:19:55.885 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:19:55.959 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:20:50.575 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:20:50.589 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:20:50.716 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:20:50.716 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:20:50.772 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:22:21.522 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:22:21.564 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:22:21.640 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:22:21.640 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:22:21.686 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:41:17.459 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:41:17.473 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:41:17.659 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:41:17.717 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:41:17.720 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:41:21.284 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:41:21.289 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:41:21.330 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:41:21.339 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:44:10.862 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:44:12.203 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:44:12.216 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:44:12.280 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:44:12.298 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:44:19.473 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:44:19.504 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:44:19.522 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:44:19.552 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:44:19.552 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:48:07.871 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:48:07.892 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:48:07.962 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:48:07.962 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:48:08.014 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 10:48:35.294 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 10:48:35.303 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 10:48:35.377 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 10:48:35.387 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 10:48:35.455 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 11:06:29.472 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 11:06:30.423 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 11:06:30.423 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 11:06:30.561 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 11:06:30.561 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 11:06:31.953 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 11:06:31.964 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 11:06:31.992 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 11:06:31.992 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 11:06:53.370 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 11:06:53.376 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 11:06:53.454 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 11:06:53.454 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 11:06:53.535 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 11:09:01.538 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 11:09:29.952 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 11:09:29.970 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 11:09:30.036 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 11:09:30.036 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 11:09:30.189 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 11:13:05.539 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 11:13:05.565 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 11:13:05.568 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 11:13:05.628 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 11:13:05.636 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 11:13:09.193 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 11:13:09.198 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 11:13:09.273 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 11:13:09.282 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 11:47:07.116 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 11:47:07.203 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 11:47:07.315 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 11:47:07.333 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 11:47:07.464 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-10 13:10:51.500 +07:00 [INF] GetCartAsync: Getting cart for user HoangThangg
+2025-12-10 13:10:51.599 +07:00 [INF] GetCartAsync: Retrived cart for user HoangThangg with 2 items
+2025-12-10 13:10:51.699 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  02 thanh cong !
+2025-12-10 13:10:51.704 +07:00 [INF] Lay sach Tư Duy Phản Biện theo ma  03  thanh cong !
+2025-12-10 13:10:51.817 +07:00 [INF] Lay danh sach san pham thang cong!

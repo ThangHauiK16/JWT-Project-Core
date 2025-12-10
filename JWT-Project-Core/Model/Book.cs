@@ -15,6 +15,6 @@ namespace JWT_Project_Core.Model
         public string?  NoiDungSach { get; set; }
         public string? ImageUrl { get; set; }
         public int SoLuong { get; set; }
-        public ICollection<Order_Book> Order_Books { get; set; } = new List<Order_Book>();
+        public ICollection<OrderBook> OrderBooks { get; set; } = new List<OrderBook>();
     }
 }
