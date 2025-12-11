@@ -18,6 +18,17 @@ namespace JWT_Project_Core.Controllers
             _authService = authService;
         }
 
+        [HttpGet("check-token")]
+        public IActionResult CheckToken()
+        {
+           
+            if (!User.Identity!.IsAuthenticated)
+                return Unauthorized("Token invalid");
+
+            return Ok(new { message = "Token valid" });
+        }
+
+
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO login)
         {

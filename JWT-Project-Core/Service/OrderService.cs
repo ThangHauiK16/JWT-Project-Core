@@ -122,38 +122,81 @@ namespace JWT_Project_Core.Service
         }
 
 
+        //public async Task<OrderDTO> AddAsync(OrderDTO dto)
+        //{
+        //    try
+        //    {
+        //        var hoaDon = _mapper.Map<Order>(dto);
+
+        //        hoaDon.TrangThai = EnumStatus.pending;
+
+        //        hoaDon.Username = dto.Username;
+        //        foreach (var hs in hoaDon.OrderBooks)
+        //        {
+        //            var sachExist = await _context.Books.FindAsync(hs.MaSach);
+        //            if (sachExist == null)
+        //            {
+        //                Log.Warning("AddAsync: Sach {MaSach} không tồn tại", hs.MaSach);
+        //                throw new InvalidOperationException($"Sach {hs.MaSach} không tồn tại");
+        //            }
+        //            hs.HoaDon = hoaDon; 
+        //        }
+
+        //        _context.Orders.Add(hoaDon);
+        //        await _context.SaveChangesAsync();
+
+        //        Log.Information("Thêm hóa đơn {MaHoaDon} thành công!", hoaDon.MaHoaDon);
+        //        return _mapper.Map<OrderDTO>(hoaDon);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Log.Error(ex, "AddAsync: Unexpected error while adding HoaDon");
+        //        throw;
+        //    }
+        //}
+
+
         public async Task<OrderDTO> AddAsync(OrderDTO dto)
         {
             try
             {
-                var hoaDon = _mapper.Map<Order>(dto);
+                // Snapshot cho từng sách trước khi đưa vào entity
+                foreach (var item in dto.Order_Books)
+                {
+                    var sach = await _context.Books.FirstOrDefaultAsync(x => x.MaSach == item.MaSach);
 
+                    if (sach == null)
+                        throw new InvalidOperationException($"Sách {item.MaSach} không tồn tại");
+
+                    // Gắn snapshot
+                    item.TenSach = sach.TenSach;
+                    item.TacGia = sach.TenTacGia;
+                    item.Gia = sach.GiaBan;
+                    item.HinhAnh = sach.ImageUrl;
+                }
+
+                var hoaDon = _mapper.Map<Order>(dto);
+                hoaDon.Username = dto.Username;
                 hoaDon.TrangThai = EnumStatus.pending;
 
-                hoaDon.Username = dto.Username;
+                // Assign quan hệ
                 foreach (var hs in hoaDon.OrderBooks)
                 {
-                    var sachExist = await _context.Books.FindAsync(hs.MaSach);
-                    if (sachExist == null)
-                    {
-                        Log.Warning("AddAsync: Sach {MaSach} không tồn tại", hs.MaSach);
-                        throw new InvalidOperationException($"Sach {hs.MaSach} không tồn tại");
-                    }
-                    hs.HoaDon = hoaDon; 
+                    hs.HoaDon = hoaDon;
                 }
 
                 _context.Orders.Add(hoaDon);
                 await _context.SaveChangesAsync();
 
-                Log.Information("Thêm hóa đơn {MaHoaDon} thành công!", hoaDon.MaHoaDon);
                 return _mapper.Map<OrderDTO>(hoaDon);
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "AddAsync: Unexpected error while adding HoaDon");
+                Log.Error(ex, "AddAsync: Unexpected error");
                 throw;
             }
         }
+
 
         public async Task<OrderDTO> UpdateAsync(OrderDTO dto, Guid id)
         {

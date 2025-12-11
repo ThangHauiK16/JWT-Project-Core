@@ -40,7 +40,7 @@ builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
-
+builder.Services.AddScoped<IDashboardService, DashboardService>();
 
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>

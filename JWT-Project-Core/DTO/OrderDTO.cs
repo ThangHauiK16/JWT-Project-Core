@@ -15,6 +15,6 @@ namespace JWT_Project_Core.DTO
         public string Username { get; set; } = string.Empty;
 
         [Required]
-        public List<Order_BookDTO> Order_Books { get; set; } = new List<Order_BookDTO>();
+        public List<OrderBookDTO> Order_Books { get; set; } = new List<OrderBookDTO>();
     }
 }

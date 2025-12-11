@@ -17,6 +17,16 @@
   },
   {
     "ContainingType": "JWT_Project_Core.Controllers.AuthController",
+    "Method": "CheckToken",
+    "RelativePath": "api/Auth/check-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.AuthController",
     "Method": "ForgotPassword",
     "RelativePath": "api/Auth/forgot-password",
     "HttpMethod": "POST",
@@ -531,6 +541,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.DashboardController",
+    "Method": "GetMetrics",
+    "RelativePath": "api/Dashboard/metrics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

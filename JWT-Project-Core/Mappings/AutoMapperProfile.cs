@@ -62,7 +62,17 @@ namespace JWT_Project_Core.Mappings
                     opt => opt.MapFrom(src => src.Order_Books)); // thêm map chi tiết
 
 
-            CreateMap<Order_BookDTO, OrderBook>().ReverseMap();
+            //CreateMap<OrderBookDTO, OrderBook>().ReverseMap();
+
+            CreateMap<OrderBook, OrderBookDTO>()
+               .ForMember(dest => dest.TenSach, opt => opt.MapFrom(src => src.Sach != null ? src.Sach.TenSach : null))
+               .ForMember(dest => dest.TacGia, opt => opt.MapFrom(src => src.Sach != null ? src.Sach.TenTacGia : null))
+                .ForMember(dest => dest.Gia, opt => opt.MapFrom(src => src.Sach != null ? src.Sach.GiaBan : 0))
+               .ForMember(dest => dest.HinhAnh, opt => opt.MapFrom(src => src.Sach != null ? src.Sach.ImageUrl : null));
+
+            CreateMap<OrderBookDTO, OrderBook>()
+                .ForMember(dest => dest.Sach, opt => opt.Ignore());
+
             CreateMap<CartItem, CartItemDTO>().ReverseMap();
             CreateMap<Cart, CartDTO>()
                 .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.CartItems))

@@ -5,6 +5,18 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Auth/check-token": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/login": {
       "post": {
         "tags": [
@@ -835,6 +847,18 @@
         }
       }
     },
+    "/api/Dashboard/metrics": {
+      "get": {
+        "tags": [
+          "Dashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Order/paged": {
       "get": {
         "tags": [
@@ -1246,6 +1270,43 @@
         },
         "additionalProperties": false
       },
+      "OrderBookDTO": {
+        "required": [
+          "maSach",
+          "soLuong"
+        ],
+        "type": "object",
+        "properties": {
+          "maSach": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "soLuong": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenSach": {
+            "type": "string",
+            "nullable": true
+          },
+          "tacGia": {
+            "type": "string",
+            "nullable": true
+          },
+          "gia": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "OrderDTO": {
         "required": [
           "ngayTao",
@@ -1292,28 +1353,8 @@
           "order_Books": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Order_BookDTO"
+              "$ref": "#/components/schemas/OrderBookDTO"
             }
-          }
-        },
-        "additionalProperties": false
-      },
-      "Order_BookDTO": {
-        "required": [
-          "maSach",
-          "soLuong"
-        ],
-        "type": "object",
-        "properties": {
-          "maSach": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "soLuong": {
-            "maximum": 2147483647,
-            "minimum": 1,
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false

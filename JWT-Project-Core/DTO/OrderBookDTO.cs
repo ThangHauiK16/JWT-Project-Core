@@ -2,7 +2,7 @@
 
 namespace JWT_Project_Core.DTO
 {
-    public class Order_BookDTO
+    public class OrderBookDTO
     {
         [Required]
         public string MaSach { get; set; } = string.Empty;
@@ -10,5 +10,10 @@ namespace JWT_Project_Core.DTO
         [Required]
         [Range(1, int.MaxValue, ErrorMessage = "Số lượng phải >= 1")]
         public int SoLuong { get; set; }
+
+        public string? TenSach { get; set; }
+        public string? TacGia { get; set; }
+        public double? Gia { get; set; }
+        public string? HinhAnh { get; set; }
     }
 }

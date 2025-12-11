@@ -23,7 +23,9 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var Sach = await context.Books.ToListAsync();
+                var Sach = await context.Books
+                     .Where(b => !b.IsDeleted)
+                     .ToListAsync();
                 Log.Information("Lay danh sach san pham thang cong!");
                 return mapper.Map<IEnumerable<BookDTO>>(Sach);
             }
@@ -38,7 +40,9 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var query = context.Books.AsQueryable();
+                var query = context.Books
+                    .Where(b => !b.IsDeleted)
+                    .AsQueryable();
 
                 if (!string.IsNullOrWhiteSpace(search))
                 {
@@ -78,6 +82,7 @@ namespace JWT_Project_Core.Service
             try
             {
                 var categories = await context.Books
+                    .Where(b => !b.IsDeleted)
                     .Select(s => s.TheLoai)
                     .Distinct()
                     .ToListAsync();
@@ -95,8 +100,10 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var sach = await context.Books.FindAsync(MaSach);
-                if(sach == null)
+                var sach = await context.Books
+                   .Where(b => b.MaSach == MaSach && !b.IsDeleted)  
+                   .FirstOrDefaultAsync();
+                if (sach == null)
                 {
                     Log.Warning("Khong tim thay sach co ma {MaSach} nay !" , MaSach);
                     return null!;
@@ -123,7 +130,9 @@ namespace JWT_Project_Core.Service
         {
             try
             {
-                var query = context.Books.AsQueryable();
+                var query = context.Books
+                    .Where(b => !b.IsDeleted)
+                    .AsQueryable();
 
               
                 if (!string.IsNullOrWhiteSpace(search))
@@ -256,7 +265,8 @@ namespace JWT_Project_Core.Service
                     Log.Warning("DeleteAsync: Book with ma {MaSach} has not exists", MaSach);
                     return false;
                 }
-                context.Books.Remove(exit);
+                exit.IsDeleted = true;
+                context.Books.Update(exit);
                 await context.SaveChangesAsync();
                 Log.Information("DeleteAsync: Deleted student with Id {MaSach}", MaSach);
                 return true;
