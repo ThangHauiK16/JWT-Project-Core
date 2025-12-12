@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Demo_prj\\JWT-Project-Core\\",
+  "WorkspaceRootPath": "C:\\Code\\JWT-Project-Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\dto\\orderbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\dto\\orderbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\service\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\dto\\orderbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\dto\\orderbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\code\\jwt-project-core\\jwt-project-core\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,106 +42,151 @@
       "DocumentGroups": [
         {
           "DockedWidth": 220,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Service\\DashboardService.cs",
+              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\DashboardService.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Service\\DashboardService.cs",
+              "RelativeToolTip": "JWT-Project-Core\\Service\\DashboardService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T13:39:51.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\OrderService.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\OrderService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwLUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAANwAAAAAAAAAAAAwwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T09:42:13.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
               "RelativeToolTip": "JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T09:36:54.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "OrderBookDTO.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\OrderBookDTO.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\DTO\\OrderBookDTO.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\OrderBookDTO.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\OrderBookDTO.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\DTO\\OrderBookDTO.cs",
               "RelativeToolTip": "JWT-Project-Core\\DTO\\OrderBookDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:34:00.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:34:00.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\BookService.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\BookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAIwIYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T09:13:54.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Model\\Book.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Model\\Book.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Model\\Book.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Model\\Book.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Model\\Book.cs",
               "RelativeToolTip": "JWT-Project-Core\\Model\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:54:26.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T08:54:26.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
               "RelativeToolTip": "JWT-Project-Core\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAuwBUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:03:17.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T07:03:17.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DashboardDto.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\DashboardDto.cs",
+              "DocumentMoniker": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\DTO\\DashboardDto.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\DashboardDto.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\DashboardDto.cs",
+              "ToolTip": "C:\\Code\\JWT-Project-Core\\JWT-Project-Core\\DTO\\DashboardDto.cs",
               "RelativeToolTip": "JWT-Project-Core\\DTO\\DashboardDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T02:17:43.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T02:17:43.384Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 493,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
