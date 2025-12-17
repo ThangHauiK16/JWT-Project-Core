@@ -648,6 +648,50 @@
         }
       }
     },
+    "/api/Book/import-excel": {
+      "post": {
+        "tags": [
+          "Book"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Book/download-template": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Cart/{username}": {
       "get": {
         "tags": [
@@ -1179,6 +1223,27 @@
             "name": "username",
             "in": "path",
             "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/export-excel": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
             "schema": {
               "type": "string"
             }

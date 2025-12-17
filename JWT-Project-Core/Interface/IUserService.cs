@@ -8,5 +8,7 @@ namespace JWT_Project_Core.Interface
         Task<UserDTO?> GetUserAsync(string username);
         Task<bool> UpdateUserAsync(string username, UserDTO dto);
         Task<bool> DeleteUserAsync(string username);
+        Task<byte[]> ExportUsersToExcelAsync(string? keyword = null);
+
     }
 }

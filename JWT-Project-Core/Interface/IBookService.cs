@@ -16,6 +16,8 @@ namespace JWT_Project_Core.Interface
           );
         Task<IEnumerable<string>> GetAllCategoriesAsync();
         Task<PagedResult<BookDTO>> GetPageSortByPriceAsync(int page, int pageSize, string? search, string? category, string? sortPrice);
+        Task<int> ImportExcelAsync(IFormFile file);
+
 
     }
 }

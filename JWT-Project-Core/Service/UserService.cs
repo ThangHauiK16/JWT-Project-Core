@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using ClosedXML.Excel;
 using JWT_Project_Core.Data;
 using JWT_Project_Core.DTO;
 using JWT_Project_Core.Interface;
@@ -130,6 +131,66 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
-        
+
+        public async Task<byte[]> ExportUsersToExcelAsync(string? keyword = null)
+        {
+            try
+            {
+                var query = _context.Users
+                    .Where(u => !u.IsDeleted)
+                    .AsQueryable();
+
+                if (!string.IsNullOrWhiteSpace(keyword))
+                {
+                    query = query.Where(u => u.Username.Contains(keyword));
+                }
+
+                var users = await query
+                    .OrderBy(u => u.Username)
+                    .ProjectTo<UserDTO>(_mapper.ConfigurationProvider)
+                    .ToListAsync();
+
+                using var workbook = new XLWorkbook();
+                var worksheet = workbook.Worksheets.Add("Users");
+
+                // Header
+                worksheet.Cell(1, 1).Value = "Username";
+                worksheet.Cell(1, 2).Value = "Email";
+                worksheet.Cell(1, 3).Value = "Role";
+                worksheet.Cell(1, 4).Value = "Created At";
+                worksheet.Cell(1, 5).Value = "Is Deleted";
+
+                // Style header
+                var headerRange = worksheet.Range(1, 1, 1, 5);
+                headerRange.Style.Font.Bold = true;
+                headerRange.Style.Fill.BackgroundColor = XLColor.LightGray;
+
+                // Data
+                int row = 2;
+                foreach (var user in users)
+                {
+                    worksheet.Cell(row, 1).Value = user.Username;
+                    worksheet.Cell(row, 2).Value = user.Email;
+                    worksheet.Cell(row, 3).Value = user.Role.ToString();
+                    worksheet.Cell(row, 4).Value = user.CreatedAt.ToString("dd/MM/yyyy HH:mm");
+                    worksheet.Cell(row, 5).Value = user.IsDeleted ? "Yes" : "No";
+                    row++;
+                }
+
+                worksheet.Columns().AdjustToContents();
+
+                using var stream = new MemoryStream();
+                workbook.SaveAs(stream);
+
+                Log.Information("Xuất Excel danh sách user thành công");
+
+                return stream.ToArray();
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "ExportUsersToExcelAsync error");
+                throw;
+            }
+        }
     }
 }

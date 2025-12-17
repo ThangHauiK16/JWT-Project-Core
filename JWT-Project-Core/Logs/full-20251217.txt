@@ -1,0 +1,37 @@
+2025-12-17 10:52:25.153 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-17 10:52:26.259 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-17 10:52:26.266 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-17 10:52:26.367 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-17 10:52:26.367 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-17 10:52:27.888 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-17 10:52:27.895 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-17 10:52:27.956 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-17 10:52:27.956 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-17 10:52:34.065 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-17 10:52:34.079 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-17 10:52:34.097 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-17 10:52:34.097 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-17 10:52:46.387 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-17 10:52:46.394 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-17 10:52:51.550 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 10:52:56.667 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-17 10:53:03.639 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 10:53:04.893 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 10:53:07.736 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 10:53:46.456 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 10:54:00.151 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 10:54:03.102 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 11:12:54.322 +07:00 [INF] Xuất Excel danh sách user thành công
+2025-12-17 11:17:41.477 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-17 11:17:41.619 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-17 11:17:41.665 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-17 11:17:44.413 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-17 11:17:44.422 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-17 11:17:46.010 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 11:17:58.019 +07:00 [INF] Xuất Excel danh sách user thành công
+2025-12-17 11:21:28.498 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 11:21:30.125 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 11:21:32.019 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-17 11:21:33.951 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-17 11:21:35.229 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-17 11:41:39.674 +07:00 [INF] Import Excel thành công 1 sách

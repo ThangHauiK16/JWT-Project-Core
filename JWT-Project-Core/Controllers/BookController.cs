@@ -13,9 +13,11 @@ namespace JWT_Project_Core.Controllers
     public class BookController : ControllerBase
     {
         public readonly IBookService bookService;
-        public BookController(IBookService bookService)
+        public readonly IBookExcelService bookExcelService;
+        public BookController(IBookService bookService, IBookExcelService bookExcelService)
         {
             this.bookService = bookService;
+            this.bookExcelService = bookExcelService;
         }
         [HttpGet]
         public async Task<IActionResult> GetSachs()
@@ -94,5 +96,32 @@ namespace JWT_Project_Core.Controllers
             if (!Delete) return NotFound();
             return Ok();
         }
+        [HttpPost("import-excel")]
+        public async Task<IActionResult> ImportExcel(IFormFile file)
+        {
+            if (file == null)
+                return BadRequest("Vui lòng chọn file Excel");
+
+            var count = await bookService.ImportExcelAsync(file);
+
+            return Ok(new
+            {
+                message = $"Import thành công {count} sách"
+            });
+        }
+
+        [HttpGet("download-template")]
+        public IActionResult DownloadImportTemplate()
+        {
+            var fileBytes = bookExcelService.GenerateImportTemplate();
+
+            return File(
+                fileBytes,
+                "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "Book_Import_Template.xlsx"
+            );
+        }
+
+
     }
 }

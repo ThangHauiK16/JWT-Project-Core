@@ -336,6 +336,32 @@
   },
   {
     "ContainingType": "JWT_Project_Core.Controllers.BookController",
+    "Method": "DownloadImportTemplate",
+    "RelativePath": "api/Book/download-template",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.BookController",
+    "Method": "ImportExcel",
+    "RelativePath": "api/Book/import-excel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.BookController",
     "Method": "GetPage",
     "RelativePath": "api/Book/page",
     "HttpMethod": "GET",
@@ -765,6 +791,22 @@
         "Name": "username",
         "Type": "System.String",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWT_Project_Core.Controllers.UserController",
+    "Method": "ExportUsersToExcel",
+    "RelativePath": "api/User/export-excel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

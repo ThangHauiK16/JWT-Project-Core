@@ -49,6 +49,19 @@ namespace JWT_Project_Core.Controllers
             var success = await _userService.DeleteUserAsync(username);
             return success ? Ok() : NotFound();
         }
+
+        [HttpGet("export-excel")]
+        public async Task<IActionResult> ExportUsersToExcel([FromQuery] string? keyword)
+        {
+            var fileBytes = await _userService.ExportUsersToExcelAsync(keyword);
+
+            return File(
+                fileBytes,
+                "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                $"Users_{DateTime.Now:yyyyMMdd_HHmmss}.xlsx"
+            );
+        }
+
     }
 
 }

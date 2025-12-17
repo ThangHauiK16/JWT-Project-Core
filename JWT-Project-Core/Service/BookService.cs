@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ClosedXML.Excel;
 using JWT_Project_Core.Data;
 using JWT_Project_Core.DTO;
 using JWT_Project_Core.Interface;
@@ -279,6 +280,64 @@ namespace JWT_Project_Core.Service
                 throw;
             }
         }
+
+        public async Task<int> ImportExcelAsync(IFormFile file)
+        {
+            try
+            {
+                if (file == null || file.Length == 0)
+                    throw new Exception("File Excel không hợp lệ");
+
+                using var stream = new MemoryStream();
+                await file.CopyToAsync(stream);
+
+                using var workbook = new XLWorkbook(stream);
+                var worksheet = workbook.Worksheet(1);
+
+                var rows = worksheet.RangeUsed()!.RowsUsed().Skip(1); 
+
+                int count = 0;
+
+                foreach (var row in rows)
+                {
+                    var maSach = row.Cell(1).GetString().Trim();
+
+                    if (string.IsNullOrEmpty(maSach))
+                        continue;
+
+                    if (await context.Books.AnyAsync(b => b.MaSach == maSach))
+                        continue;
+
+                    var book = new Book
+                    {
+                        MaSach = maSach,
+                        TenSach = row.Cell(2).GetString(),
+                        TheLoai = row.Cell(3).GetString(),
+                        GiaNhap = row.Cell(4).GetDouble(),
+                        GiaBan = row.Cell(5).GetDouble(),
+                        TenTacGia = row.Cell(6).GetString(),
+                        NoiDungSach = row.Cell(7).GetString(),
+                        SoLuong = (int)row.Cell(8).GetDouble(),
+                        CreatedAt = DateTime.UtcNow
+                    };
+
+                    context.Books.Add(book);
+                    count++;
+                }
+
+                await context.SaveChangesAsync();
+
+                Log.Information("Import Excel thành công {Count} sách", count);
+
+                return count;
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "ImportExcelAsync: error");
+                throw;
+            }
+        }
+
 
     }
 }
