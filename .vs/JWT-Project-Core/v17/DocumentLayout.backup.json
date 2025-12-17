@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Demo_prj\\JWT-Project-Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\service\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\service\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\service\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\service\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,10 +62,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\.nuget\\packages\\epplus\\8.4.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\service\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\service\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\setups\\userservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\setups\\userservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -65,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 329,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -101,7 +109,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JWT-Project-Core\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:45:46.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookServiceTests.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\BookServiceTests.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Service\\BookServiceTests.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\BookServiceTests.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Service\\BookServiceTests.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAADwvwUBAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:12:42.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BookExcelService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookExcelService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\BookExcelService.cs",
@@ -109,12 +143,11 @@
               "RelativeToolTip": "JWT-Project-Core\\Service\\BookExcelService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T04:37:41.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:37:41.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IBookExcelService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Interface\\IBookExcelService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Interface\\IBookExcelService.cs",
@@ -122,12 +155,11 @@
               "RelativeToolTip": "JWT-Project-Core\\Interface\\IBookExcelService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T04:37:05.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:37:05.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\BookController.cs",
@@ -135,25 +167,24 @@
               "RelativeToolTip": "JWT-Project-Core\\Controllers\\BookController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAAwHoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T04:33:14.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:33:14.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\BookService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\BookService.cs",
-              "ViewState": "AgIAACIBAAAAAAAAAAAqwDIBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoBAAAAAAAAAAAmwFcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T04:31:45.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IBookService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Interface\\IBookService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Interface\\IBookService.cs",
@@ -161,12 +192,11 @@
               "RelativeToolTip": "JWT-Project-Core\\Interface\\IBookService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T04:31:36.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:31:36.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\UserController.cs",
@@ -174,12 +204,11 @@
               "RelativeToolTip": "JWT-Project-Core\\Controllers\\UserController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T04:07:24.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:07:24.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Interface\\IUserService.cs",
@@ -187,12 +216,11 @@
               "RelativeToolTip": "JWT-Project-Core\\Interface\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T04:06:28.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:06:28.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Program.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Program.cs",
@@ -200,12 +228,11 @@
               "RelativeToolTip": "JWT-Project-Core\\Program.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T04:03:25.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:03:25.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\appsettings.Development.json",
               "RelativeDocumentMoniker": "JWT-Project-Core\\appsettings.Development.json",
@@ -213,12 +240,11 @@
               "RelativeToolTip": "JWT-Project-Core\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-17T04:03:02.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:03:02.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\appsettings.json",
               "RelativeDocumentMoniker": "JWT-Project-Core\\appsettings.json",
@@ -226,12 +252,11 @@
               "RelativeToolTip": "JWT-Project-Core\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-17T04:02:50.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T04:02:50.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\.nuget\\packages\\epplus\\8.4.0\\readme.txt",
               "RelativeDocumentMoniker": "..\\..\\Users\\Admin\\.nuget\\packages\\epplus\\8.4.0\\readme.txt",
@@ -239,38 +264,37 @@
               "RelativeToolTip": "..\\..\\Users\\Admin\\.nuget\\packages\\epplus\\8.4.0\\readme.txt",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-17T03:57:39.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T03:57:39.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\UserService.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\UserService.cs",
               "RelativeToolTip": "JWT-Project-Core\\Service\\UserService.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAQwJYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAqwMEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T06:43:42.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "UserServiceTest.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
               "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
               "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
               "RelativeToolTip": "JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwBMAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAcwM0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T06:21:50.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "UserServiceTestSetup.cs",
               "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\UserServiceTestSetup.cs",
               "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Setups\\UserServiceTestSetup.cs",
@@ -278,8 +302,7 @@
               "RelativeToolTip": "JWT-Project-CoreTests\\Setups\\UserServiceTestSetup.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwBYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T06:19:19.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T06:19:19.012Z"
             }
           ]
         },

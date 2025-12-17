@@ -1,6 +1,8 @@
-﻿using JWT_Project_Core.DTO;
+﻿using ClosedXML.Excel;
+using JWT_Project_Core.DTO;
 using JWT_Project_Core.Model;
 using JWT_Project_CoreTests.Setups;
+using Microsoft.AspNetCore.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;
@@ -177,5 +179,106 @@ namespace JWT_Project_CoreTests.Services
 
             Assert.AreEqual(2, result.Count());
         }
+
+        [TestMethod]
+        public async Task ImportExcelAsync_WhenValidFile_ShouldImportBooks()
+        {
+            using var workbook = new XLWorkbook();
+            var ws = workbook.Worksheets.Add("Books");
+
+            ws.Cell(1, 1).Value = "MaSach";
+            ws.Cell(1, 2).Value = "TenSach";
+            ws.Cell(1, 3).Value = "TheLoai";
+            ws.Cell(1, 4).Value = "GiaNhap";
+            ws.Cell(1, 5).Value = "GiaBan";
+            ws.Cell(1, 6).Value = "TenTacGia";
+            ws.Cell(1, 7).Value = "NoiDung";
+            ws.Cell(1, 8).Value = "SoLuong";
+
+            ws.Cell(2, 1).Value = "IM01";
+            ws.Cell(2, 2).Value = "Import Book 1";
+            ws.Cell(2, 3).Value = "IT";
+            ws.Cell(2, 4).Value = 100000;
+            ws.Cell(2, 5).Value = 150000;
+            ws.Cell(2, 6).Value = "Author A";
+            ws.Cell(2, 7).Value = "Content";
+            ws.Cell(2, 8).Value = 10;
+
+            using var stream = new MemoryStream();
+            workbook.SaveAs(stream);
+            stream.Position = 0;
+
+            var file = new FormFile(stream, 0, stream.Length, "file", "books.xlsx");
+
+            var result = await _setup.Service.ImportExcelAsync(file);
+
+            Assert.AreEqual(1, result);
+
+            var book = await _setup.Context.Books.FindAsync("IM01");
+            Assert.IsNotNull(book);
+            Assert.AreEqual("Import Book 1", book!.TenSach);
+        }
+
+        [TestMethod]
+        public async Task ImportExcelAsync_WhenDuplicateMaSach_ShouldSkip()
+        {
+            _setup.Context.Books.Add(new Book
+            {
+                MaSach = "DUP01",
+                TenSach = "Old Book"
+            });
+            await _setup.Context.SaveChangesAsync();
+
+            using var workbook = new XLWorkbook();
+            var ws = workbook.Worksheets.Add("Books");
+
+            ws.Cell(1, 1).Value = "MaSach";
+            ws.Cell(2, 1).Value = "DUP01";
+            ws.Cell(2, 2).Value = "New Book";
+
+            using var stream = new MemoryStream();
+            workbook.SaveAs(stream);
+            stream.Position = 0;
+
+            var file = new FormFile(stream, 0, stream.Length, "file", "books.xlsx");
+
+            var result = await _setup.Service.ImportExcelAsync(file);
+
+            Assert.AreEqual(0, result);
+
+            var books = _setup.Context.Books.ToList();
+            Assert.AreEqual(1, books.Count);
+            Assert.AreEqual("Old Book", books.First().TenSach);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public async Task ImportExcelAsync_WhenFileIsNull_ShouldThrow()
+        {
+            await _setup.Service.ImportExcelAsync(null!);
+        }
+
+        [TestMethod]
+        public async Task ImportExcelAsync_WhenMaSachEmpty_ShouldSkipRow()
+        {
+            using var workbook = new XLWorkbook();
+            var ws = workbook.Worksheets.Add("Books");
+
+            ws.Cell(1, 1).Value = "MaSach";
+            ws.Cell(2, 1).Value = "";
+            ws.Cell(2, 2).Value = "Invalid Book";
+
+            using var stream = new MemoryStream();
+            workbook.SaveAs(stream);
+            stream.Position = 0;
+
+            var file = new FormFile(stream, 0, stream.Length, "file", "books.xlsx");
+
+            var result = await _setup.Service.ImportExcelAsync(file);
+
+            Assert.AreEqual(0, result);
+            Assert.AreEqual(0, _setup.Context.Books.Count());
+        }
+
     }
 }

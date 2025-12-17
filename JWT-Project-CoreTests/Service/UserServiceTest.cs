@@ -1,4 +1,5 @@
-﻿using JWT_Project_Core.DTO;
+﻿using ClosedXML.Excel;
+using JWT_Project_Core.DTO;
 using JWT_Project_Core.Enum;
 using JWT_Project_Core.Model.Human;
 using JWT_Project_CoreTests.Setups;
@@ -153,5 +154,79 @@ namespace JWT_Project_CoreTests.Service
 
             Assert.IsFalse(result);
         }
+
+        [TestMethod]
+        public async Task ExportUsersToExcelAsync_ShouldReturnValidExcelFile()
+        {
+            _setup.Context.Users.AddRange(
+                new User
+                {
+                    Username = "admin",
+                    Email = "admin@test.com",
+                    Role = EnumRole.Admin,
+                    IsDeleted = false
+                },
+                new User
+                {
+                    Username = "user1",
+                    Email = "user1@test.com",
+                    Role = EnumRole.Customer,
+                    IsDeleted = false
+                }
+            );
+
+            await _setup.Context.SaveChangesAsync();
+
+            var fileBytes = await _setup.Service.ExportUsersToExcelAsync();
+
+            Assert.IsNotNull(fileBytes);
+            Assert.IsTrue(fileBytes.Length > 0);
+
+            using var stream = new MemoryStream(fileBytes);
+            using var workbook = new XLWorkbook(stream);
+            var worksheet = workbook.Worksheet("Users");
+
+            Assert.AreEqual(3, worksheet.RowsUsed().Count());
+
+            Assert.AreEqual("Username", worksheet.Cell(1, 1).GetString());
+            Assert.AreEqual("Email", worksheet.Cell(1, 2).GetString());
+
+            Assert.AreEqual("admin", worksheet.Cell(2, 1).GetString());
+            Assert.AreEqual("admin@test.com", worksheet.Cell(2, 2).GetString());
+        }
+
+        [TestMethod]
+        public async Task ExportUsersToExcelAsync_WithKeyword_ShouldExportFilteredUsers()
+        {
+            _setup.Context.Users.AddRange(
+                new User
+                {
+                    Username = "admin",
+                    Email = "admin@test.com",
+                    Role = EnumRole.Admin,
+                    IsDeleted = false
+                },
+                new User
+                {
+                    Username = "user1",
+                    Email = "user1@test.com",
+                    Role = EnumRole.Customer,
+                    IsDeleted = false
+                }
+            );
+
+            await _setup.Context.SaveChangesAsync();
+
+            var fileBytes = await _setup.Service.ExportUsersToExcelAsync("admin");
+
+            using var stream = new MemoryStream(fileBytes);
+            using var workbook = new XLWorkbook(stream);
+            var worksheet = workbook.Worksheet("Users");
+
+            Assert.AreEqual(2, worksheet.RowsUsed().Count());
+
+            Assert.AreEqual("admin", worksheet.Cell(2, 1).GetString());
+        }
+
     }
 }

@@ -153,19 +153,16 @@ namespace JWT_Project_Core.Service
                 using var workbook = new XLWorkbook();
                 var worksheet = workbook.Worksheets.Add("Users");
 
-                // Header
                 worksheet.Cell(1, 1).Value = "Username";
                 worksheet.Cell(1, 2).Value = "Email";
                 worksheet.Cell(1, 3).Value = "Role";
                 worksheet.Cell(1, 4).Value = "Created At";
                 worksheet.Cell(1, 5).Value = "Is Deleted";
 
-                // Style header
                 var headerRange = worksheet.Range(1, 1, 1, 5);
                 headerRange.Style.Font.Bold = true;
                 headerRange.Style.Fill.BackgroundColor = XLColor.LightGray;
 
-                // Data
                 int row = 2;
                 foreach (var user in users)
                 {
