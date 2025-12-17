@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Demo_prj\\JWT-Project-Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\service\\authservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\service\\authservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\dto\\orderbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\dto\\orderbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\setups\\authservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\setups\\authservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\infrastructure\\testmockfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\infrastructure\\testmockfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\service\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\service\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\infrastructure\\automapperfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\infrastructure\\automapperfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\setups\\bookservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\setups\\bookservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\setups\\dashboardservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\setups\\dashboardservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\service\\dashboardservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\service\\dashboardservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-coretests\\setups\\userservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3870D2-0D35-46AD-B3F7-04EFA8371B28}|JWT-Project-CoreTests\\JWT-Project-CoreTests.csproj|solutionrelative:jwt-project-coretests\\setups\\userservicetestsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|c:\\demo_prj\\jwt-project-core\\jwt-project-core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B368BF8-F53D-4426-8A0F-5DAEE15EFCE4}|JWT-Project-Core\\JWT-Project-Core.csproj|solutionrelative:jwt-project-core\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +49,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 220,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 294,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,95 +61,184 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\OrderService.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\OrderService.cs",
-              "RelativeToolTip": "JWT-Project-Core\\Service\\OrderService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwLUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:42:13.155Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
-              "RelativeToolTip": "JWT-Project-Core\\Mappings\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\UserService.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\UserService.cs",
+              "RelativeToolTip": "JWT-Project-Core\\Service\\UserService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:36:54.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderBookDTO.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\OrderBookDTO.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\OrderBookDTO.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\OrderBookDTO.cs",
-              "RelativeToolTip": "JWT-Project-Core\\DTO\\OrderBookDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:34:00.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\Service\\BookService.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Service\\BookService.cs",
-              "RelativeToolTip": "JWT-Project-Core\\Service\\BookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:13:54.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Model\\Book.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\Model\\Book.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Model\\Book.cs",
-              "RelativeToolTip": "JWT-Project-Core\\Model\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:54:26.908Z",
+              "WhenOpened": "2025-12-16T06:43:42.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "JWT-Project-Core\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAuwBUAAAApAAAAAAAAAA==",
+              "Title": "UserServiceTest.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Service\\UserServiceTest.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwBMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T07:03:17.654Z",
+              "WhenOpened": "2025-12-16T06:21:50.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserServiceTestSetup.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\UserServiceTestSetup.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Setups\\UserServiceTestSetup.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\UserServiceTestSetup.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Setups\\UserServiceTestSetup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:19:19.012Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 235,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthServiceTest.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\AuthServiceTest.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Service\\AuthServiceTest.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\AuthServiceTest.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Service\\AuthServiceTest.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwJUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T03:26:43.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DashboardDto.cs",
-              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\DashboardDto.cs",
-              "RelativeDocumentMoniker": "JWT-Project-Core\\DTO\\DashboardDto.cs",
-              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-Core\\DTO\\DashboardDto.cs",
-              "RelativeToolTip": "JWT-Project-Core\\DTO\\DashboardDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Title": "AutoMapperFactory.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Infrastructure\\AutoMapperFactory.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Infrastructure\\AutoMapperFactory.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Infrastructure\\AutoMapperFactory.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Infrastructure\\AutoMapperFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T02:17:43.384Z",
+              "WhenOpened": "2025-12-17T03:25:10.534Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestMockFactory.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Infrastructure\\TestMockFactory.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Infrastructure\\TestMockFactory.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Infrastructure\\TestMockFactory.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Infrastructure\\TestMockFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T03:23:59.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthServiceTestSetup.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\AuthServiceTestSetup.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Setups\\AuthServiceTestSetup.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\AuthServiceTestSetup.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Setups\\AuthServiceTestSetup.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T03:19:15.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardServiceTest.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\DashboardServiceTest.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Service\\DashboardServiceTest.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Service\\DashboardServiceTest.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Service\\DashboardServiceTest.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowF4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:32:45.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardServiceTestSetup.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\DashboardServiceTestSetup.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Setups\\DashboardServiceTestSetup.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\DashboardServiceTestSetup.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Setups\\DashboardServiceTestSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:30:08.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookServiceTestSetup.cs",
+              "DocumentMoniker": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\BookServiceTestSetup.cs",
+              "RelativeDocumentMoniker": "JWT-Project-CoreTests\\Setups\\BookServiceTestSetup.cs",
+              "ToolTip": "C:\\Demo_prj\\JWT-Project-Core\\JWT-Project-CoreTests\\Setups\\BookServiceTestSetup.cs",
+              "RelativeToolTip": "JWT-Project-CoreTests\\Setups\\BookServiceTestSetup.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:19:14.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 176,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

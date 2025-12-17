@@ -39,6 +39,7 @@ namespace JWT_Project_Core.Mappings
 
            
             CreateMap<BookDTO, Book>()
+               .ForMember(dest => dest.MaSach, opt => opt.Ignore())
                .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
                .ForMember(dest => dest.CreatedBy, opt => opt.Ignore())
                .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore())

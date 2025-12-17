@@ -1,0 +1,110 @@
+2025-12-16 09:17:52.350 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-16 09:17:53.467 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-16 09:17:53.470 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:17:58.027 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-16 09:17:58.043 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-16 09:18:00.295 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-16 09:18:13.663 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-12-16 09:18:16.416 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-16 09:18:16.432 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-16 09:18:16.450 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-16 09:18:16.456 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-16 09:20:00.631 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-12-16 09:20:51.175 +07:00 [INF] UpdateAsync: Updated student with ma 01
+2025-12-16 09:21:27.436 +07:00 [INF] Them sach thanh cong !
+2025-12-16 09:21:32.456 +07:00 [INF] DeleteAsync: Deleted student with Id 11
+2025-12-16 09:26:04.013 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-16 09:26:05.075 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-16 09:26:11.122 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:26:17.332 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-16 09:26:18.339 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:26:19.129 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-16 09:28:29.183 +07:00 [INF] Lấy danh sách user (page 1, size 5) thành công!
+2025-12-16 09:28:30.045 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:38:46.100 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-16 09:38:46.114 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-16 09:38:46.126 +07:00 [INF] GetCartAsync: Getting cart for user admin
+2025-12-16 09:38:46.129 +07:00 [INF] GetCartAsync: Retrived cart for user admin with 0 items
+2025-12-16 09:39:48.552 +07:00 [INF] Them sach thanh cong !
+2025-12-16 09:39:52.951 +07:00 [INF] DeleteAsync: Deleted student with Id 11
+2025-12-16 09:40:10.757 +07:00 [INF] Lay sach Bách Khoa Giải Toả Căng Thẳng theo ma  10 thanh cong !
+2025-12-16 09:40:19.037 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:40:21.526 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:40:21.547 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:40:21.608 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:40:21.624 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:41:08.809 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:41:08.835 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:41:08.920 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:41:08.957 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:41:08.991 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:41:09.007 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:41:09.111 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:41:09.125 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:41:09.135 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:07.149 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:07.178 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:07.217 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:07.251 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:07.262 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:07.263 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:07.281 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:43:07.469 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:07.469 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:20.088 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:20.107 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:20.132 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:43:20.143 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:20.148 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:20.149 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:20.149 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:20.369 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:20.369 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:27.001 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:27.021 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:27.040 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:27.044 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:43:27.070 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:27.074 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:27.074 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:27.295 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:27.295 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:50.277 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:50.283 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:50.312 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:50.315 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:50.321 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:50.323 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:50.357 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:43:50.370 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:50.373 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:53.122 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:53.128 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:53.144 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:53.147 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:53.147 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:53.157 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:53.167 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:43:53.186 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:43:53.186 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:57.825 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:43:57.836 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:43:57.857 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:43:57.857 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:44:30.505 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:44:30.534 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:44:30.558 +07:00 [INF] Lay danh sach san pham thang cong!
+2025-12-16 09:44:30.569 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:44:30.586 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:44:30.590 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:44:30.596 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:44:30.831 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:44:30.831 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:44:36.939 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:44:36.945 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:44:36.971 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:44:36.971 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !
+2025-12-16 09:45:50.466 +07:00 [INF] GetCartAsync: Getting cart for user Thang
+2025-12-16 09:45:50.478 +07:00 [INF] GetCartAsync: Retrived cart for user Thang with 2 items
+2025-12-16 09:45:50.499 +07:00 [INF] Lay sach Bách Khoa Tôm Hùm theo ma  08 thanh cong !
+2025-12-16 09:45:50.500 +07:00 [INF] Lay sach Đức Phật Nơi Công Sở theo ma  01 thanh cong !

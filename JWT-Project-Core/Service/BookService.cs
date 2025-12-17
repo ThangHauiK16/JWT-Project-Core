@@ -211,6 +211,8 @@ namespace JWT_Project_Core.Service
                     dto.ImageUrl = await fileService.SaveImageAsync(dto.ImageFile);
                 }
                 var sach = mapper.Map<Book>(dto);
+                sach.MaSach = dto.MaSach;
+
                 context.Books.Add(sach);
                 await context.SaveChangesAsync();
                 Log.Information("Them sach thanh cong !");

@@ -20,7 +20,6 @@ namespace JWT_Project_Core.Service
             _mapper = mapper;
         }
 
-        // Lấy giỏ hàng
         public async Task<CartDTO> GetCartAsync(string username)
         {
             try
@@ -149,7 +148,6 @@ namespace JWT_Project_Core.Service
             }
         }
 
-        // Xóa 1 sản phẩm
         public async Task<bool> RemoveItemAsync(string username, string maSach)
         {
             try
@@ -217,7 +215,6 @@ namespace JWT_Project_Core.Service
         }
 
 
-        // Giảm số lượng 1 đơn vị
         public async Task<CartDTO> DecreaseQuantityAsync(string username, string maSach)
         {
             try
